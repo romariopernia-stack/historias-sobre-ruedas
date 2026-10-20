@@ -1,7 +1,7 @@
 // Identidad de marca: cambiar aquí y se actualizan todos los videos
 export const BRAND = {
   name: 'Historias sobre Ruedas',
-  handle: '@historiassobreruedas',
+  handle: '', // poner aquí el @ de Instagram cuando exista (vacío = no se muestra)
   font: "'Poppins', 'Inter', sans-serif",
   bgTop: '#070a12',
   bgBottom: '#111a2c',

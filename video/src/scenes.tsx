@@ -372,7 +372,7 @@ const Cta: React.FC<{s: SceneData}> = () => {
         <div style={{display: 'inline-block', marginTop: 34, fontSize: 40, fontWeight: 800, color: '#0d1320', background: BRAND.gold, padding: '14px 40px', borderRadius: 60, letterSpacing: 4, transform: `scale(${1 + 0.04 * Math.sin(f / 5)})`}}>
           SÍGUENOS
         </div>
-        <div style={{marginTop: 22, fontSize: 34, fontWeight: 600, color: BRAND.grey}}>{BRAND.handle}</div>
+        {BRAND.handle ? <div style={{marginTop: 22, fontSize: 34, fontWeight: 600, color: BRAND.grey}}>{BRAND.handle}</div> : null}
       </div>
     </AbsoluteFill>
   );
