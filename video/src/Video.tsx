@@ -1,9 +1,7 @@
 import React from 'react';
-import {loadFont} from '@remotion/fonts';
 import {AbsoluteFill, Sequence, interpolate, random, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
 
-// Fuente de la marca empaquetada en el proyecto (funciona en cualquier máquina)
-[600, 700, 800, 900].forEach((w) => loadFont({family: 'Poppins', url: staticFile(`fonts/poppins-${w}.woff2`), weight: String(w)}));
+// Fuente de la marca: Poppins se instala en el sistema (carpeta fonts/)
 import {BRAND, H, HORIZON, W} from './brand';
 import {SceneData, VISUALS, Word} from './scenes';
 
