@@ -46,7 +46,15 @@ def edge_synth(text):
                 bounds.append((ch["text"], ch["offset"] / 1e7, (ch["offset"] + ch["duration"]) / 1e7))
         return bytes(mp3), bounds
 
-    mp3, bounds = asyncio.run(run())
+    import time
+    for intento in range(6):
+        try:
+            mp3, bounds = asyncio.run(run())
+            break
+        except Exception as e:
+            print("reintentando voz:", str(e)[:80]); time.sleep(5 * (intento + 1))
+    else:
+        raise RuntimeError("El servicio de voz no respondió")
     wav = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", "pipe:0", "-ac", "1", "-ar", str(SR_OUT), "-f", "wav", "pipe:1"],
                          input=mp3, capture_output=True, check=True).stdout
     a, _ = sf.read(io.BytesIO(wav), dtype="float32")
