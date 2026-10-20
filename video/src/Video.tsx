@@ -1,6 +1,6 @@
 import React from 'react';
 import {loadFont} from '@remotion/fonts';
-import {AbsoluteFill, Audio, Sequence, interpolate, random, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
+import {AbsoluteFill, Sequence, interpolate, random, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
 
 // Fuente de la marca empaquetada en el proyecto (funciona en cualquier máquina)
 [600, 700, 800, 900].forEach((w) => loadFont({family: 'Poppins', url: staticFile(`fonts/poppins-${w}.woff2`), weight: String(w)}));
@@ -149,8 +149,6 @@ export const Story: React.FC<{data: StoryData}> = ({data}) => {
       </div>
       {/* viñeta */}
       <AbsoluteFill style={{background: 'radial-gradient(ellipse at 50% 45%, transparent 55%, rgba(0,0,0,0.55) 100%)'}} />
-      <Audio src={staticFile(`${data.slug}/voice.wav`)} />
-      <Audio src={staticFile(`${data.slug}/music.wav`)} volume={0.9} />
     </AbsoluteFill>
   );
 };
