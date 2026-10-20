@@ -1,13 +1,9 @@
 import React from 'react';
-import {AbsoluteFill, Audio, Sequence, continueRender, delayRender, interpolate, random, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
+import {loadFont} from '@remotion/fonts';
+import {AbsoluteFill, Audio, Sequence, interpolate, random, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
 
 // Fuente de la marca empaquetada en el proyecto (funciona en cualquier máquina)
-const FONT_HANDLE = delayRender('fuentes');
-Promise.all(
-  [600, 700, 800, 900].map((w) =>
-    new FontFace('Poppins', `url(${staticFile(`fonts/poppins-${w}.woff2`)})`, {weight: String(w)}).load().then((f) => document.fonts.add(f)),
-  ),
-).then(() => continueRender(FONT_HANDLE)).catch(() => continueRender(FONT_HANDLE));
+[600, 700, 800, 900].forEach((w) => loadFont({family: 'Poppins', url: staticFile(`fonts/poppins-${w}.woff2`), weight: String(w)}));
 import {BRAND, H, HORIZON, W} from './brand';
 import {SceneData, VISUALS, Word} from './scenes';
 
