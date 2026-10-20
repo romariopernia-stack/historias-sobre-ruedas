@@ -1,0 +1,19 @@
+{
+  "slug": "lamborghini",
+  "title": "Lamborghini nació de una pelea",
+  "caption": "Lamborghini existe porque Enzo Ferrari humilló a un fabricante de tractores 🚜🐂 ¿Conocías esta historia? Cuéntanos en los comentarios 👇\n\n#lamborghini #ferrari #historiasdecarros #carros #autos #datoscuriosos #supercars #motor",
+  "_markup": "*palabra* = dorado, ^palabra^ = rojo, {Texto en pantalla|como se pronuncia}, usar _ para unir palabras en una sola etiqueta",
+  "scenes": [
+    {"id": "hook",    "visual": "versus",   "text": "*Lamborghini* existe por una pelea... y por un *tractor.*"},
+    {"id": "italia",  "visual": "fabrica",  "text": "Italia, años sesenta. {Ferruccio|Ferrúchio} *Lamborghini* se había hecho millonario fabricando *tractores.*"},
+    {"id": "garaje",  "visual": "garaje",   "text": "Tenía varios ^Ferrari,^ pero uno le daba el mismo problema una y otra vez: el *embrague.*"},
+    {"id": "pieza",   "visual": "pieza",    "text": "Lo desarmó él mismo, y descubrió algo increíble: la pieza era prácticamente la misma de sus *tractores...* pero ^Ferrari^ la cobraba muchísimo más."},
+    {"id": "enzo",    "visual": "enzo",     "text": "Fue a reclamarle a ^Enzo^ ^Ferrari^ en persona. Y cuenta la leyenda que le respondió:"},
+    {"id": "frase",   "visual": "frase",    "text": "Tú sabrás manejar *tractores,* pero nunca sabrás manejar un ^Ferrari.^"},
+    {"id": "funda",   "visual": "mapa",     "text": "{Ferruccio|Ferrúchio} no discutió. En *{1963|mil novecientos sesenta y tres}* fundó su propia marca, a pocos kilómetros de ^Ferrari.^"},
+    {"id": "miura",   "visual": "miura",    "text": "Tres años después presentó el *Miura,* para muchos, el primer *superdeportivo* de la historia."},
+    {"id": "toro",    "visual": "toro",     "text": "¿Y el *toro?* Era su signo zodiacal: *Tauro.* ^Ferrari^ tenía un caballo... él eligió algo más bravo."},
+    {"id": "cierre",  "visual": "cierre",   "text": "Así que la próxima vez que veas un *Lamborghini,* recuerda: nació de un *tractor...* y de un orgullo herido."},
+    {"id": "cta",     "visual": "cta",      "text": "Síguenos para más historias sobre ruedas."}
+  ]
+}

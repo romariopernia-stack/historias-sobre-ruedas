@@ -1,0 +1,9 @@
+node_modules/
+models/
+out/
+muestras/
+video/out/
+salida/
+*.tgz
+video/public/*/
+!video/public/fonts/
