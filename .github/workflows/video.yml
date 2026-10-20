@@ -43,7 +43,7 @@ jobs:
       - name: Crear videos
         env:
           EDGE_VOICE: ${{ github.event.inputs.voz || 'es-VE-SebastianNeural' }}
-          CONCURRENCY: '2'
+          CONCURRENCY: '1'
         run: |
           mkdir -p salida
           set -o pipefail
@@ -58,7 +58,10 @@ jobs:
       - name: Publicar resultados en la rama "salida"
         if: always()
         run: |
-          mkdir -p salida && cd salida
+          mkdir -p salida/audio
+          for d in video/public/*/; do [ "$d" != "video/public/fonts/" ] && cp -r "$d" salida/audio/ || true; done
+          cp video/src/data/*.json salida/audio/ 2>/dev/null || true
+          cd salida
           git init -q -b salida
           git add -A
           git -c user.name="bot" -c user.email="bot@users.noreply.github.com" commit -q -m "Resultados ${{ github.run_id }}"
