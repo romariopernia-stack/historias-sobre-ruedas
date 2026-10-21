@@ -1,0 +1,1172 @@
+{
+ "slug": "lamborghini",
+ "duration": 67.999,
+ "scenes": [
+  {
+   "id": "hook",
+   "visual": "versus",
+   "start": 0.35,
+   "end": 4.238,
+   "words": [
+    {
+     "text": "Lamborghini",
+     "color": "gold",
+     "start": 0.35,
+     "end": 1.051,
+     "chunk": 0
+    },
+    {
+     "text": "existe",
+     "color": "white",
+     "start": 1.051,
+     "end": 1.472,
+     "chunk": 0
+    },
+    {
+     "text": "por",
+     "color": "white",
+     "start": 1.472,
+     "end": 1.724,
+     "chunk": 1
+    },
+    {
+     "text": "una",
+     "color": "white",
+     "start": 1.724,
+     "end": 1.976,
+     "chunk": 1
+    },
+    {
+     "text": "pelea…",
+     "color": "white",
+     "start": 1.976,
+     "end": 2.341,
+     "chunk": 1
+    },
+    {
+     "text": "y",
+     "color": "white",
+     "start": 2.791,
+     "end": 2.942,
+     "chunk": 2
+    },
+    {
+     "text": "por",
+     "color": "white",
+     "start": 2.942,
+     "end": 3.213,
+     "chunk": 2
+    },
+    {
+     "text": "un",
+     "color": "white",
+     "start": 3.213,
+     "end": 3.425,
+     "chunk": 2
+    },
+    {
+     "text": "tractor.",
+     "color": "gold",
+     "start": 3.425,
+     "end": 3.938,
+     "chunk": 2
+    }
+   ]
+  },
+  {
+   "id": "italia",
+   "visual": "fabrica",
+   "start": 4.238,
+   "end": 10.73,
+   "words": [
+    {
+     "text": "Italia,",
+     "color": "white",
+     "start": 4.238,
+     "end": 5.259,
+     "chunk": 0
+    },
+    {
+     "text": "años",
+     "color": "white",
+     "start": 5.359,
+     "end": 5.713,
+     "chunk": 0
+    },
+    {
+     "text": "sesenta.",
+     "color": "white",
+     "start": 5.713,
+     "end": 6.26,
+     "chunk": 1
+    },
+    {
+     "text": "Ferruccio",
+     "color": "white",
+     "start": 6.56,
+     "end": 7.116,
+     "chunk": 2
+    },
+    {
+     "text": "Lamborghini",
+     "color": "gold",
+     "start": 7.116,
+     "end": 7.779,
+     "chunk": 3
+    },
+    {
+     "text": "se",
+     "color": "white",
+     "start": 7.779,
+     "end": 7.965,
+     "chunk": 3
+    },
+    {
+     "text": "había",
+     "color": "white",
+     "start": 7.965,
+     "end": 8.309,
+     "chunk": 3
+    },
+    {
+     "text": "hecho",
+     "color": "white",
+     "start": 8.309,
+     "end": 8.654,
+     "chunk": 4
+    },
+    {
+     "text": "millonario",
+     "color": "white",
+     "start": 8.654,
+     "end": 9.263,
+     "chunk": 4
+    },
+    {
+     "text": "fabricando",
+     "color": "white",
+     "start": 9.263,
+     "end": 9.873,
+     "chunk": 5
+    },
+    {
+     "text": "tractores.",
+     "color": "gold",
+     "start": 9.873,
+     "end": 10.43,
+     "chunk": 6
+    }
+   ]
+  },
+  {
+   "id": "garaje",
+   "visual": "garaje",
+   "start": 10.73,
+   "end": 16.32,
+   "words": [
+    {
+     "text": "Tenía",
+     "color": "white",
+     "start": 10.73,
+     "end": 11.129,
+     "chunk": 0
+    },
+    {
+     "text": "varios",
+     "color": "white",
+     "start": 11.129,
+     "end": 11.589,
+     "chunk": 0
+    },
+    {
+     "text": "Ferrari,",
+     "color": "red",
+     "start": 11.589,
+     "end": 12.112,
+     "chunk": 1
+    },
+    {
+     "text": "pero",
+     "color": "white",
+     "start": 12.212,
+     "end": 12.502,
+     "chunk": 1
+    },
+    {
+     "text": "uno",
+     "color": "white",
+     "start": 12.502,
+     "end": 12.739,
+     "chunk": 1
+    },
+    {
+     "text": "le",
+     "color": "white",
+     "start": 12.739,
+     "end": 12.924,
+     "chunk": 1
+    },
+    {
+     "text": "daba",
+     "color": "white",
+     "start": 12.924,
+     "end": 13.214,
+     "chunk": 2
+    },
+    {
+     "text": "el",
+     "color": "white",
+     "start": 13.214,
+     "end": 13.399,
+     "chunk": 2
+    },
+    {
+     "text": "mismo",
+     "color": "white",
+     "start": 13.399,
+     "end": 13.742,
+     "chunk": 2
+    },
+    {
+     "text": "problema",
+     "color": "white",
+     "start": 13.742,
+     "end": 14.243,
+     "chunk": 3
+    },
+    {
+     "text": "una",
+     "color": "white",
+     "start": 14.243,
+     "end": 14.481,
+     "chunk": 3
+    },
+    {
+     "text": "y",
+     "color": "white",
+     "start": 14.481,
+     "end": 14.613,
+     "chunk": 3
+    },
+    {
+     "text": "otra",
+     "color": "white",
+     "start": 14.613,
+     "end": 14.903,
+     "chunk": 3
+    },
+    {
+     "text": "vez:",
+     "color": "white",
+     "start": 14.903,
+     "end": 15.14,
+     "chunk": 4
+    },
+    {
+     "text": "el",
+     "color": "white",
+     "start": 15.34,
+     "end": 15.523,
+     "chunk": 5
+    },
+    {
+     "text": "embrague.",
+     "color": "gold",
+     "start": 15.523,
+     "end": 16.02,
+     "chunk": 5
+    }
+   ]
+  },
+  {
+   "id": "pieza",
+   "visual": "pieza",
+   "start": 16.32,
+   "end": 25.797,
+   "words": [
+    {
+     "text": "Lo",
+     "color": "white",
+     "start": 16.32,
+     "end": 16.518,
+     "chunk": 0
+    },
+    {
+     "text": "desarmó",
+     "color": "white",
+     "start": 16.518,
+     "end": 16.999,
+     "chunk": 0
+    },
+    {
+     "text": "él",
+     "color": "white",
+     "start": 16.999,
+     "end": 17.197,
+     "chunk": 0
+    },
+    {
+     "text": "mismo,",
+     "color": "white",
+     "start": 17.197,
+     "end": 17.565,
+     "chunk": 0
+    },
+    {
+     "text": "y",
+     "color": "white",
+     "start": 17.665,
+     "end": 17.808,
+     "chunk": 1
+    },
+    {
+     "text": "descubrió",
+     "color": "white",
+     "start": 17.808,
+     "end": 18.408,
+     "chunk": 1
+    },
+    {
+     "text": "algo",
+     "color": "white",
+     "start": 18.408,
+     "end": 18.723,
+     "chunk": 1
+    },
+    {
+     "text": "increíble:",
+     "color": "white",
+     "start": 18.723,
+     "end": 19.324,
+     "chunk": 2
+    },
+    {
+     "text": "la",
+     "color": "white",
+     "start": 19.524,
+     "end": 19.703,
+     "chunk": 3
+    },
+    {
+     "text": "pieza",
+     "color": "white",
+     "start": 19.703,
+     "end": 20.037,
+     "chunk": 3
+    },
+    {
+     "text": "era",
+     "color": "white",
+     "start": 20.037,
+     "end": 20.268,
+     "chunk": 3
+    },
+    {
+     "text": "prácticamente",
+     "color": "white",
+     "start": 20.268,
+     "end": 21.012,
+     "chunk": 4
+    },
+    {
+     "text": "la",
+     "color": "white",
+     "start": 21.012,
+     "end": 21.192,
+     "chunk": 4
+    },
+    {
+     "text": "misma",
+     "color": "white",
+     "start": 21.192,
+     "end": 21.525,
+     "chunk": 5
+    },
+    {
+     "text": "de",
+     "color": "white",
+     "start": 21.525,
+     "end": 21.705,
+     "chunk": 5
+    },
+    {
+     "text": "sus",
+     "color": "white",
+     "start": 21.705,
+     "end": 21.936,
+     "chunk": 5
+    },
+    {
+     "text": "tractores…",
+     "color": "gold",
+     "start": 21.936,
+     "end": 22.474,
+     "chunk": 6
+    },
+    {
+     "text": "pero",
+     "color": "white",
+     "start": 22.924,
+     "end": 23.27,
+     "chunk": 7
+    },
+    {
+     "text": "Ferrari",
+     "color": "red",
+     "start": 23.27,
+     "end": 23.803,
+     "chunk": 7
+    },
+    {
+     "text": "la",
+     "color": "white",
+     "start": 23.803,
+     "end": 24.022,
+     "chunk": 7
+    },
+    {
+     "text": "cobraba",
+     "color": "white",
+     "start": 24.022,
+     "end": 24.556,
+     "chunk": 8
+    },
+    {
+     "text": "muchísimo",
+     "color": "white",
+     "start": 24.556,
+     "end": 25.215,
+     "chunk": 8
+    },
+    {
+     "text": "más.",
+     "color": "white",
+     "start": 25.215,
+     "end": 25.497,
+     "chunk": 9
+    }
+   ]
+  },
+  {
+   "id": "enzo",
+   "visual": "enzo",
+   "start": 25.797,
+   "end": 30.917,
+   "words": [
+    {
+     "text": "Fue",
+     "color": "white",
+     "start": 25.797,
+     "end": 26.054,
+     "chunk": 0
+    },
+    {
+     "text": "a",
+     "color": "white",
+     "start": 26.054,
+     "end": 26.196,
+     "chunk": 0
+    },
+    {
+     "text": "reclamarle",
+     "color": "white",
+     "start": 26.196,
+     "end": 26.852,
+     "chunk": 0
+    },
+    {
+     "text": "a",
+     "color": "white",
+     "start": 26.852,
+     "end": 26.994,
+     "chunk": 0
+    },
+    {
+     "text": "Enzo",
+     "color": "red",
+     "start": 26.994,
+     "end": 27.308,
+     "chunk": 1
+    },
+    {
+     "text": "Ferrari",
+     "color": "red",
+     "start": 27.308,
+     "end": 27.792,
+     "chunk": 1
+    },
+    {
+     "text": "en",
+     "color": "white",
+     "start": 27.792,
+     "end": 27.992,
+     "chunk": 1
+    },
+    {
+     "text": "persona.",
+     "color": "white",
+     "start": 27.992,
+     "end": 28.476,
+     "chunk": 2
+    },
+    {
+     "text": "Y",
+     "color": "white",
+     "start": 28.776,
+     "end": 28.896,
+     "chunk": 3
+    },
+    {
+     "text": "cuenta",
+     "color": "white",
+     "start": 28.896,
+     "end": 29.256,
+     "chunk": 3
+    },
+    {
+     "text": "la",
+     "color": "white",
+     "start": 29.256,
+     "end": 29.423,
+     "chunk": 3
+    },
+    {
+     "text": "leyenda",
+     "color": "white",
+     "start": 29.423,
+     "end": 29.831,
+     "chunk": 3
+    },
+    {
+     "text": "que",
+     "color": "white",
+     "start": 29.831,
+     "end": 30.046,
+     "chunk": 4
+    },
+    {
+     "text": "le",
+     "color": "white",
+     "start": 30.046,
+     "end": 30.214,
+     "chunk": 4
+    },
+    {
+     "text": "respondió:",
+     "color": "white",
+     "start": 30.214,
+     "end": 30.717,
+     "chunk": 4
+    }
+   ]
+  },
+  {
+   "id": "frase",
+   "visual": "frase",
+   "start": 30.917,
+   "end": 35.498,
+   "words": [
+    {
+     "text": "Tú",
+     "color": "white",
+     "start": 30.917,
+     "end": 31.121,
+     "chunk": 0
+    },
+    {
+     "text": "sabrás",
+     "color": "white",
+     "start": 31.121,
+     "end": 31.558,
+     "chunk": 0
+    },
+    {
+     "text": "manejar",
+     "color": "white",
+     "start": 31.558,
+     "end": 32.054,
+     "chunk": 0
+    },
+    {
+     "text": "tractores,",
+     "color": "gold",
+     "start": 32.054,
+     "end": 32.666,
+     "chunk": 1
+    },
+    {
+     "text": "pero",
+     "color": "white",
+     "start": 32.766,
+     "end": 33.1,
+     "chunk": 1
+    },
+    {
+     "text": "nunca",
+     "color": "white",
+     "start": 33.1,
+     "end": 33.495,
+     "chunk": 2
+    },
+    {
+     "text": "sabrás",
+     "color": "white",
+     "start": 33.495,
+     "end": 33.951,
+     "chunk": 2
+    },
+    {
+     "text": "manejar",
+     "color": "white",
+     "start": 33.951,
+     "end": 34.468,
+     "chunk": 2
+    },
+    {
+     "text": "un",
+     "color": "white",
+     "start": 34.468,
+     "end": 34.681,
+     "chunk": 3
+    },
+    {
+     "text": "Ferrari.",
+     "color": "red",
+     "start": 34.681,
+     "end": 35.198,
+     "chunk": 3
+    }
+   ]
+  },
+  {
+   "id": "funda",
+   "visual": "mapa",
+   "start": 35.498,
+   "end": 43.108,
+   "words": [
+    {
+     "text": "Ferruccio",
+     "color": "white",
+     "start": 35.498,
+     "end": 36.198,
+     "chunk": 0
+    },
+    {
+     "text": "no",
+     "color": "white",
+     "start": 36.198,
+     "end": 36.432,
+     "chunk": 0
+    },
+    {
+     "text": "discutió.",
+     "color": "white",
+     "start": 36.432,
+     "end": 37.065,
+     "chunk": 1
+    },
+    {
+     "text": "En",
+     "color": "white",
+     "start": 37.365,
+     "end": 37.579,
+     "chunk": 2
+    },
+    {
+     "text": "1963",
+     "color": "gold",
+     "start": 37.579,
+     "end": 39.256,
+     "chunk": 2
+    },
+    {
+     "text": "fundó",
+     "color": "white",
+     "start": 39.256,
+     "end": 39.652,
+     "chunk": 2
+    },
+    {
+     "text": "su",
+     "color": "white",
+     "start": 39.652,
+     "end": 39.866,
+     "chunk": 2
+    },
+    {
+     "text": "propia",
+     "color": "white",
+     "start": 39.866,
+     "end": 40.323,
+     "chunk": 3
+    },
+    {
+     "text": "marca,",
+     "color": "white",
+     "start": 40.323,
+     "end": 40.719,
+     "chunk": 3
+    },
+    {
+     "text": "a",
+     "color": "white",
+     "start": 40.819,
+     "end": 40.972,
+     "chunk": 3
+    },
+    {
+     "text": "pocos",
+     "color": "white",
+     "start": 40.972,
+     "end": 41.37,
+     "chunk": 4
+    },
+    {
+     "text": "kilómetros",
+     "color": "white",
+     "start": 41.37,
+     "end": 42.074,
+     "chunk": 4
+    },
+    {
+     "text": "de",
+     "color": "white",
+     "start": 42.074,
+     "end": 42.288,
+     "chunk": 4
+    },
+    {
+     "text": "Ferrari.",
+     "color": "red",
+     "start": 42.288,
+     "end": 42.808,
+     "chunk": 5
+    }
+   ]
+  },
+  {
+   "id": "miura",
+   "visual": "miura",
+   "start": 43.108,
+   "end": 49.238,
+   "words": [
+    {
+     "text": "Tres",
+     "color": "white",
+     "start": 43.108,
+     "end": 43.404,
+     "chunk": 0
+    },
+    {
+     "text": "años",
+     "color": "white",
+     "start": 43.404,
+     "end": 43.701,
+     "chunk": 0
+    },
+    {
+     "text": "después",
+     "color": "white",
+     "start": 43.701,
+     "end": 44.159,
+     "chunk": 0
+    },
+    {
+     "text": "presentó",
+     "color": "white",
+     "start": 44.159,
+     "end": 44.671,
+     "chunk": 1
+    },
+    {
+     "text": "el",
+     "color": "white",
+     "start": 44.671,
+     "end": 44.86,
+     "chunk": 1
+    },
+    {
+     "text": "Miura,",
+     "color": "gold",
+     "start": 44.86,
+     "end": 45.21,
+     "chunk": 1
+    },
+    {
+     "text": "para",
+     "color": "white",
+     "start": 45.31,
+     "end": 45.821,
+     "chunk": 2
+    },
+    {
+     "text": "muchos,",
+     "color": "white",
+     "start": 45.821,
+     "end": 46.517,
+     "chunk": 2
+    },
+    {
+     "text": "el",
+     "color": "white",
+     "start": 46.617,
+     "end": 46.806,
+     "chunk": 2
+    },
+    {
+     "text": "primer",
+     "color": "white",
+     "start": 46.806,
+     "end": 47.211,
+     "chunk": 3
+    },
+    {
+     "text": "superdeportivo",
+     "color": "gold",
+     "start": 47.211,
+     "end": 48.048,
+     "chunk": 4
+    },
+    {
+     "text": "de",
+     "color": "white",
+     "start": 48.048,
+     "end": 48.237,
+     "chunk": 4
+    },
+    {
+     "text": "la",
+     "color": "white",
+     "start": 48.237,
+     "end": 48.426,
+     "chunk": 4
+    },
+    {
+     "text": "historia.",
+     "color": "white",
+     "start": 48.426,
+     "end": 48.938,
+     "chunk": 5
+    }
+   ]
+  },
+  {
+   "id": "toro",
+   "visual": "toro",
+   "start": 49.238,
+   "end": 57.217,
+   "words": [
+    {
+     "text": "¿Y",
+     "color": "white",
+     "start": 49.238,
+     "end": 49.376,
+     "chunk": 0
+    },
+    {
+     "text": "el",
+     "color": "white",
+     "start": 49.376,
+     "end": 49.569,
+     "chunk": 0
+    },
+    {
+     "text": "toro?",
+     "color": "gold",
+     "start": 49.569,
+     "end": 49.872,
+     "chunk": 0
+    },
+    {
+     "text": "Era",
+     "color": "white",
+     "start": 50.172,
+     "end": 50.434,
+     "chunk": 1
+    },
+    {
+     "text": "su",
+     "color": "white",
+     "start": 50.434,
+     "end": 50.638,
+     "chunk": 1
+    },
+    {
+     "text": "signo",
+     "color": "white",
+     "start": 50.638,
+     "end": 51.016,
+     "chunk": 1
+    },
+    {
+     "text": "zodiacal:",
+     "color": "white",
+     "start": 51.016,
+     "end": 51.569,
+     "chunk": 2
+    },
+    {
+     "text": "Tauro.",
+     "color": "gold",
+     "start": 51.769,
+     "end": 52.232,
+     "chunk": 3
+    },
+    {
+     "text": "Ferrari",
+     "color": "red",
+     "start": 52.532,
+     "end": 53.114,
+     "chunk": 4
+    },
+    {
+     "text": "tenía",
+     "color": "white",
+     "start": 53.114,
+     "end": 53.559,
+     "chunk": 4
+    },
+    {
+     "text": "un",
+     "color": "white",
+     "start": 53.559,
+     "end": 53.798,
+     "chunk": 4
+    },
+    {
+     "text": "caballo…",
+     "color": "white",
+     "start": 53.798,
+     "end": 54.38,
+     "chunk": 5
+    },
+    {
+     "text": "él",
+     "color": "white",
+     "start": 54.83,
+     "end": 55.096,
+     "chunk": 6
+    },
+    {
+     "text": "eligió",
+     "color": "white",
+     "start": 55.096,
+     "end": 55.665,
+     "chunk": 6
+    },
+    {
+     "text": "algo",
+     "color": "white",
+     "start": 55.665,
+     "end": 56.082,
+     "chunk": 6
+    },
+    {
+     "text": "más",
+     "color": "white",
+     "start": 56.082,
+     "end": 56.424,
+     "chunk": 6
+    },
+    {
+     "text": "bravo.",
+     "color": "white",
+     "start": 56.424,
+     "end": 56.917,
+     "chunk": 7
+    }
+   ]
+  },
+  {
+   "id": "cierre",
+   "visual": "cierre",
+   "start": 57.217,
+   "end": 63.968,
+   "words": [
+    {
+     "text": "Así",
+     "color": "white",
+     "start": 57.217,
+     "end": 57.448,
+     "chunk": 0
+    },
+    {
+     "text": "que",
+     "color": "white",
+     "start": 57.448,
+     "end": 57.679,
+     "chunk": 0
+    },
+    {
+     "text": "la",
+     "color": "white",
+     "start": 57.679,
+     "end": 57.859,
+     "chunk": 0
+    },
+    {
+     "text": "próxima",
+     "color": "white",
+     "start": 57.859,
+     "end": 58.296,
+     "chunk": 0
+    },
+    {
+     "text": "vez",
+     "color": "white",
+     "start": 58.296,
+     "end": 58.528,
+     "chunk": 1
+    },
+    {
+     "text": "que",
+     "color": "white",
+     "start": 58.528,
+     "end": 58.759,
+     "chunk": 1
+    },
+    {
+     "text": "veas",
+     "color": "white",
+     "start": 58.759,
+     "end": 59.042,
+     "chunk": 1
+    },
+    {
+     "text": "un",
+     "color": "white",
+     "start": 59.042,
+     "end": 59.222,
+     "chunk": 1
+    },
+    {
+     "text": "Lamborghini,",
+     "color": "gold",
+     "start": 59.222,
+     "end": 59.864,
+     "chunk": 2
+    },
+    {
+     "text": "recuerda:",
+     "color": "white",
+     "start": 59.964,
+     "end": 60.594,
+     "chunk": 3
+    },
+    {
+     "text": "nació",
+     "color": "white",
+     "start": 60.794,
+     "end": 61.175,
+     "chunk": 4
+    },
+    {
+     "text": "de",
+     "color": "white",
+     "start": 61.175,
+     "end": 61.381,
+     "chunk": 4
+    },
+    {
+     "text": "un",
+     "color": "white",
+     "start": 61.381,
+     "end": 61.587,
+     "chunk": 4
+    },
+    {
+     "text": "tractor…",
+     "color": "gold",
+     "start": 61.587,
+     "end": 62.086,
+     "chunk": 4
+    },
+    {
+     "text": "y",
+     "color": "white",
+     "start": 62.536,
+     "end": 62.647,
+     "chunk": 5
+    },
+    {
+     "text": "de",
+     "color": "white",
+     "start": 62.647,
+     "end": 62.802,
+     "chunk": 5
+    },
+    {
+     "text": "un",
+     "color": "white",
+     "start": 62.802,
+     "end": 62.958,
+     "chunk": 5
+    },
+    {
+     "text": "orgullo",
+     "color": "white",
+     "start": 62.958,
+     "end": 63.335,
+     "chunk": 5
+    },
+    {
+     "text": "herido.",
+     "color": "white",
+     "start": 63.335,
+     "end": 63.668,
+     "chunk": 6
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "visual": "cta",
+   "start": 63.968,
+   "end": 67.999,
+   "words": [
+    {
+     "text": "Síguenos",
+     "color": "white",
+     "start": 63.968,
+     "end": 64.428,
+     "chunk": 0
+    },
+    {
+     "text": "para",
+     "color": "white",
+     "start": 64.428,
+     "end": 64.695,
+     "chunk": 0
+    },
+    {
+     "text": "más",
+     "color": "white",
+     "start": 64.695,
+     "end": 64.913,
+     "chunk": 0
+    },
+    {
+     "text": "historias",
+     "color": "white",
+     "start": 64.913,
+     "end": 65.421,
+     "chunk": 1
+    },
+    {
+     "text": "sobre",
+     "color": "white",
+     "start": 65.421,
+     "end": 65.736,
+     "chunk": 1
+    },
+    {
+     "text": "ruedas.",
+     "color": "white",
+     "start": 65.736,
+     "end": 66.099,
+     "chunk": 2
+    }
+   ]
+  }
+ ]
+}
