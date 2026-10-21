@@ -1,0 +1,344 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+:root{--o:#E9873F;--o2:#FFB45E;--bg:#070505;--card:#151312;--line:#2a2624;--mut:#8f8a86}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--bg);font-family:'Inter',system-ui,sans-serif;color:#fff}
+.abs{position:absolute}
+#stage{position:absolute;inset:0;overflow:hidden}
+#glow{left:-200px;top:300px;width:1480px;height:1480px;border-radius:50%;
+  background:radial-gradient(circle,rgba(233,135,63,.55) 0%,rgba(233,135,63,.18) 32%,rgba(0,0,0,0) 62%)}
+.dot{border-radius:50%;background:var(--o2);filter:blur(6px)}
+/* titles */
+.title{left:60px;right:60px;top:150px;text-align:center}
+.kicker{font-size:30px;letter-spacing:.32em;font-weight:700;color:var(--o2);margin-bottom:22px}
+.big{font-size:74px;line-height:1.04;font-weight:800;letter-spacing:-.03em}
+.big em{font-style:normal;color:var(--o2)}
+/* phone */
+#phoneWrap{left:540px;top:1010px;width:0;height:0;perspective:1800px}
+#phone{position:absolute;left:-290px;top:-570px;width:580px;height:1140px;border-radius:84px;
+  background:linear-gradient(145deg,#3b3530,#121010 40%,#2a2522);padding:18px;
+  box-shadow:0 0 0 2px rgba(255,180,94,.55),0 0 60px rgba(255,170,80,.55),0 0 160px rgba(233,135,63,.35),0 60px 120px rgba(0,0,0,.6);
+  transform-style:preserve-3d}
+#screen{position:relative;width:544px;height:1104px;border-radius:68px;overflow:hidden;background:#0a0908}
+#island{left:50%;top:18px;width:150px;height:42px;margin-left:-75px;border-radius:30px;background:#000;z-index:50}
+#sheen{left:-300px;top:-200px;width:220px;height:1600px;transform:rotate(22deg);z-index:60;
+  background:linear-gradient(90deg,rgba(255,220,160,0) 0%,rgba(255,220,160,.22) 50%,rgba(255,220,160,0) 100%)}
+.status{left:44px;right:44px;top:22px;height:40px;display:flex;justify-content:space-between;font-size:22px;font-weight:600;z-index:40}
+.scr{position:absolute;left:0;top:0;width:544px;height:1104px}
+/* site styles */
+.nav{left:0;right:0;top:78px;height:80px;display:flex;align-items:center;justify-content:space-between;padding:0 32px;border-bottom:1px solid #1d1a18}
+.logo{font-weight:800;font-size:32px;letter-spacing:-.04em}
+.pill{background:#fff;color:#000;font-weight:600;font-size:22px;padding:13px 26px;border-radius:40px}
+.c{left:0;right:0;text-align:center}
+.btn{left:50%;transform:translateX(-50%);height:78px;border-radius:40px;display:flex;align-items:center;justify-content:center;font-size:26px;font-weight:600}
+/* sessions */
+.row{left:22px;right:22px;height:166px;border-radius:24px;background:#100e0d;border:1px solid #221f1d;display:flex;align-items:center;padding:0 20px}
+.date{width:96px;flex:none;white-space:nowrap;text-align:center;border-right:1px solid #2a2624;margin-right:18px}
+.date .d1{font-size:18px;color:var(--mut)}.date .d2{font-size:24px;font-weight:700;margin:4px 0}.date .d3{font-size:17px;color:var(--mut)}
+.info{flex:1}
+.info .t{font-size:24px;font-weight:600}.info .by{font-size:16px;color:var(--mut);margin-top:3px}
+.info .loc{font-size:16px;color:var(--mut);margin-top:6px}.info .st{font-size:16px;margin-top:6px;white-space:nowrap}.info .t{white-space:nowrap}
+.res{background:#e8e4e0;color:#000;font-size:19px;font-weight:600;padding:12px 18px;border-radius:30px}
+/* floating cards */
+.fcard{width:420px;height:170px;border-radius:28px;background:rgba(22,19,17,.92);border:1px solid rgba(255,180,94,.5);
+  box-shadow:0 0 40px rgba(255,170,80,.35);display:flex;align-items:center;padding:0 24px}
+.fcard .date{width:100px}
+.fcard .info .t{font-size:27px}
+/* modal */
+#modal{left:14px;right:14px;top:70px;bottom:14px;border-radius:40px;background:#121110;border:1px solid #262220;overflow:hidden}
+#mc{left:0;right:0;top:0;padding:34px 30px}
+.lbl{font-size:20px;color:#bdb7b2;position:absolute;left:30px}
+.inp{position:absolute;left:30px;right:30px;height:70px;border-radius:18px;background:#1c1a19;border:1px solid #2d2927;font-size:25px;display:flex;align-items:center;padding:0 22px}
+.inp.focus{border-color:var(--o);box-shadow:0 0 0 3px rgba(233,135,63,.25)}
+.caret{display:inline-block;width:2px;height:28px;background:var(--o2);margin-left:2px}
+.tile{position:absolute;top:0;width:144px;height:110px;border-radius:18px;border:1px solid #2d2927;background:#151312;display:flex;flex-direction:column;align-items:center;justify-content:center;font-size:19px;font-weight:600;gap:10px}
+.flag{width:38px;height:26px;border-radius:4px;overflow:hidden;display:flex;flex-direction:column}
+.flag i{flex:1;display:block}
+.blur{display:inline-block;height:20px;border-radius:6px;background:#3a3532;filter:blur(3px)}
+.kv{display:flex;justify-content:space-between;align-items:center;height:44px;border-bottom:1px solid #24201e;font-size:19px;color:var(--mut)}
+/* tap */
+.tap{width:90px;height:90px;margin:-45px 0 0 -45px;border-radius:50%;z-index:80}
+.tap .core{position:absolute;inset:22px;border-radius:50%;background:rgba(255,255,255,.85);box-shadow:0 0 30px rgba(255,190,110,.9)}
+.tap .ring{position:absolute;inset:0;border-radius:50%;border:4px solid var(--o2)}
+/* step label bottom */
+#bar{left:120px;right:120px;top:1650px;height:10px;border-radius:10px;background:rgba(255,255,255,.12);overflow:hidden}
+#barFill{left:0;top:0;bottom:0;width:0;background:linear-gradient(90deg,var(--o),var(--o2));border-radius:10px}
+#url{left:0;right:0;top:1700px;text-align:center;font-size:30px;color:#d8d2cd;font-weight:500;letter-spacing:.02em}
+/* whatsapp */
+.wa{background:#0b141a}
+.wah{left:0;right:0;top:0;height:170px;background:#1f2c33;display:flex;align-items:flex-end;padding:0 28px 22px;gap:18px}
+.av{width:62px;height:62px;border-radius:50%;background:#111;border:2px solid var(--o);display:flex;align-items:center;justify-content:center;font-weight:800;font-size:15px}
+.bub{position:absolute;max-width:400px;border-radius:22px;padding:16px 20px;font-size:23px;line-height:1.3}
+.me{right:26px;background:#005c4b;border-top-right-radius:6px}
+.them{left:26px;background:#202c33;border-top-left-radius:6px}
+/* end */
+#end{left:0;right:0;top:0;bottom:0}
+#streak{width:420px;height:10px;border-radius:10px;background:linear-gradient(90deg,rgba(255,180,94,0),#FFD08A);box-shadow:0 0 30px #FFB45E;transform-origin:right center}
+</style></head>
+<body><div id="stage">
+<div id="glow" class="abs"></div>
+<div id="dots"></div>
+<div id="streak" class="abs"></div>
+
+<!-- titles -->
+<div id="titles"></div>
+
+<!-- floating session cards -->
+<div id="floats" style="position:absolute;inset:0;z-index:20"></div>
+
+<div id="phoneWrap" class="abs"><div id="phone"><div id="screen">
+  <div id="island" class="abs"></div>
+  <div class="status abs"><span>9:41</span><span>●●● 5G ▮</span></div>
+
+  <!-- S1 home -->
+  <div id="s1" class="scr">
+    <div class="nav abs"><div class="logo">RITMO</div><div class="pill" id="navRes">Reservar</div></div>
+    <div class="abs c" style="top:225px"><svg width="96" height="96" viewBox="0 0 24 24" fill="none" stroke="#E9873F" stroke-width="1.8" stroke-linecap="round"><path d="M4 15v-3a8 8 0 0 1 16 0v3"/><rect x="2.5" y="14" width="4.5" height="7" rx="2"/><rect x="17" y="14" width="4.5" height="7" rx="2"/></svg></div>
+    <div class="abs c" style="top:350px;font-size:20px;letter-spacing:.28em;color:#9d968f;font-weight:600">RITMO EXPERIENCE</div>
+    <div class="abs c" style="top:400px;font-size:58px;font-weight:800;letter-spacing:-.04em;line-height:1.05;padding:0 30px">Conecta con tu cuerpo.<br><span style="color:#9a9590">Eleva tu energía.</span></div>
+    <div class="abs c" style="top:580px;font-size:22px;color:#9d968f;padding:0 60px;line-height:1.4">Muévete al ritmo de la música, sin ruido externo y sin distracciones.</div>
+    <div class="abs btn" id="b1" style="top:700px;width:350px;background:#e8e4e0;color:#000">Reservar experiencia</div>
+    <div class="abs btn" style="top:800px;width:300px;border:1px solid #3a3532">Ver cómo funciona</div>
+  </div>
+
+  <!-- S2 sessions -->
+  <div id="s2" class="scr">
+    <div class="nav abs"><div class="logo">RITMO</div><div class="pill">Reservar</div></div>
+    <div class="abs" style="left:32px;top:200px;font-size:18px;letter-spacing:.28em;color:var(--o2);font-weight:700">EXPERIENCE</div>
+    <div class="abs" style="left:32px;top:236px;right:32px;font-size:42px;font-weight:800;letter-spacing:-.03em;line-height:1.08">Reserva tu próxima experiencia.</div>
+    <div class="abs" style="left:32px;top:375px;font-size:17px;letter-spacing:.24em;color:#77716c;font-weight:600">PRÓXIMAS SESIONES</div>
+    <div id="rows"></div>
+  </div>
+
+  <!-- S3 modal -->
+  <div id="s3" class="scr">
+    <div class="abs" id="dim" style="inset:0;background:rgba(0,0,0,.7)"></div>
+    <div id="modal" class="abs"><div id="mc" class="abs">
+      <div class="abs" style="left:30px;top:34px;font-size:34px;font-weight:700">Completar Reserva</div>
+      <div class="abs" style="left:30px;top:86px;font-size:20px;color:#bdb7b2">Baile Inmersivo · jueves, 22 oct · 07:00 PM</div>
+      <div class="abs" style="left:30px;top:118px;font-size:18px;color:var(--o)">◉ Parque metropolitano</div>
+      <div class="lbl" style="top:170px">Nombre completo</div><div class="inp" id="f1" style="top:200px"></div>
+      <div class="lbl" style="top:290px">Teléfono</div><div class="inp" id="f2" style="top:320px"></div>
+      <div class="lbl" style="top:410px">Cédula</div><div class="inp" id="f3" style="top:440px"></div>
+      <div class="lbl" style="top:530px">Correo electrónico</div><div class="inp" id="f4" style="top:560px"></div>
+      <div class="lbl" style="top:650px">Cantidad de cupos</div>
+      <div class="inp" id="cupos" style="top:680px;justify-content:space-between"><span id="cuposT">1 cupo</span><span style="color:#888">⌄</span></div>
+      <div class="abs" style="left:30px;right:30px;top:762px;font-size:16px;color:#7d7772">Reservas para ti y hasta 3 acompañantes.</div>
+      <div class="lbl" style="top:812px">Método de pago</div>
+      <div class="abs" style="right:30px;top:812px;font-size:18px;color:#7d7772">Precio: <b style="color:#fff">$4.00 USD</b> / cupo</div>
+      <div class="abs" style="left:30px;right:30px;top:850px;height:110px">
+        <div class="tile" id="t1" style="left:0"><div class="flag"><i style="background:#f4c430"></i><i style="background:#1d4fa0"></i><i style="background:#cf2b2b"></i></div>Bolívares</div>
+        <div class="tile" id="t2" style="left:156px"><div class="flag"><i style="background:#b22234"></i><i style="background:#fff"></i><i style="background:#b22234"></i></div>Dólares</div>
+        <div class="tile" id="t3" style="left:312px"><div class="flag"><i style="background:#fcd116;flex:2"></i><i style="background:#003893"></i><i style="background:#ce1126"></i></div>Pesos COP</div>
+      </div>
+      <div id="pm" class="abs" style="left:30px;right:30px;top:978px">
+        <div style="height:66px;border-radius:18px;border:1px solid #3a3532;background:#1a1817;display:flex;align-items:center;padding:0 20px;font-size:22px;font-weight:600;justify-content:space-between"><span>📱 Pago Móvil</span><span style="color:#888">›</span></div>
+        <div style="margin-top:14px;border-radius:18px;border:1px solid #2a2624;padding:14px 20px">
+          <div style="font-size:15px;letter-spacing:.2em;color:#7d7772;margin-bottom:6px">DATOS DE PAGO</div>
+          <div class="kv"><span>Monto a pagar</span><span class="blur" style="width:120px"></span></div>
+          <div class="kv"><span>Banco</span><span class="blur" style="width:160px"></span></div>
+          <div class="kv" style="border:0"><span>Teléfono</span><span class="blur" style="width:140px"></span></div>
+          <div style="font-size:15px;color:#7d7772;text-align:center;margin-top:8px">Al confirmar recibirás un enlace para enviar tu comprobante por WhatsApp.</div>
+        </div>
+      </div>
+      <div class="abs" style="left:30px;right:30px;top:1300px;display:flex;gap:14px;align-items:center;font-size:18px;color:#bdb7b2">
+        <div id="chk" style="width:30px;height:30px;border-radius:7px;border:2px solid #bbb;flex:none;display:flex;align-items:center;justify-content:center;font-size:20px;font-weight:800"></div>
+        <div>He leído y acepto los <u>Términos y Condiciones</u> y la <u>Política de Privacidad</u>.</div>
+      </div>
+      <div class="abs btn" id="confirm" style="top:1380px;left:30px;right:30px;transform:none;background:#fff;color:#000;font-size:27px">Confirmar Reserva</div>
+    </div></div>
+  </div>
+
+  <!-- S4 success -->
+  <div id="s4" class="scr" style="background:#0a0908">
+    <div id="okc" class="abs" style="left:50%;top:330px;width:190px;height:190px;margin-left:-95px;border-radius:50%;background:radial-gradient(circle,#FFB45E,#E9873F);box-shadow:0 0 80px rgba(255,170,80,.7);display:flex;align-items:center;justify-content:center;font-size:110px;color:#1a0d04;font-weight:900">✓</div>
+    <div class="abs c" style="top:580px;font-size:46px;font-weight:800;letter-spacing:-.03em">¡Reserva recibida!</div>
+    <div class="abs c" style="top:650px;font-size:23px;color:#a7a19c;padding:0 60px;line-height:1.4">Baile Inmersivo · Jue 22 oct · 7:00 PM<br>2 cupos</div>
+    <div class="abs btn" style="top:800px;width:400px;background:#25D366;color:#04210f;font-weight:700">Enviar comprobante →</div>
+  </div>
+
+  <!-- S5 whatsapp -->
+  <div id="s5" class="scr wa">
+    <div class="wah abs"><span style="font-size:34px;color:#aebac1">‹</span><div class="av">RITMO</div><div><div style="font-size:26px;font-weight:600">RITMO Venezuela</div><div style="font-size:18px;color:#8696a0">en línea</div></div></div>
+    <div id="w1" class="bub me" style="top:230px;width:330px;padding:10px">
+      <div style="height:210px;border-radius:14px;background:linear-gradient(160deg,#e9e6e1,#bdb8b0);display:flex;flex-direction:column;align-items:center;justify-content:center;color:#333;font-size:20px;gap:8px"><div style="font-size:52px">🧾</div>Comprobante Pago Móvil</div>
+      <div style="text-align:right;font-size:16px;color:#9fd8c9;margin-top:6px">7:42 PM <span style="color:#53bdeb">✓✓</span></div>
+    </div>
+    <div id="w2" class="bub me" style="top:530px">Listo, ya envié el pago 🙌<div style="text-align:right;font-size:16px;color:#9fd8c9">7:42 PM <span style="color:#53bdeb">✓✓</span></div></div>
+    <div id="w3" class="bub them" style="top:670px">¡Recibido! Tu cupo está confirmado 🎧 Nos vemos en la clase 🔥<div style="text-align:right;font-size:16px;color:#8696a0">7:43 PM</div></div>
+  </div>
+
+  <div id="sheen" class="abs"></div>
+  <div id="taps"></div>
+</div></div></div>
+
+<!-- bottom -->
+<div id="bar" class="abs"><div id="barFill" class="abs"></div></div>
+<div id="url" class="abs">ritmovenezuela.com</div>
+
+<!-- end card -->
+<div id="end" class="abs">
+  <div class="abs c" style="top:640px"><svg width="170" height="170" viewBox="0 0 24 24" fill="none" stroke="#E9873F" stroke-width="1.6" stroke-linecap="round" style="filter:drop-shadow(0 0 24px rgba(255,170,80,.8))"><path d="M4 15v-3a8 8 0 0 1 16 0v3"/><rect x="2.5" y="14" width="4.5" height="7" rx="2"/><rect x="17" y="14" width="4.5" height="7" rx="2"/></svg></div>
+  <div class="abs c" style="top:840px;font-size:150px;font-weight:900;letter-spacing:-.06em">RITMO</div>
+  <div class="abs c" style="top:1030px;font-size:50px;font-weight:700;letter-spacing:-.02em">Tu cupo te espera 🎧</div>
+  <div class="abs c" style="top:1130px"><span style="display:inline-block;padding:26px 48px;border-radius:60px;background:linear-gradient(90deg,#E9873F,#FFB45E);color:#1a0d04;font-size:40px;font-weight:800">ritmovenezuela.com</span></div>
+  <div class="abs c" style="top:1290px;font-size:36px;color:#cfc8c2;font-weight:600">@ritmo.ve</div>
+</div>
+</div>
+
+<script>
+const $=id=>document.getElementById(id);
+const cl=(v,a=0,b=1)=>Math.min(b,Math.max(a,v));
+const seg=(t,a,b)=>cl((t-a)/(b-a));
+const eo=x=>1-Math.pow(1-x,3);
+const eio=x=>x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2;
+const back=x=>{const c1=1.70158,c3=c1+1;return 1+c3*Math.pow(x-1,3)+c1*Math.pow(x-1,2)};
+
+const sessions=[
+ ['Jue','22 oct','07:00 PM','Baile Inmersivo','by Génesis Belandria','Parque Metropolitano','Quedan pocos cupos','#E9B03F'],
+ ['Sáb','24 oct','10:00 AM','Funcional Inmersivo','by UribeGoll','Parque Metropolitano','Cupos limitados','#4CC46B'],
+ ['Dom','25 oct','07:00 PM','Baile Inmersivo','by Génesis Belandria','Parque Metropolitano','Cupos limitados','#4CC46B']];
+const rowHTML=(s,cls,style)=>`<div class="${cls}" style="${style}"><div class="date"><div class="d1">${s[0]}</div><div class="d2">${s[1]}</div><div class="d3">${s[2]}</div></div><div class="info"><div class="t">${s[3]}</div><div class="by">${s[4]}</div><div class="loc"><span style="color:#E9873F">◉</span> ${s[5]}</div><div class="st"><span style="color:${s[7]}">● ${s[6]}</span> · $4.00 USD</div></div><div class="res">Reservar</div></div>`;
+$('rows').innerHTML=sessions.map((s,i)=>rowHTML(s,'row abs','top:'+(420+i*186)+'px')).join('');
+$('floats').innerHTML=sessions.map(s=>`<div class="fcard abs"><div class="date"><div class="d1">${s[0]}</div><div class="d2">${s[1]}</div><div class="d3">${s[2]}</div></div><div class="info"><div class="t">${s[3]}</div><div class="by" style="font-size:18px">${s[4]}</div><div style="margin-top:10px;font-size:26px;font-weight:800;color:#FFB45E">$4.00 <span style="font-size:18px;color:#bbb;font-weight:500">USD</span></div></div></div>`).join('');
+const rowsEl=[...$('rows').children], floatEl=[...$('floats').children];
+
+// dots
+let dh='';for(let i=0;i<14;i++){dh+=`<div class="dot abs" id="d${i}"></div>`}$('dots').innerHTML=dh;
+const rnd=(i,k)=>{const x=Math.sin(i*127.1+k*311.7)*43758.5453;return x-Math.floor(x)};
+
+// titles
+const steps=[
+ {a:0,b:2.3,k:'TUTORIAL',h:'¿Cómo reservar<br>tu clase en <em>RITMO</em>?'},
+ {a:2.3,b:5.0,k:'PASO 1',h:'Entra a<br><em>ritmovenezuela.com</em>'},
+ {a:5.0,b:8.7,k:'PASO 2',h:'Elige tu clase<br>y toca <em>Reservar</em>'},
+ {a:8.7,b:12.3,k:'PASO 3',h:'Completa<br><em>tus datos</em>'},
+ {a:12.3,b:15.4,k:'PASO 4',h:'Elige cupos y<br><em>método de pago</em>'},
+ {a:15.4,b:18.2,k:'PASO 5',h:'Acepta y<br><em>confirma</em>'},
+ {a:18.2,b:21.4,k:'PASO 6',h:'Envía tu comprobante<br>por <em>WhatsApp</em>'}];
+$('titles').innerHTML=steps.map((s,i)=>`<div class="title abs" id="ti${i}"><div class="kicker">${s.k}</div><div class="big">${s.h}</div></div>`).join('');
+
+// taps (screen coords)
+const taps=[{t:3.9,x:272,y:739},{t:8.25,x:452,y:503},{t:13.1,x:272,y:715-380+70},{t:13.9,x:116,y:905-380+70},{t:16.4,x:59,y:1315-470+70},{t:17.05,x:272,y:1420-470+70},{t:18.0,x:272,y:839}];
+$('taps').innerHTML=taps.map((p,i)=>`<div class="tap abs" id="tp${i}"><div class="ring"></div><div class="core"></div></div>`).join('');
+
+function typed(t,a,b,txt,el,showCaret){
+  const p=seg(t,a,b);const n=Math.round(p*txt.length);
+  const focus=t>=a-0.15&&t<b+0.2;
+  el.className='inp'+(focus?' focus':'');
+  el.innerHTML=(txt.slice(0,n)||'')+(focus&&Math.floor(t*3)%2===0?'<span class="caret"></span>':'');
+}
+function vis(el,o,tr){el.style.opacity=o;el.style.display=o<=0.001?'none':'block';if(tr!==undefined)el.style.transform=tr}
+
+function render(t){
+  // background
+  const pulse=0.85+0.15*Math.sin(t*2.4);
+  $('glow').style.opacity=pulse*(t<21.4?1:0.7);
+  for(let i=0;i<14;i++){const d=$('d'+i);const s=6+rnd(i,1)*14;const x=rnd(i,2)*1080;const y=(rnd(i,3)*1920 - t*(20+rnd(i,4)*40))%1920;d.style.width=d.style.height=s+'px';d.style.left=x+'px';d.style.top=((y+1920)%1920)+'px';d.style.opacity=0.15+0.35*rnd(i,5)}
+
+  // opening streak (comet)
+  const sp=seg(t,0,0.9);
+  $('streak').style.opacity=sp>0&&sp<1?Math.sin(sp*Math.PI):0;
+  $('streak').style.left=(-500+eo(sp)*1200)+'px';$('streak').style.top=(900-eo(sp)*250)+'px';$('streak').style.transform='rotate(-20deg)';
+
+  // titles
+  steps.forEach((s,i)=>{const el=$('ti'+i);
+    const ain=eo(seg(t,s.a+0.05,s.a+0.45)), aout=seg(t,s.b-0.3,s.b);
+    const o=i===0?Math.min(eo(seg(t,0.3,0.8)),1-aout):Math.min(ain,1-aout);
+    vis(el,o,`translateY(${(1-ain)*40 - aout*30}px)`);});
+
+  // phone entrance / exit
+  const pin=eo(seg(t,0.2,1.5)), pout=eio(seg(t,21.3,22.2));
+  const rx=(1-pin)*35, sc=(0.8+0.2*pin)*(1-0.35*pout);
+  const ty=(1-pin)*700 + pout*-60;
+  const ry=Math.sin(t*0.9)*3*(1-pout);
+  $('phone').style.transform=`translateY(${ty}px) rotateX(${rx}deg) rotateY(${ry}deg) scale(${sc})`;
+  $('phone').style.opacity=Math.min(1,pin*1.5)*(1-pout);
+
+  // sheen sweeps at step starts
+  const starts=[1.2,2.35,5.05,8.75,12.35,15.45,18.25];let shx=-400;
+  starts.forEach(s=>{const p=seg(t,s,s+0.8);if(p>0&&p<1)shx=-400+p*1200});
+  $('sheen').style.left=shx+'px';
+
+  // S1
+  const s1out=eio(seg(t,4.4,4.9));
+  vis($('s1'),1,`translateX(${-s1out*544}px)`); if(s1out>=1)vis($('s1'),0);
+  const press1=Math.abs(t-3.9)<0.15;
+  $('b1').style.background=press1?'#FFB45E':'#e8e4e0';
+  $('b1').style.boxShadow=(t>3.4&&t<4.4)?`0 0 ${30+20*Math.sin(t*12)}px rgba(255,180,94,.8)`:'none';
+
+  // S2
+  const s2in=eio(seg(t,4.4,4.9)), s2out=eio(seg(t,8.3,8.7));
+  if(t<4.4||t>9.2) vis($('s2'),0); else vis($('s2'),1,`translateX(${(1-s2in)*544}px)`);
+  rowsEl.forEach((r,i)=>{const a=eo(seg(t,4.8+i*0.12,5.3+i*0.12));r.style.opacity=a;r.style.transform=`translateY(${(1-a)*40}px)`;
+    const hl=i===0?eo(seg(t,7.5,7.8)):0;
+    r.style.borderColor=hl?`rgba(233,135,63,${hl})`:'#221f1d';r.style.boxShadow=hl?`0 0 ${28*hl}px rgba(233,135,63,.6)`:'none';
+    const res=r.querySelector('.res');res.style.background=(i===0&&Math.abs(t-8.25)<0.15)?'#FFB45E':'#e8e4e0';});
+
+  // floating cards burst out of phone (like the product cards)
+  const fpos=[[16,540],[624,790],[16,1170]];
+  floatEl.forEach((f,i)=>{
+    const a=back(seg(t,5.5+i*0.15,6.2+i*0.15)), b=eio(seg(t,7.2,7.6));
+    const p=a*(1-b);
+    const cx=540-220, cy=1010-95;
+    const x=cx+(fpos[i][0]-cx)*p, y=cy+(fpos[i][1]-cy)*p + Math.sin(t*2+i)*8*p;
+    f.style.left=x+'px';f.style.top=y+'px';
+    f.style.opacity=cl(p*1.3);f.style.display=p<=0.01?'none':'flex';
+    f.style.transform=`scale(${0.6+0.4*p}) rotate(${(i===1?3:-3)*p}deg)`;});
+
+  // S3 modal
+  if(t<8.4||t>17.9) vis($('s3'),0); else {
+    vis($('s3'),1);
+    const m=eo(seg(t,8.4,8.85)); $('modal').style.transform=`translateY(${(1-m)*1000}px)`; $('dim').style.opacity=m;
+    const sc1=eio(seg(t,12.3,12.9))*380 + eio(seg(t,15.45,16.0))*90;
+    $('mc').style.transform=`translateY(${-sc1}px)`;
+    typed(t,9.0,9.8,'María Pérez',$('f1'));
+    typed(t,9.95,10.75,'0414 555 0123',$('f2'));
+    typed(t,10.9,11.45,'V-12.345.678',$('f3'));
+    typed(t,11.6,12.2,'maria@gmail.com',$('f4'));
+    $('cuposT').textContent=t>=13.1?'2 cupos':'1 cupo';
+    $('cupos').className='inp'+(Math.abs(t-13.1)<0.35?' focus':'');
+    const sel=t>=13.9;
+    $('t1').style.borderColor=sel?'#E9873F':'#2d2927';$('t1').style.background=sel?'#2a1d14':'#151312';
+    $('t1').style.boxShadow=sel?'0 0 24px rgba(233,135,63,.45)':'none';
+    const pm=eo(seg(t,14.0,14.5)); $('pm').style.opacity=pm; $('pm').style.transform=`translateY(${(1-pm)*30}px)`;
+    const ck=t>=16.4; $('chk').style.background=ck?'#E9873F':'transparent';$('chk').style.borderColor=ck?'#E9873F':'#bbb';$('chk').textContent=ck?'✓':'';$('chk').style.color='#1a0d04';
+    const cf=t>16.5&&t<17.4; $('confirm').style.boxShadow=cf?`0 0 ${30+20*Math.sin(t*12)}px rgba(255,180,94,.9)`:'none';
+    $('confirm').style.background=Math.abs(t-17.05)<0.15?'#FFB45E':'#fff';
+  }
+
+  // S4 success
+  if(t<17.35||t>19.0) vis($('s4'),0); else {
+    const a=eo(seg(t,17.35,17.7)); vis($('s4'),a);
+    const c=back(seg(t,17.45,17.95)); $('okc').style.transform=`scale(${c})`;
+  }
+  // S5 whatsapp
+  if(t<18.3) vis($('s5'),0); else {
+    const a=eio(seg(t,18.3,18.75)); vis($('s5'),1,`translateY(${(1-a)*1104}px)`);
+    [['w1',18.9],['w2',19.6],['w3',20.4]].forEach(([id,s])=>{const p=back(seg(t,s,s+0.4));$(id).style.opacity=cl(p);$(id).style.transform=`scale(${0.7+0.3*p})`;$(id).style.transformOrigin=id==='w3'?'left top':'right top'});
+  }
+
+  // taps
+  taps.forEach((p,i)=>{const el=$('tp'+i);const d=t-p.t;
+    if(d<-0.35||d>0.45){el.style.display='none';return}
+    el.style.display='block';el.style.left=p.x+'px';el.style.top=p.y+'px';
+    const core=el.querySelector('.core'),ring=el.querySelector('.ring');
+    if(d<0){const a=eo(seg(d,-0.35,-0.1));core.style.opacity=a;core.style.transform=`scale(${1.3-0.3*a})`;ring.style.opacity=0}
+    else{const r=seg(d,0,0.45);core.style.opacity=1-r;core.style.transform=`scale(${0.8})`;ring.style.opacity=1-r;ring.style.transform=`scale(${0.6+1.4*eo(r)})`}});
+
+  // bar + url
+  const prog=seg(t,2.3,21.4);
+  $('barFill').style.width=(prog*100)+'%';
+  const bo=Math.min(eo(seg(t,2.0,2.5)),1-seg(t,21.2,21.6));
+  $('bar').style.opacity=bo;$('url').style.opacity=bo;
+
+  // end card
+  const e=eo(seg(t,21.8,22.6));
+  vis($('end'),e,`scale(${0.92+0.08*e})`);
+  [...$('end').children].forEach((c,i)=>{const p=eo(seg(t,21.9+i*0.15,22.5+i*0.15));c.style.opacity=p;c.style.transform=`translateY(${(1-p)*40}px)`});
+}
+window.render=render;
+render(parseFloat(new URLSearchParams(location.search).get('t')||'0'));
+</script>
+</body></html>
