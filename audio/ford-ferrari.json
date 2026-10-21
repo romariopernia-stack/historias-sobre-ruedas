@@ -1,0 +1,1152 @@
+{
+ "slug": "ford-ferrari",
+ "fondo": "carretera",
+ "duration": 53.982,
+ "scenes": [
+  {
+   "id": "hook",
+   "visual": "escena",
+   "e": {
+    "titulo": {
+     "t": "1963",
+     "at": "1963"
+    },
+    "items": [
+     {
+      "i": "persona",
+      "c": "blue",
+      "l": "FORD",
+      "at": "Ford"
+     },
+     {
+      "i": "persona",
+      "c": "red",
+      "l": "ENZO",
+      "at": "Enzo",
+      "flip": true
+     }
+    ],
+    "entre": {
+     "t": "VS",
+     "at": "plantado",
+     "c": "gold"
+    }
+   },
+   "start": 0.35,
+   "end": 6.89,
+   "words": [
+    {
+     "text": "En",
+     "color": "white",
+     "start": 0.443,
+     "end": 0.593,
+     "chunk": 0
+    },
+    {
+     "text": "1963,",
+     "color": "gold",
+     "start": 0.604,
+     "end": 1.975,
+     "chunk": 0
+    },
+    {
+     "text": "el",
+     "color": "white",
+     "start": 2.233,
+     "end": 2.383,
+     "chunk": 0
+    },
+    {
+     "text": "nieto",
+     "color": "white",
+     "start": 2.393,
+     "end": 2.672,
+     "chunk": 0
+    },
+    {
+     "text": "de",
+     "color": "white",
+     "start": 2.683,
+     "end": 2.768,
+     "chunk": 1
+    },
+    {
+     "text": "Henry",
+     "color": "white",
+     "start": 2.779,
+     "end": 3.047,
+     "chunk": 1
+    },
+    {
+     "text": "Ford",
+     "color": "white",
+     "start": 3.058,
+     "end": 3.283,
+     "chunk": 1
+    },
+    {
+     "text": "intentó",
+     "color": "white",
+     "start": 3.293,
+     "end": 3.69,
+     "chunk": 2
+    },
+    {
+     "text": "comprar",
+     "color": "white",
+     "start": 3.701,
+     "end": 4.054,
+     "chunk": 2
+    },
+    {
+     "text": "Ferrari…",
+     "color": "red",
+     "start": 4.065,
+     "end": 4.472,
+     "chunk": 3
+    },
+    {
+     "text": "y",
+     "color": "white",
+     "start": 4.73,
+     "end": 4.826,
+     "chunk": 4
+    },
+    {
+     "text": "Enzo",
+     "color": "white",
+     "start": 4.837,
+     "end": 5.083,
+     "chunk": 4
+    },
+    {
+     "text": "lo",
+     "color": "white",
+     "start": 5.094,
+     "end": 5.18,
+     "chunk": 4
+    },
+    {
+     "text": "dejó",
+     "color": "white",
+     "start": 5.19,
+     "end": 5.448,
+     "chunk": 4
+    },
+    {
+     "text": "plantado.",
+     "color": "white",
+     "start": 5.458,
+     "end": 5.973,
+     "chunk": 5
+    }
+   ]
+  },
+  {
+   "id": "trato",
+   "visual": "escena",
+   "e": {
+    "items": [
+     {
+      "i": "dinero",
+      "c": "gold",
+      "l": "EL TRATO",
+      "at": "trato"
+     }
+    ],
+    "pill": {
+     "t": "NO HAY TRATO",
+     "at": "negó",
+     "c": "red"
+    }
+   },
+   "start": 6.89,
+   "end": 15.374,
+   "words": [
+    {
+     "text": "El",
+     "color": "white",
+     "start": 6.983,
+     "end": 7.176,
+     "chunk": 0
+    },
+    {
+     "text": "trato",
+     "color": "white",
+     "start": 7.186,
+     "end": 7.454,
+     "chunk": 0
+    },
+    {
+     "text": "estaba",
+     "color": "white",
+     "start": 7.465,
+     "end": 7.765,
+     "chunk": 0
+    },
+    {
+     "text": "casi",
+     "color": "white",
+     "start": 7.776,
+     "end": 8.033,
+     "chunk": 0
+    },
+    {
+     "text": "cerrado,",
+     "color": "white",
+     "start": 8.044,
+     "end": 8.462,
+     "chunk": 1
+    },
+    {
+     "text": "pero",
+     "color": "white",
+     "start": 8.719,
+     "end": 8.901,
+     "chunk": 1
+    },
+    {
+     "text": "Enzo",
+     "color": "white",
+     "start": 8.912,
+     "end": 9.126,
+     "chunk": 1
+    },
+    {
+     "text": "se",
+     "color": "white",
+     "start": 9.137,
+     "end": 9.244,
+     "chunk": 2
+    },
+    {
+     "text": "negó",
+     "color": "white",
+     "start": 9.255,
+     "end": 9.48,
+     "chunk": 2
+    },
+    {
+     "text": "a",
+     "color": "white",
+     "start": 9.491,
+     "end": 9.533,
+     "chunk": 2
+    },
+    {
+     "text": "perder",
+     "color": "white",
+     "start": 9.544,
+     "end": 9.866,
+     "chunk": 2
+    },
+    {
+     "text": "el",
+     "color": "white",
+     "start": 9.876,
+     "end": 9.962,
+     "chunk": 3
+    },
+    {
+     "text": "control",
+     "color": "white",
+     "start": 9.973,
+     "end": 10.348,
+     "chunk": 3
+    },
+    {
+     "text": "de",
+     "color": "white",
+     "start": 10.359,
+     "end": 10.434,
+     "chunk": 3
+    },
+    {
+     "text": "su",
+     "color": "white",
+     "start": 10.444,
+     "end": 10.541,
+     "chunk": 3
+    },
+    {
+     "text": "equipo",
+     "color": "white",
+     "start": 10.552,
+     "end": 10.852,
+     "chunk": 4
+    },
+    {
+     "text": "de",
+     "color": "white",
+     "start": 10.862,
+     "end": 10.948,
+     "chunk": 4
+    },
+    {
+     "text": "carreras.",
+     "color": "white",
+     "start": 10.959,
+     "end": 11.516,
+     "chunk": 4
+    },
+    {
+     "text": "Y,",
+     "color": "white",
+     "start": 12.248,
+     "end": 12.463,
+     "chunk": 5
+    },
+    {
+     "text": "según",
+     "color": "white",
+     "start": 12.645,
+     "end": 12.934,
+     "chunk": 5
+    },
+    {
+     "text": "cuentan,",
+     "color": "white",
+     "start": 12.945,
+     "end": 13.352,
+     "chunk": 5
+    },
+    {
+     "text": "se",
+     "color": "white",
+     "start": 13.556,
+     "end": 13.695,
+     "chunk": 5
+    },
+    {
+     "text": "burló",
+     "color": "white",
+     "start": 13.706,
+     "end": 14.006,
+     "chunk": 6
+    },
+    {
+     "text": "de",
+     "color": "white",
+     "start": 14.017,
+     "end": 14.102,
+     "chunk": 6
+    },
+    {
+     "text": "Ford.",
+     "color": "white",
+     "start": 14.113,
+     "end": 14.435,
+     "chunk": 6
+    }
+   ]
+  },
+  {
+   "id": "orden",
+   "visual": "escena",
+   "e": {
+    "titulo": {
+     "t": "24 HORAS",
+     "sub": "LE MANS",
+     "at": "24"
+    },
+    "items": [
+     {
+      "i": "bandera",
+      "l": "",
+      "at": "orden"
+     }
+    ]
+   },
+   "start": 15.374,
+   "end": 23.138,
+   "words": [
+    {
+     "text": "Ford,",
+     "color": "white",
+     "start": 15.467,
+     "end": 15.767,
+     "chunk": 0
+    },
+    {
+     "text": "furioso,",
+     "color": "white",
+     "start": 15.971,
+     "end": 16.453,
+     "chunk": 0
+    },
+    {
+     "text": "dio",
+     "color": "white",
+     "start": 16.721,
+     "end": 16.86,
+     "chunk": 0
+    },
+    {
+     "text": "una",
+     "color": "white",
+     "start": 16.871,
+     "end": 17.074,
+     "chunk": 1
+    },
+    {
+     "text": "orden:",
+     "color": "white",
+     "start": 17.085,
+     "end": 17.417,
+     "chunk": 1
+    },
+    {
+     "text": "gastar",
+     "color": "white",
+     "start": 17.675,
+     "end": 18.017,
+     "chunk": 2
+    },
+    {
+     "text": "lo",
+     "color": "white",
+     "start": 18.028,
+     "end": 18.114,
+     "chunk": 2
+    },
+    {
+     "text": "que",
+     "color": "white",
+     "start": 18.125,
+     "end": 18.221,
+     "chunk": 2
+    },
+    {
+     "text": "fuera",
+     "color": "white",
+     "start": 18.232,
+     "end": 18.468,
+     "chunk": 2
+    },
+    {
+     "text": "para",
+     "color": "white",
+     "start": 18.478,
+     "end": 18.65,
+     "chunk": 3
+    },
+    {
+     "text": "vencer",
+     "color": "white",
+     "start": 18.66,
+     "end": 18.993,
+     "chunk": 3
+    },
+    {
+     "text": "a",
+     "color": "white",
+     "start": 19.003,
+     "end": 19.046,
+     "chunk": 3
+    },
+    {
+     "text": "Ferrari",
+     "color": "red",
+     "start": 19.057,
+     "end": 19.432,
+     "chunk": 4
+    },
+    {
+     "text": "en",
+     "color": "white",
+     "start": 19.443,
+     "end": 19.529,
+     "chunk": 4
+    },
+    {
+     "text": "su",
+     "color": "white",
+     "start": 19.539,
+     "end": 19.657,
+     "chunk": 4
+    },
+    {
+     "text": "propio",
+     "color": "white",
+     "start": 19.668,
+     "end": 19.979,
+     "chunk": 4
+    },
+    {
+     "text": "terreno:",
+     "color": "white",
+     "start": 19.989,
+     "end": 20.386,
+     "chunk": 5
+    },
+    {
+     "text": "las",
+     "color": "white",
+     "start": 20.654,
+     "end": 21.586,
+     "chunk": 6
+    },
+    {
+     "text": "24",
+     "color": "gold",
+     "start": 21.597,
+     "end": 21.661,
+     "chunk": 6
+    },
+    {
+     "text": "Horas",
+     "color": "gold",
+     "start": 21.672,
+     "end": 21.747,
+     "chunk": 6
+    },
+    {
+     "text": "de",
+     "color": "white",
+     "start": 21.758,
+     "end": 22.197,
+     "chunk": 6
+    },
+    {
+     "text": "Le",
+     "color": "gold",
+     "start": 22.197,
+     "end": 22.197,
+     "chunk": 7
+    },
+    {
+     "text": "Mans.",
+     "color": "gold",
+     "start": 22.197,
+     "end": 22.197,
+     "chunk": 7
+    }
+   ]
+  },
+  {
+   "id": "gt40",
+   "visual": "escena",
+   "e": {
+    "items": [
+     {
+      "i": "carrera",
+      "c": "blue",
+      "l": "GT40",
+      "at": "GT40"
+     }
+    ],
+    "mover": true
+   },
+   "start": 23.138,
+   "end": 28.766,
+   "words": [
+    {
+     "text": "Así",
+     "color": "white",
+     "start": 23.231,
+     "end": 23.499,
+     "chunk": 0
+    },
+    {
+     "text": "nació",
+     "color": "white",
+     "start": 23.51,
+     "end": 23.767,
+     "chunk": 0
+    },
+    {
+     "text": "el",
+     "color": "white",
+     "start": 23.777,
+     "end": 23.842,
+     "chunk": 0
+    },
+    {
+     "text": "GT40,",
+     "color": "gold",
+     "start": 23.852,
+     "end": 24.56,
+     "chunk": 0
+    },
+    {
+     "text": "un",
+     "color": "white",
+     "start": 24.849,
+     "end": 24.956,
+     "chunk": 1
+    },
+    {
+     "text": "auto",
+     "color": "white",
+     "start": 24.967,
+     "end": 25.181,
+     "chunk": 1
+    },
+    {
+     "text": "construido",
+     "color": "white",
+     "start": 25.192,
+     "end": 25.706,
+     "chunk": 1
+    },
+    {
+     "text": "con",
+     "color": "white",
+     "start": 25.717,
+     "end": 25.867,
+     "chunk": 2
+    },
+    {
+     "text": "un",
+     "color": "white",
+     "start": 25.878,
+     "end": 25.985,
+     "chunk": 2
+    },
+    {
+     "text": "solo",
+     "color": "white",
+     "start": 25.996,
+     "end": 26.242,
+     "chunk": 2
+    },
+    {
+     "text": "propósito:",
+     "color": "white",
+     "start": 26.253,
+     "end": 26.789,
+     "chunk": 3
+    },
+    {
+     "text": "vencer",
+     "color": "gold",
+     "start": 27.025,
+     "end": 27.357,
+     "chunk": 4
+    },
+    {
+     "text": "a",
+     "color": "white",
+     "start": 27.368,
+     "end": 27.41,
+     "chunk": 4
+    },
+    {
+     "text": "Ferrari.",
+     "color": "red",
+     "start": 27.421,
+     "end": 27.839,
+     "chunk": 4
+    }
+   ]
+  },
+  {
+   "id": "fracaso",
+   "visual": "escena",
+   "e": {
+    "items": [
+     {
+      "i": "explosion",
+      "c": "red",
+      "l": "1964 · 1965",
+      "at": "desastre"
+     }
+    ]
+   },
+   "start": 28.766,
+   "end": 34.754,
+   "words": [
+    {
+     "text": "Los",
+     "color": "white",
+     "start": 28.859,
+     "end": 29.041,
+     "chunk": 0
+    },
+    {
+     "text": "primeros",
+     "color": "white",
+     "start": 29.052,
+     "end": 29.405,
+     "chunk": 0
+    },
+    {
+     "text": "intentos",
+     "color": "white",
+     "start": 29.416,
+     "end": 29.866,
+     "chunk": 1
+    },
+    {
+     "text": "fueron",
+     "color": "white",
+     "start": 29.877,
+     "end": 30.166,
+     "chunk": 1
+    },
+    {
+     "text": "un",
+     "color": "white",
+     "start": 30.177,
+     "end": 30.274,
+     "chunk": 1
+    },
+    {
+     "text": "desastre.",
+     "color": "white",
+     "start": 30.284,
+     "end": 30.788,
+     "chunk": 2
+    },
+    {
+     "text": "Los",
+     "color": "white",
+     "start": 31.52,
+     "end": 31.702,
+     "chunk": 3
+    },
+    {
+     "text": "carros",
+     "color": "white",
+     "start": 31.713,
+     "end": 31.97,
+     "chunk": 3
+    },
+    {
+     "text": "se",
+     "color": "white",
+     "start": 31.981,
+     "end": 32.067,
+     "chunk": 3
+    },
+    {
+     "text": "rompían",
+     "color": "white",
+     "start": 32.077,
+     "end": 32.506,
+     "chunk": 4
+    },
+    {
+     "text": "antes",
+     "color": "white",
+     "start": 32.517,
+     "end": 32.785,
+     "chunk": 4
+    },
+    {
+     "text": "de",
+     "color": "white",
+     "start": 32.796,
+     "end": 32.881,
+     "chunk": 4
+    },
+    {
+     "text": "terminar",
+     "color": "white",
+     "start": 32.892,
+     "end": 33.288,
+     "chunk": 5
+    },
+    {
+     "text": "la",
+     "color": "white",
+     "start": 33.299,
+     "end": 33.374,
+     "chunk": 5
+    },
+    {
+     "text": "carrera.",
+     "color": "white",
+     "start": 33.385,
+     "end": 33.814,
+     "chunk": 5
+    }
+   ]
+  },
+  {
+   "id": "victoria",
+   "visual": "escena",
+   "e": {
+    "titulo": {
+     "t": "1966",
+     "at": "1966"
+    },
+    "items": [
+     {
+      "i": "carrera",
+      "c": "blue",
+      "at": "ganó"
+     },
+     {
+      "i": "carrera",
+      "c": "blue",
+      "at": "segundo"
+     },
+     {
+      "i": "carrera",
+      "c": "blue",
+      "at": "tercer"
+     }
+    ],
+    "pill": {
+     "t": "1° · 2° · 3°",
+     "at": "tercer"
+    },
+    "mover": true
+   },
+   "start": 34.754,
+   "end": 42.974,
+   "words": [
+    {
+     "text": "Pero",
+     "color": "white",
+     "start": 34.847,
+     "end": 35.04,
+     "chunk": 0
+    },
+    {
+     "text": "en",
+     "color": "white",
+     "start": 35.051,
+     "end": 35.115,
+     "chunk": 0
+    },
+    {
+     "text": "1966,",
+     "color": "gold",
+     "start": 35.126,
+     "end": 36.444,
+     "chunk": 0
+    },
+    {
+     "text": "Ford",
+     "color": "white",
+     "start": 36.658,
+     "end": 36.883,
+     "chunk": 0
+    },
+    {
+     "text": "no",
+     "color": "white",
+     "start": 36.894,
+     "end": 37.044,
+     "chunk": 1
+    },
+    {
+     "text": "solo",
+     "color": "white",
+     "start": 37.055,
+     "end": 37.322,
+     "chunk": 1
+    },
+    {
+     "text": "ganó",
+     "color": "white",
+     "start": 37.333,
+     "end": 37.569,
+     "chunk": 1
+    },
+    {
+     "text": "Le",
+     "color": "white",
+     "start": 37.58,
+     "end": 37.676,
+     "chunk": 1
+    },
+    {
+     "text": "Mans.",
+     "color": "white",
+     "start": 37.687,
+     "end": 38.126,
+     "chunk": 2
+    },
+    {
+     "text": "Sus",
+     "color": "white",
+     "start": 38.859,
+     "end": 39.105,
+     "chunk": 3
+    },
+    {
+     "text": "carros",
+     "color": "white",
+     "start": 39.116,
+     "end": 39.416,
+     "chunk": 3
+    },
+    {
+     "text": "cruzaron",
+     "color": "white",
+     "start": 39.427,
+     "end": 39.823,
+     "chunk": 3
+    },
+    {
+     "text": "la",
+     "color": "white",
+     "start": 39.834,
+     "end": 39.909,
+     "chunk": 4
+    },
+    {
+     "text": "meta",
+     "color": "white",
+     "start": 39.919,
+     "end": 40.145,
+     "chunk": 4
+    },
+    {
+     "text": "en",
+     "color": "white",
+     "start": 40.155,
+     "end": 40.22,
+     "chunk": 4
+    },
+    {
+     "text": "primero,",
+     "color": "gold",
+     "start": 40.23,
+     "end": 40.616,
+     "chunk": 4
+    },
+    {
+     "text": "segundo",
+     "color": "gold",
+     "start": 40.852,
+     "end": 41.227,
+     "chunk": 5
+    },
+    {
+     "text": "y",
+     "color": "gold",
+     "start": 41.238,
+     "end": 41.291,
+     "chunk": 5
+    },
+    {
+     "text": "tercer",
+     "color": "gold",
+     "start": 41.302,
+     "end": 41.656,
+     "chunk": 5
+    },
+    {
+     "text": "lugar.",
+     "color": "white",
+     "start": 41.666,
+     "end": 42.031,
+     "chunk": 6
+    }
+   ]
+  },
+  {
+   "id": "leccion",
+   "visual": "escena",
+   "e": {
+    "items": [
+     {
+      "i": "trofeo",
+      "c": "gold",
+      "l": "1966 – 1969",
+      "at": "cuatro"
+     }
+    ]
+   },
+   "start": 42.974,
+   "end": 48.938,
+   "words": [
+    {
+     "text": "Ford",
+     "color": "white",
+     "start": 43.067,
+     "end": 43.346,
+     "chunk": 0
+    },
+    {
+     "text": "ganó",
+     "color": "white",
+     "start": 43.356,
+     "end": 43.592,
+     "chunk": 0
+    },
+    {
+     "text": "Le",
+     "color": "white",
+     "start": 43.603,
+     "end": 43.699,
+     "chunk": 0
+    },
+    {
+     "text": "Mans",
+     "color": "white",
+     "start": 43.71,
+     "end": 44.021,
+     "chunk": 0
+    },
+    {
+     "text": "cuatro",
+     "color": "gold",
+     "start": 44.031,
+     "end": 44.374,
+     "chunk": 1
+    },
+    {
+     "text": "años",
+     "color": "white",
+     "start": 44.385,
+     "end": 44.599,
+     "chunk": 1
+    },
+    {
+     "text": "seguidos.",
+     "color": "white",
+     "start": 44.61,
+     "end": 45.146,
+     "chunk": 2
+    },
+    {
+     "text": "Y",
+     "color": "white",
+     "start": 45.878,
+     "end": 46.007,
+     "chunk": 3
+    },
+    {
+     "text": "todo",
+     "color": "white",
+     "start": 46.018,
+     "end": 46.21,
+     "chunk": 3
+    },
+    {
+     "text": "empezó",
+     "color": "white",
+     "start": 46.221,
+     "end": 46.553,
+     "chunk": 3
+    },
+    {
+     "text": "con",
+     "color": "white",
+     "start": 46.564,
+     "end": 46.714,
+     "chunk": 3
+    },
+    {
+     "text": "un",
+     "color": "white",
+     "start": 46.725,
+     "end": 46.811,
+     "chunk": 4
+    },
+    {
+     "text": "negocio",
+     "color": "white",
+     "start": 46.821,
+     "end": 47.229,
+     "chunk": 4
+    },
+    {
+     "text": "que",
+     "color": "white",
+     "start": 47.239,
+     "end": 47.346,
+     "chunk": 4
+    },
+    {
+     "text": "no",
+     "color": "white",
+     "start": 47.357,
+     "end": 47.507,
+     "chunk": 4
+    },
+    {
+     "text": "se",
+     "color": "white",
+     "start": 47.518,
+     "end": 47.636,
+     "chunk": 5
+    },
+    {
+     "text": "cerró.",
+     "color": "white",
+     "start": 47.647,
+     "end": 48.011,
+     "chunk": 5
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "visual": "cta",
+   "e": {},
+   "start": 48.938,
+   "end": 53.982,
+   "words": [
+    {
+     "text": "Sígueme",
+     "color": "white",
+     "start": 49.031,
+     "end": 49.449,
+     "chunk": 0
+    },
+    {
+     "text": "para",
+     "color": "white",
+     "start": 49.46,
+     "end": 49.642,
+     "chunk": 0
+    },
+    {
+     "text": "más",
+     "color": "white",
+     "start": 49.653,
+     "end": 49.856,
+     "chunk": 0
+    },
+    {
+     "text": "historias",
+     "color": "white",
+     "start": 49.867,
+     "end": 50.296,
+     "chunk": 1
+    },
+    {
+     "text": "de",
+     "color": "white",
+     "start": 50.306,
+     "end": 50.371,
+     "chunk": 1
+    },
+    {
+     "text": "las",
+     "color": "white",
+     "start": 50.381,
+     "end": 50.531,
+     "chunk": 1
+    },
+    {
+     "text": "marcas",
+     "color": "white",
+     "start": 50.542,
+     "end": 50.874,
+     "chunk": 2
+    },
+    {
+     "text": "que",
+     "color": "white",
+     "start": 50.885,
+     "end": 50.971,
+     "chunk": 2
+    },
+    {
+     "text": "admiras.",
+     "color": "white",
+     "start": 50.981,
+     "end": 51.464,
+     "chunk": 2
+    }
+   ]
+  }
+ ]
+}

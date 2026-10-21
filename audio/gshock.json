@@ -1,0 +1,1246 @@
+{
+ "slug": "gshock",
+ "fondo": "rejilla",
+ "duration": 57.808,
+ "scenes": [
+  {
+   "id": "hook",
+   "visual": "escena",
+   "e": {
+    "items": [
+     {
+      "i": "edificio",
+      "c": "grey",
+      "at": "ventana"
+     },
+     {
+      "i": "digital",
+      "c": "gold",
+      "at": "reloj"
+     }
+    ]
+   },
+   "start": 0.35,
+   "end": 4.882,
+   "words": [
+    {
+     "text": "El",
+     "color": "white",
+     "start": 0.35,
+     "end": 0.528,
+     "chunk": 0
+    },
+    {
+     "text": "reloj",
+     "color": "white",
+     "start": 0.528,
+     "end": 0.86,
+     "chunk": 0
+    },
+    {
+     "text": "más",
+     "color": "white",
+     "start": 0.86,
+     "end": 1.089,
+     "chunk": 0
+    },
+    {
+     "text": "resistente",
+     "color": "white",
+     "start": 1.089,
+     "end": 1.676,
+     "chunk": 1
+    },
+    {
+     "text": "del",
+     "color": "white",
+     "start": 1.676,
+     "end": 1.905,
+     "chunk": 1
+    },
+    {
+     "text": "mundo",
+     "color": "white",
+     "start": 1.905,
+     "end": 2.237,
+     "chunk": 1
+    },
+    {
+     "text": "nació",
+     "color": "white",
+     "start": 2.237,
+     "end": 2.568,
+     "chunk": 2
+    },
+    {
+     "text": "tirándolo",
+     "color": "white",
+     "start": 2.568,
+     "end": 3.103,
+     "chunk": 2
+    },
+    {
+     "text": "por",
+     "color": "white",
+     "start": 3.103,
+     "end": 3.333,
+     "chunk": 2
+    },
+    {
+     "text": "la",
+     "color": "white",
+     "start": 3.333,
+     "end": 3.511,
+     "chunk": 3
+    },
+    {
+     "text": "ventana",
+     "color": "white",
+     "start": 3.511,
+     "end": 3.945,
+     "chunk": 3
+    },
+    {
+     "text": "de",
+     "color": "white",
+     "start": 3.945,
+     "end": 4.123,
+     "chunk": 3
+    },
+    {
+     "text": "un",
+     "color": "white",
+     "start": 4.123,
+     "end": 4.302,
+     "chunk": 3
+    },
+    {
+     "text": "baño.",
+     "color": "white",
+     "start": 4.302,
+     "end": 4.582,
+     "chunk": 4
+    }
+   ]
+  },
+  {
+   "id": "ibe",
+   "visual": "escena",
+   "e": {
+    "items": [
+     {
+      "i": "persona",
+      "c": "gold",
+      "l": "KIKUO IBE",
+      "at": "Kikuo"
+     }
+    ],
+    "pill": {
+     "t": "CASIO",
+     "at": "Casio"
+    }
+   },
+   "start": 4.882,
+   "end": 12.508,
+   "words": [
+    {
+     "text": "Japón,",
+     "color": "white",
+     "start": 4.882,
+     "end": 5.548,
+     "chunk": 0
+    },
+    {
+     "text": "Casio.",
+     "color": "gold",
+     "start": 5.648,
+     "end": 6.192,
+     "chunk": 0
+    },
+    {
+     "text": "Un",
+     "color": "white",
+     "start": 6.492,
+     "end": 6.681,
+     "chunk": 1
+    },
+    {
+     "text": "ingeniero",
+     "color": "white",
+     "start": 6.681,
+     "end": 7.247,
+     "chunk": 1
+    },
+    {
+     "text": "llamado",
+     "color": "white",
+     "start": 7.247,
+     "end": 7.706,
+     "chunk": 1
+    },
+    {
+     "text": "Kikuo",
+     "color": "gold",
+     "start": 7.706,
+     "end": 8.056,
+     "chunk": 2
+    },
+    {
+     "text": "Ibe",
+     "color": "gold",
+     "start": 8.056,
+     "end": 8.299,
+     "chunk": 2
+    },
+    {
+     "text": "estaba",
+     "color": "white",
+     "start": 8.299,
+     "end": 8.703,
+     "chunk": 2
+    },
+    {
+     "text": "cansado",
+     "color": "white",
+     "start": 8.703,
+     "end": 9.162,
+     "chunk": 3
+    },
+    {
+     "text": "de",
+     "color": "white",
+     "start": 9.162,
+     "end": 9.35,
+     "chunk": 3
+    },
+    {
+     "text": "que",
+     "color": "white",
+     "start": 9.35,
+     "end": 9.593,
+     "chunk": 3
+    },
+    {
+     "text": "los",
+     "color": "white",
+     "start": 9.593,
+     "end": 9.836,
+     "chunk": 3
+    },
+    {
+     "text": "relojes",
+     "color": "white",
+     "start": 9.836,
+     "end": 10.294,
+     "chunk": 4
+    },
+    {
+     "text": "se",
+     "color": "white",
+     "start": 10.294,
+     "end": 10.483,
+     "chunk": 4
+    },
+    {
+     "text": "rompieran",
+     "color": "white",
+     "start": 10.483,
+     "end": 11.049,
+     "chunk": 4
+    },
+    {
+     "text": "con",
+     "color": "white",
+     "start": 11.049,
+     "end": 11.292,
+     "chunk": 5
+    },
+    {
+     "text": "cualquier",
+     "color": "white",
+     "start": 11.292,
+     "end": 11.858,
+     "chunk": 5
+    },
+    {
+     "text": "golpe.",
+     "color": "white",
+     "start": 11.858,
+     "end": 12.208,
+     "chunk": 5
+    }
+   ]
+  },
+  {
+   "id": "reto",
+   "visual": "escena",
+   "e": {
+    "titulo": {
+     "t": "10 · 10 · 10",
+     "sub": "CAÍDA · AGUA · BATERÍA",
+     "at": "imposible"
+    },
+    "items": [
+     {
+      "i": "digital",
+      "c": "gold",
+      "at": "caída"
+     }
+    ]
+   },
+   "start": 12.508,
+   "end": 21.289,
+   "words": [
+    {
+     "text": "Se",
+     "color": "white",
+     "start": 12.508,
+     "end": 12.707,
+     "chunk": 0
+    },
+    {
+     "text": "propuso",
+     "color": "white",
+     "start": 12.707,
+     "end": 13.19,
+     "chunk": 0
+    },
+    {
+     "text": "algo",
+     "color": "white",
+     "start": 13.19,
+     "end": 13.502,
+     "chunk": 0
+    },
+    {
+     "text": "que",
+     "color": "white",
+     "start": 13.502,
+     "end": 13.757,
+     "chunk": 0
+    },
+    {
+     "text": "parecía",
+     "color": "white",
+     "start": 13.757,
+     "end": 14.24,
+     "chunk": 1
+    },
+    {
+     "text": "imposible:",
+     "color": "white",
+     "start": 14.24,
+     "end": 14.836,
+     "chunk": 1
+    },
+    {
+     "text": "un",
+     "color": "white",
+     "start": 15.036,
+     "end": 15.225,
+     "chunk": 2
+    },
+    {
+     "text": "reloj",
+     "color": "white",
+     "start": 15.225,
+     "end": 15.576,
+     "chunk": 2
+    },
+    {
+     "text": "que",
+     "color": "white",
+     "start": 15.576,
+     "end": 15.819,
+     "chunk": 2
+    },
+    {
+     "text": "aguantara",
+     "color": "white",
+     "start": 15.819,
+     "end": 16.385,
+     "chunk": 3
+    },
+    {
+     "text": "una",
+     "color": "white",
+     "start": 16.385,
+     "end": 16.628,
+     "chunk": 3
+    },
+    {
+     "text": "caída",
+     "color": "white",
+     "start": 16.628,
+     "end": 16.979,
+     "chunk": 3
+    },
+    {
+     "text": "de",
+     "color": "white",
+     "start": 16.979,
+     "end": 17.168,
+     "chunk": 4
+    },
+    {
+     "text": "10",
+     "color": "gold",
+     "start": 17.168,
+     "end": 17.357,
+     "chunk": 4
+    },
+    {
+     "text": "metros,",
+     "color": "white",
+     "start": 17.357,
+     "end": 17.762,
+     "chunk": 4
+    },
+    {
+     "text": "resistiera",
+     "color": "white",
+     "start": 17.862,
+     "end": 18.522,
+     "chunk": 5
+    },
+    {
+     "text": "el",
+     "color": "white",
+     "start": 18.522,
+     "end": 18.722,
+     "chunk": 5
+    },
+    {
+     "text": "agua",
+     "color": "white",
+     "start": 18.722,
+     "end": 19.038,
+     "chunk": 5
+    },
+    {
+     "text": "y",
+     "color": "white",
+     "start": 19.038,
+     "end": 19.182,
+     "chunk": 5
+    },
+    {
+     "text": "tuviera",
+     "color": "white",
+     "start": 19.182,
+     "end": 19.669,
+     "chunk": 6
+    },
+    {
+     "text": "batería",
+     "color": "white",
+     "start": 19.669,
+     "end": 20.157,
+     "chunk": 6
+    },
+    {
+     "text": "para",
+     "color": "white",
+     "start": 20.157,
+     "end": 20.473,
+     "chunk": 6
+    },
+    {
+     "text": "10",
+     "color": "gold",
+     "start": 20.473,
+     "end": 20.674,
+     "chunk": 7
+    },
+    {
+     "text": "años.",
+     "color": "white",
+     "start": 20.674,
+     "end": 20.989,
+     "chunk": 7
+    }
+   ]
+  },
+  {
+   "id": "prueba",
+   "visual": "escena",
+   "e": {
+    "items": [
+     {
+      "i": "edificio",
+      "c": "grey",
+      "l": "3er PISO",
+      "at": "ventana"
+     },
+     {
+      "i": "digital",
+      "c": "red",
+      "l": "PROTOTIPO",
+      "at": "prototipos"
+     }
+    ]
+   },
+   "start": 21.289,
+   "end": 26.208,
+   "words": [
+    {
+     "text": "Para",
+     "color": "white",
+     "start": 21.289,
+     "end": 21.587,
+     "chunk": 0
+    },
+    {
+     "text": "probarlo,",
+     "color": "white",
+     "start": 21.587,
+     "end": 22.101,
+     "chunk": 0
+    },
+    {
+     "text": "lanzaba",
+     "color": "white",
+     "start": 22.201,
+     "end": 22.661,
+     "chunk": 1
+    },
+    {
+     "text": "prototipos",
+     "color": "white",
+     "start": 22.661,
+     "end": 23.283,
+     "chunk": 1
+    },
+    {
+     "text": "desde",
+     "color": "white",
+     "start": 23.283,
+     "end": 23.635,
+     "chunk": 2
+    },
+    {
+     "text": "la",
+     "color": "white",
+     "start": 23.635,
+     "end": 23.824,
+     "chunk": 2
+    },
+    {
+     "text": "ventana",
+     "color": "white",
+     "start": 23.824,
+     "end": 24.284,
+     "chunk": 2
+    },
+    {
+     "text": "del",
+     "color": "white",
+     "start": 24.284,
+     "end": 24.528,
+     "chunk": 2
+    },
+    {
+     "text": "baño",
+     "color": "white",
+     "start": 24.528,
+     "end": 24.825,
+     "chunk": 3
+    },
+    {
+     "text": "de",
+     "color": "white",
+     "start": 24.825,
+     "end": 25.015,
+     "chunk": 3
+    },
+    {
+     "text": "un",
+     "color": "white",
+     "start": 25.015,
+     "end": 25.204,
+     "chunk": 3
+    },
+    {
+     "text": "tercer",
+     "color": "white",
+     "start": 25.204,
+     "end": 25.61,
+     "chunk": 3
+    },
+    {
+     "text": "piso.",
+     "color": "white",
+     "start": 25.61,
+     "end": 25.908,
+     "chunk": 4
+    }
+   ]
+  },
+  {
+   "id": "fracaso",
+   "visual": "escena",
+   "e": {
+    "titulo": {
+     "t": "+200",
+     "sub": "PROTOTIPOS ROTOS",
+     "at": "200",
+     "c": "red"
+    },
+    "items": [
+     {
+      "i": "explosion",
+      "c": "red",
+      "at": "destrozados"
+     }
+    ]
+   },
+   "start": 26.208,
+   "end": 32.509,
+   "words": [
+    {
+     "text": "Pasaron",
+     "color": "white",
+     "start": 26.208,
+     "end": 26.738,
+     "chunk": 0
+    },
+    {
+     "text": "dos",
+     "color": "white",
+     "start": 26.738,
+     "end": 27.019,
+     "chunk": 0
+    },
+    {
+     "text": "años",
+     "color": "white",
+     "start": 27.019,
+     "end": 27.362,
+     "chunk": 0
+    },
+    {
+     "text": "y",
+     "color": "white",
+     "start": 27.362,
+     "end": 27.518,
+     "chunk": 0
+    },
+    {
+     "text": "más",
+     "color": "white",
+     "start": 27.518,
+     "end": 27.799,
+     "chunk": 1
+    },
+    {
+     "text": "de",
+     "color": "white",
+     "start": 27.799,
+     "end": 28.018,
+     "chunk": 1
+    },
+    {
+     "text": "200",
+     "color": "gold",
+     "start": 28.018,
+     "end": 28.298,
+     "chunk": 1
+    },
+    {
+     "text": "prototipos",
+     "color": "white",
+     "start": 28.298,
+     "end": 29.016,
+     "chunk": 2
+    },
+    {
+     "text": "destrozados.",
+     "color": "white",
+     "start": 29.016,
+     "end": 29.796,
+     "chunk": 3
+    },
+    {
+     "text": "Ibe",
+     "color": "white",
+     "start": 30.096,
+     "end": 30.376,
+     "chunk": 4
+    },
+    {
+     "text": "estaba",
+     "color": "white",
+     "start": 30.376,
+     "end": 30.842,
+     "chunk": 4
+    },
+    {
+     "text": "a",
+     "color": "white",
+     "start": 30.842,
+     "end": 30.997,
+     "chunk": 4
+    },
+    {
+     "text": "punto",
+     "color": "white",
+     "start": 30.997,
+     "end": 31.401,
+     "chunk": 4
+    },
+    {
+     "text": "de",
+     "color": "white",
+     "start": 31.401,
+     "end": 31.618,
+     "chunk": 5
+    },
+    {
+     "text": "rendirse.",
+     "color": "white",
+     "start": 31.618,
+     "end": 32.209,
+     "chunk": 5
+    }
+   ]
+  },
+  {
+   "id": "idea",
+   "visual": "escena",
+   "e": {
+    "items": [
+     {
+      "i": "pelota",
+      "c": "red",
+      "l": "PELOTA DE GOMA",
+      "at": "pelota"
+     },
+     {
+      "i": "idea",
+      "c": "gold",
+      "l": "FLOTANTE",
+      "at": "idea"
+     }
+    ]
+   },
+   "start": 32.509,
+   "end": 43.374,
+   "words": [
+    {
+     "text": "Entonces,",
+     "color": "white",
+     "start": 32.509,
+     "end": 33.21,
+     "chunk": 0
+    },
+    {
+     "text": "en",
+     "color": "white",
+     "start": 33.31,
+     "end": 33.519,
+     "chunk": 0
+    },
+    {
+     "text": "un",
+     "color": "white",
+     "start": 33.519,
+     "end": 33.728,
+     "chunk": 0
+    },
+    {
+     "text": "parque,",
+     "color": "white",
+     "start": 33.728,
+     "end": 34.175,
+     "chunk": 1
+    },
+    {
+     "text": "vio",
+     "color": "white",
+     "start": 34.275,
+     "end": 34.503,
+     "chunk": 1
+    },
+    {
+     "text": "a",
+     "color": "white",
+     "start": 34.503,
+     "end": 34.63,
+     "chunk": 1
+    },
+    {
+     "text": "unos",
+     "color": "white",
+     "start": 34.63,
+     "end": 34.909,
+     "chunk": 1
+    },
+    {
+     "text": "niños",
+     "color": "white",
+     "start": 34.909,
+     "end": 35.239,
+     "chunk": 2
+    },
+    {
+     "text": "jugando",
+     "color": "white",
+     "start": 35.239,
+     "end": 35.67,
+     "chunk": 2
+    },
+    {
+     "text": "con",
+     "color": "white",
+     "start": 35.67,
+     "end": 35.898,
+     "chunk": 2
+    },
+    {
+     "text": "una",
+     "color": "white",
+     "start": 35.898,
+     "end": 36.126,
+     "chunk": 3
+    },
+    {
+     "text": "pelota",
+     "color": "white",
+     "start": 36.126,
+     "end": 36.506,
+     "chunk": 3
+    },
+    {
+     "text": "de",
+     "color": "white",
+     "start": 36.506,
+     "end": 36.684,
+     "chunk": 3
+    },
+    {
+     "text": "goma…",
+     "color": "white",
+     "start": 36.684,
+     "end": 36.963,
+     "chunk": 3
+    },
+    {
+     "text": "y",
+     "color": "white",
+     "start": 37.413,
+     "end": 37.54,
+     "chunk": 4
+    },
+    {
+     "text": "tuvo",
+     "color": "white",
+     "start": 37.54,
+     "end": 37.819,
+     "chunk": 4
+    },
+    {
+     "text": "la",
+     "color": "white",
+     "start": 37.819,
+     "end": 37.997,
+     "chunk": 4
+    },
+    {
+     "text": "idea:",
+     "color": "white",
+     "start": 37.997,
+     "end": 38.277,
+     "chunk": 4
+    },
+    {
+     "text": "dejar",
+     "color": "white",
+     "start": 38.477,
+     "end": 38.806,
+     "chunk": 5
+    },
+    {
+     "text": "el",
+     "color": "white",
+     "start": 38.806,
+     "end": 38.983,
+     "chunk": 5
+    },
+    {
+     "text": "corazón",
+     "color": "white",
+     "start": 38.983,
+     "end": 39.412,
+     "chunk": 5
+    },
+    {
+     "text": "del",
+     "color": "white",
+     "start": 39.412,
+     "end": 39.64,
+     "chunk": 5
+    },
+    {
+     "text": "reloj",
+     "color": "white",
+     "start": 39.64,
+     "end": 39.969,
+     "chunk": 6
+    },
+    {
+     "text": "flotando",
+     "color": "gold",
+     "start": 39.969,
+     "end": 40.449,
+     "chunk": 6
+    },
+    {
+     "text": "por",
+     "color": "white",
+     "start": 40.449,
+     "end": 40.677,
+     "chunk": 6
+    },
+    {
+     "text": "dentro,",
+     "color": "white",
+     "start": 40.677,
+     "end": 41.056,
+     "chunk": 7
+    },
+    {
+     "text": "para",
+     "color": "white",
+     "start": 41.156,
+     "end": 41.471,
+     "chunk": 7
+    },
+    {
+     "text": "que",
+     "color": "white",
+     "start": 41.471,
+     "end": 41.729,
+     "chunk": 7
+    },
+    {
+     "text": "absorbiera",
+     "color": "white",
+     "start": 41.729,
+     "end": 42.387,
+     "chunk": 8
+    },
+    {
+     "text": "los",
+     "color": "white",
+     "start": 42.387,
+     "end": 42.645,
+     "chunk": 8
+    },
+    {
+     "text": "golpes.",
+     "color": "white",
+     "start": 42.645,
+     "end": 43.074,
+     "chunk": 9
+    }
+   ]
+  },
+  {
+   "id": "exito",
+   "visual": "escena",
+   "e": {
+    "titulo": {
+     "t": "1983",
+     "sub": "PRIMER G-SHOCK",
+     "at": "1983"
+    },
+    "items": [
+     {
+      "i": "digital",
+      "c": "gold",
+      "at": "Shock"
+     }
+    ],
+    "pill": {
+     "t": "+100 MILLONES",
+     "at": "millones"
+    }
+   },
+   "start": 43.374,
+   "end": 49.872,
+   "words": [
+    {
+     "text": "En",
+     "color": "white",
+     "start": 43.374,
+     "end": 43.668,
+     "chunk": 0
+    },
+    {
+     "text": "1983",
+     "color": "gold",
+     "start": 43.668,
+     "end": 44.131,
+     "chunk": 0
+    },
+    {
+     "text": "salió",
+     "color": "white",
+     "start": 44.131,
+     "end": 44.677,
+     "chunk": 0
+    },
+    {
+     "text": "a",
+     "color": "white",
+     "start": 44.677,
+     "end": 44.888,
+     "chunk": 0
+    },
+    {
+     "text": "la",
+     "color": "white",
+     "start": 44.888,
+     "end": 45.182,
+     "chunk": 1
+    },
+    {
+     "text": "venta",
+     "color": "white",
+     "start": 45.182,
+     "end": 45.729,
+     "chunk": 1
+    },
+    {
+     "text": "el",
+     "color": "white",
+     "start": 45.729,
+     "end": 46.023,
+     "chunk": 1
+    },
+    {
+     "text": "primer",
+     "color": "white",
+     "start": 46.023,
+     "end": 46.653,
+     "chunk": 1
+    },
+    {
+     "text": "G-Shock.",
+     "color": "gold",
+     "start": 46.653,
+     "end": 47.284,
+     "chunk": 2
+    },
+    {
+     "text": "Hoy",
+     "color": "white",
+     "start": 47.584,
+     "end": 47.787,
+     "chunk": 3
+    },
+    {
+     "text": "se",
+     "color": "white",
+     "start": 47.787,
+     "end": 47.946,
+     "chunk": 3
+    },
+    {
+     "text": "han",
+     "color": "white",
+     "start": 47.946,
+     "end": 48.149,
+     "chunk": 3
+    },
+    {
+     "text": "vendido",
+     "color": "white",
+     "start": 48.149,
+     "end": 48.533,
+     "chunk": 3
+    },
+    {
+     "text": "más",
+     "color": "white",
+     "start": 48.533,
+     "end": 48.736,
+     "chunk": 4
+    },
+    {
+     "text": "de",
+     "color": "white",
+     "start": 48.736,
+     "end": 48.895,
+     "chunk": 4
+    },
+    {
+     "text": "cien",
+     "color": "gold",
+     "start": 48.895,
+     "end": 49.143,
+     "chunk": 4
+    },
+    {
+     "text": "millones.",
+     "color": "gold",
+     "start": 49.143,
+     "end": 49.572,
+     "chunk": 5
+    }
+   ]
+  },
+  {
+   "id": "leccion",
+   "visual": "escena",
+   "e": {
+    "items": [
+     {
+      "i": "idea",
+      "c": "gold",
+      "at": "solución"
+     }
+    ]
+   },
+   "start": 49.872,
+   "end": 52.888,
+   "words": [
+    {
+     "text": "A",
+     "color": "white",
+     "start": 49.872,
+     "end": 49.995,
+     "chunk": 0
+    },
+    {
+     "text": "veces",
+     "color": "white",
+     "start": 49.995,
+     "end": 50.313,
+     "chunk": 0
+    },
+    {
+     "text": "la",
+     "color": "white",
+     "start": 50.313,
+     "end": 50.484,
+     "chunk": 0
+    },
+    {
+     "text": "solución",
+     "color": "white",
+     "start": 50.484,
+     "end": 50.949,
+     "chunk": 0
+    },
+    {
+     "text": "llega",
+     "color": "white",
+     "start": 50.949,
+     "end": 51.267,
+     "chunk": 1
+    },
+    {
+     "text": "cuando",
+     "color": "white",
+     "start": 51.267,
+     "end": 51.634,
+     "chunk": 1
+    },
+    {
+     "text": "dejas",
+     "color": "white",
+     "start": 51.634,
+     "end": 51.952,
+     "chunk": 1
+    },
+    {
+     "text": "de",
+     "color": "white",
+     "start": 51.952,
+     "end": 52.123,
+     "chunk": 2
+    },
+    {
+     "text": "buscarla.",
+     "color": "white",
+     "start": 52.123,
+     "end": 52.588,
+     "chunk": 2
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "visual": "cta",
+   "e": {},
+   "start": 52.888,
+   "end": 57.808,
+   "words": [
+    {
+     "text": "Sígueme",
+     "color": "white",
+     "start": 52.888,
+     "end": 53.334,
+     "chunk": 0
+    },
+    {
+     "text": "para",
+     "color": "white",
+     "start": 53.334,
+     "end": 53.623,
+     "chunk": 0
+    },
+    {
+     "text": "más",
+     "color": "white",
+     "start": 53.623,
+     "end": 53.859,
+     "chunk": 0
+    },
+    {
+     "text": "historias",
+     "color": "white",
+     "start": 53.859,
+     "end": 54.411,
+     "chunk": 1
+    },
+    {
+     "text": "de",
+     "color": "white",
+     "start": 54.411,
+     "end": 54.595,
+     "chunk": 1
+    },
+    {
+     "text": "las",
+     "color": "white",
+     "start": 54.595,
+     "end": 54.831,
+     "chunk": 1
+    },
+    {
+     "text": "marcas",
+     "color": "white",
+     "start": 54.831,
+     "end": 55.225,
+     "chunk": 2
+    },
+    {
+     "text": "que",
+     "color": "white",
+     "start": 55.225,
+     "end": 55.461,
+     "chunk": 2
+    },
+    {
+     "text": "admiras.",
+     "color": "white",
+     "start": 55.461,
+     "end": 55.908,
+     "chunk": 2
+    }
+   ]
+  }
+ ]
+}
