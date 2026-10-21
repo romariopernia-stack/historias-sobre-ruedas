@@ -5,7 +5,7 @@ import {AbsoluteFill, Sequence, interpolate, random, staticFile, useCurrentFrame
 import {BRAND, H, HORIZON, W} from './brand';
 import {SceneData, VISUALS, Word} from './scenes';
 
-export type StoryData = {slug: string; duration: number; scenes: SceneData[]};
+export type StoryData = {slug: string; fondo?: string; duration: number; scenes: SceneData[]};
 
 // ------------------------------------------------ fondo
 const Particles: React.FC = () => {
@@ -31,7 +31,7 @@ const Particles: React.FC = () => {
   );
 };
 
-const Road: React.FC<{offset: number}> = ({offset}) => {
+const Road: React.FC<{offset: number; grid?: boolean}> = ({offset, grid}) => {
   const vx = W / 2;
   const project = (z: number) => HORIZON + 260 / z; // z: distancia
   const dashes = [];
@@ -56,11 +56,16 @@ const Road: React.FC<{offset: number}> = ({offset}) => {
         </linearGradient>
       </defs>
       <rect x={0} y={HORIZON - 260} width={W} height={260} fill="url(#hz)" />
-      <path d={`M${vx - 60},${HORIZON} L${vx + 60},${HORIZON} L${W + 900},${H} L${-900},${H} Z`} fill="url(#road)" />
+      {!grid && <path d={`M${vx - 60},${HORIZON} L${vx + 60},${HORIZON} L${W + 900},${H} L${-900},${H} Z`} fill="url(#road)" />}
       <path d={`M${vx - 60},${HORIZON} L${-900},${H}`} stroke={BRAND.gold} strokeOpacity={0.35} strokeWidth={4} />
       <path d={`M${vx + 60},${HORIZON} L${W + 900},${H}`} stroke={BRAND.gold} strokeOpacity={0.35} strokeWidth={4} />
       <line x1={0} y1={HORIZON} x2={W} y2={HORIZON} stroke={BRAND.gold} strokeOpacity={0.25} strokeWidth={2} />
-      {dashes}
+      {grid ? (
+        <g stroke={BRAND.gold} strokeOpacity={0.18} strokeWidth={2}>
+          {Array.from({length: 15}).map((_, i) => <line key={'v' + i} x1={vx + (i - 7) * 40} y1={HORIZON} x2={vx + (i - 7) * 520} y2={H} />)}
+          {Array.from({length: 10}).map((_, k) => { const z = 0.35 + ((k * 0.8 - offset) % 8 + 8) % 8; const y = HORIZON + 260 / z; return y < H ? <line key={'h' + k} x1={0} y1={y} x2={W} y2={y} strokeOpacity={Math.min(0.3, 0.08 + 0.2 / z)} /> : null; })}
+        </g>
+      ) : dashes}
     </svg>
   );
 };
@@ -128,7 +133,7 @@ export const Story: React.FC<{data: StoryData}> = ({data}) => {
   const intro = interpolate(t, [0, 0.6], [0, 1], {extrapolateRight: 'clamp'});
   return (
     <AbsoluteFill style={{background: `linear-gradient(180deg, ${BRAND.bgTop} 0%, ${BRAND.bgBottom} 68%, #0a0e18 100%)`}}>
-      <Road offset={offset} />
+      <Road offset={offset} grid={data.fondo === 'rejilla'} />
       <Particles />
       {data.scenes.map((s) => {
         const from = Math.round(s.start * fps);
@@ -143,7 +148,7 @@ export const Story: React.FC<{data: StoryData}> = ({data}) => {
       <Subtitles words={allWords} />
       {/* marca de agua */}
       <div style={{position: 'absolute', top: 300, width: W, textAlign: 'center', fontFamily: BRAND.font, fontWeight: 700, fontSize: 26, letterSpacing: 8, color: BRAND.gold, opacity: 0.55 * intro}}>
-        HISTORIAS SOBRE RUEDAS
+        {BRAND.name}
       </div>
       {/* viñeta */}
       <AbsoluteFill style={{background: 'radial-gradient(ellipse at 50% 45%, transparent 55%, rgba(0,0,0,0.55) 100%)'}} />

@@ -2,9 +2,10 @@ import React from 'react';
 import {AbsoluteFill, interpolate, spring, useCurrentFrame, useVideoConfig} from 'remotion';
 import {BRAND} from './brand';
 import {BullHead, Bust, Clutch, HorseHead, Label, SportsCar, Tractor, usePop} from './shapes';
+import {EscenaGenerica} from './escena';
 
 export type Word = {text: string; color: string; start: number; end: number; chunk: number};
-export type SceneData = {id: string; visual: string; start: number; end: number; words: Word[]};
+export type SceneData = {id: string; visual: string; start: number; end: number; words: Word[]; e?: any};
 
 /** frame local (dentro de la escena) en que se dice la primera palabra que contiene `w` */
 export const wf = (s: SceneData, w: string, fps: number) => {
@@ -368,7 +369,7 @@ const Cta: React.FC<{s: SceneData}> = () => {
         <BrandBadge size={300} spin={f * 2} />
       </div>
       <div style={{position: 'absolute', top: 1150, width: 1080, textAlign: 'center', fontFamily: BRAND.font, opacity: p2}}>
-        <div style={{fontSize: 64, fontWeight: 800, color: BRAND.white, letterSpacing: 2, lineHeight: 1.1}}>HISTORIAS<br /><span style={{color: BRAND.gold}}>SOBRE RUEDAS</span></div>
+        <div style={{fontSize: 72, fontWeight: 800, color: BRAND.white, letterSpacing: 4, lineHeight: 1.1}}>{BRAND.name}</div><div style={{fontSize: 34, fontWeight: 600, color: BRAND.gold, letterSpacing: 2, marginTop: 10}}>{BRAND.tagline}</div>
         <div style={{display: 'inline-block', marginTop: 34, fontSize: 40, fontWeight: 800, color: '#0d1320', background: BRAND.gold, padding: '14px 40px', borderRadius: 60, letterSpacing: 4, transform: `scale(${1 + 0.04 * Math.sin(f / 5)})`}}>
           SÍGUENOS
         </div>
@@ -378,22 +379,20 @@ const Cta: React.FC<{s: SceneData}> = () => {
   );
 };
 
-/** Logo: llanta + volante (original) */
+/** Logo: monograma de la marca */
 export const BrandBadge: React.FC<{size?: number; spin?: number}> = ({size = 200, spin = 0}) => (
   <svg width={size} height={size} viewBox="-100 -100 200 200">
     <circle r={96} fill="#0d1320" stroke={BRAND.gold} strokeWidth={6} />
     <g transform={`rotate(${spin})`}>
-      {Array.from({length: 24}).map((_, i) => (
-        <rect key={i} x={-4} y={-92} width={8} height={12} rx={2} fill={BRAND.gold} opacity={0.6} transform={`rotate(${i * 15})`} />
+      {Array.from({length: 36}).map((_, i) => (
+        <circle key={i} cx={0} cy={-84} r={3} fill={BRAND.gold} opacity={0.55} transform={`rotate(${i * 10})`} />
       ))}
     </g>
-    <circle r={62} fill="none" stroke={BRAND.white} strokeWidth={10} />
-    <path d="M-60,-6 Q0,-22 60,-6 M0,10 L0,60" stroke={BRAND.white} strokeWidth={10} fill="none" strokeLinecap="round" />
-    <circle r={18} fill={BRAND.gold} />
+    <text x={0} y={30} textAnchor="middle" fontFamily={BRAND.font} fontWeight={900} fontSize={92} fill={BRAND.white} letterSpacing={-4}>E<tspan fill={BRAND.gold}>L</tspan></text>
   </svg>
 );
 
 export const VISUALS: Record<string, React.FC<{s: SceneData}>> = {
   versus: Versus, fabrica: Fabrica, garaje: Garaje, pieza: Pieza, enzo: Enzo, frase: Frase,
-  mapa: Mapa, miura: Miura, toro: Toro, cierre: Cierre, cta: Cta,
+  mapa: Mapa, miura: Miura, toro: Toro, cierre: Cierre, cta: Cta, escena: EscenaGenerica as any,
 };

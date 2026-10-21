@@ -1,7 +1,8 @@
 // Identidad de marca: cambiar aquí y se actualizan todos los videos
 export const BRAND = {
-  name: 'Historias sobre Ruedas',
-  handle: '', // poner aquí el @ de Instagram cuando exista (vacío = no se muestra)
+  name: 'EMPRENDELIBRE',
+  tagline: 'Historias de las marcas que admiras',
+  handle: '@emprendelibre',
   font: "'Poppins', 'Inter', sans-serif",
   bgTop: '#070a12',
   bgBottom: '#111a2c',
@@ -10,6 +11,7 @@ export const BRAND = {
   red: '#E5484D',
   white: '#F4F1EA',
   grey: '#8D93A1',
+  blue: '#4C8DFF',
   ink: '#1A2234',
   steel: '#2A3449',
 };

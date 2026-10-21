@@ -1,0 +1,166 @@
+{
+ "slug": "honda",
+ "fondo": "carretera",
+ "title": "Honda: nunca rendirse",
+ "caption": "Le rechazaron sus piezas, le bombardearon la fábrica y un terremoto destruyó la otra… y aun así creó Honda 🏍️\n\n#emprendelibre #emprendimiento #emprendedores #historiasdemarcas #negocios #datoscuriosos #honda #japon #resiliencia",
+ "scenes": [
+  {
+   "id": "hook",
+   "visual": "escena",
+   "text": "Le bombardearon la fábrica... un terremoto le destruyó la otra... y aun así creó *Honda.*",
+   "e": {
+    "items": [
+     {
+      "i": "fabrica",
+      "c": "grey",
+      "at": "fábrica"
+     },
+     {
+      "i": "explosion",
+      "c": "red",
+      "at": "bombardearon"
+     }
+    ],
+    "pill": {
+     "t": "NUNCA SE RINDIÓ",
+     "at": "Honda"
+    }
+   }
+  },
+  {
+   "id": "inicio",
+   "visual": "escena",
+   "text": "Japón, años treinta. *Soichiro* *Honda* fabricaba anillos de pistón y soñaba con vendérselos a ^Toyota.^",
+   "e": {
+    "items": [
+     {
+      "i": "persona",
+      "c": "gold",
+      "l": "SOICHIRO",
+      "at": "Soichiro"
+     },
+     {
+      "i": "piston",
+      "c": "gold",
+      "l": "PISTONES",
+      "at": "pistón"
+     }
+    ]
+   }
+  },
+  {
+   "id": "rechazo",
+   "visual": "escena",
+   "text": "Pero ^Toyota^ le rechazó las piezas por mala calidad. Así que volvió a estudiar, mejoró su técnica... y terminó siendo su proveedor.",
+   "e": {
+    "items": [
+     {
+      "i": "piston",
+      "c": "red",
+      "l": "RECHAZADO",
+      "at": "rechazó"
+     },
+     {
+      "i": "piston",
+      "c": "gold",
+      "l": "APROBADO",
+      "at": "proveedor"
+     }
+    ],
+    "entre": {
+     "t": "→",
+     "at": "estudiar"
+    }
+   }
+  },
+  {
+   "id": "guerra",
+   "visual": "escena",
+   "text": "Entonces llegó la guerra. Un bombardeo destruyó una de sus fábricas, y en *1945* un terremoto derrumbó la otra.",
+   "e": {
+    "items": [
+     {
+      "i": "explosion",
+      "c": "red",
+      "l": "BOMBARDEO",
+      "at": "bombardeo"
+     },
+     {
+      "i": "grieta",
+      "c": "grey",
+      "l": "TERREMOTO",
+      "at": "terremoto"
+     }
+    ]
+   }
+  },
+  {
+   "id": "venta",
+   "visual": "escena",
+   "text": "Honda vendió lo que quedó, justamente a ^Toyota,^ y con ese dinero empezó de nuevo.",
+   "e": {
+    "items": [
+     {
+      "i": "dinero",
+      "c": "gold",
+      "l": "EMPEZAR DE CERO",
+      "at": "dinero"
+     }
+    ]
+   }
+  },
+  {
+   "id": "bici",
+   "visual": "escena",
+   "text": "Después de la guerra no había transporte. Así que le puso pequeños motores a bicicletas.",
+   "e": {
+    "items": [
+     {
+      "i": "bici",
+      "c": "gold",
+      "l": "BICI CON MOTOR",
+      "at": "motores"
+     }
+    ],
+    "mover": true
+   }
+  },
+  {
+   "id": "honda",
+   "visual": "escena",
+   "text": "Así nació *Honda* *Motor,* en *1948.* Hoy es uno de los mayores fabricantes de motores del mundo.",
+   "e": {
+    "titulo": {
+     "t": "1948",
+     "sub": "HONDA MOTOR",
+     "at": "1948"
+    },
+    "items": [
+     {
+      "i": "mundo",
+      "c": "gold",
+      "at": "mundo"
+     }
+    ]
+   }
+  },
+  {
+   "id": "frase",
+   "visual": "escena",
+   "text": "Su lema lo dice todo: el éxito es *99%* fracaso.",
+   "e": {
+    "titulo": {
+     "t": "99%",
+     "sub": "FRACASO",
+     "at": "99",
+     "c": "gold"
+    }
+   }
+  },
+  {
+   "id": "cta",
+   "visual": "cta",
+   "text": "Sígueme para más historias de las marcas que admiras."
+  }
+ ]
+}

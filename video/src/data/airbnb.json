@@ -1,0 +1,1256 @@
+{
+ "slug": "airbnb",
+ "fondo": "rejilla",
+ "duration": 62.349,
+ "scenes": [
+  {
+   "id": "hook",
+   "visual": "escena",
+   "e": {
+    "items": [
+     {
+      "i": "colchon",
+      "c": "blue",
+      "at": "colchones"
+     },
+     {
+      "i": "cereal",
+      "c": "red",
+      "at": "cereal"
+     }
+    ]
+   },
+   "start": 0.35,
+   "end": 5.059,
+   "words": [
+    {
+     "text": "Airbnb",
+     "color": "gold",
+     "start": 0.35,
+     "end": 0.77,
+     "chunk": 0
+    },
+    {
+     "text": "empezó",
+     "color": "white",
+     "start": 0.77,
+     "end": 1.191,
+     "chunk": 0
+    },
+    {
+     "text": "con",
+     "color": "white",
+     "start": 1.191,
+     "end": 1.443,
+     "chunk": 0
+    },
+    {
+     "text": "tres",
+     "color": "white",
+     "start": 1.443,
+     "end": 1.751,
+     "chunk": 1
+    },
+    {
+     "text": "colchones",
+     "color": "white",
+     "start": 1.751,
+     "end": 2.339,
+     "chunk": 1
+    },
+    {
+     "text": "inflables…",
+     "color": "white",
+     "start": 2.339,
+     "end": 2.928,
+     "chunk": 2
+    },
+    {
+     "text": "y",
+     "color": "white",
+     "start": 3.378,
+     "end": 3.513,
+     "chunk": 3
+    },
+    {
+     "text": "unas",
+     "color": "white",
+     "start": 3.513,
+     "end": 3.811,
+     "chunk": 3
+    },
+    {
+     "text": "cajas",
+     "color": "white",
+     "start": 3.811,
+     "end": 4.163,
+     "chunk": 3
+    },
+    {
+     "text": "de",
+     "color": "white",
+     "start": 4.163,
+     "end": 4.352,
+     "chunk": 3
+    },
+    {
+     "text": "cereal.",
+     "color": "white",
+     "start": 4.352,
+     "end": 4.759,
+     "chunk": 4
+    }
+   ]
+  },
+  {
+   "id": "inicio",
+   "visual": "escena",
+   "e": {
+    "titulo": {
+     "t": "2007",
+     "sub": "SAN FRANCISCO",
+     "at": "2007"
+    },
+    "items": [
+     {
+      "i": "persona",
+      "c": "gold",
+      "l": "BRIAN",
+      "at": "Brian"
+     },
+     {
+      "i": "persona",
+      "c": "blue",
+      "l": "JOE",
+      "at": "Joe",
+      "flip": true
+     }
+    ]
+   },
+   "start": 5.059,
+   "end": 12.732,
+   "words": [
+    {
+     "text": "San",
+     "color": "white",
+     "start": 5.059,
+     "end": 5.487,
+     "chunk": 0
+    },
+    {
+     "text": "Francisco,",
+     "color": "white",
+     "start": 5.487,
+     "end": 6.487,
+     "chunk": 0
+    },
+    {
+     "text": "2007.",
+     "color": "gold",
+     "start": 6.587,
+     "end": 7.566,
+     "chunk": 0
+    },
+    {
+     "text": "Dos",
+     "color": "white",
+     "start": 7.866,
+     "end": 8.151,
+     "chunk": 1
+    },
+    {
+     "text": "diseñadores,",
+     "color": "white",
+     "start": 8.151,
+     "end": 8.941,
+     "chunk": 1
+    },
+    {
+     "text": "Brian",
+     "color": "gold",
+     "start": 9.041,
+     "end": 9.355,
+     "chunk": 2
+    },
+    {
+     "text": "Chesky",
+     "color": "gold",
+     "start": 9.355,
+     "end": 9.717,
+     "chunk": 2
+    },
+    {
+     "text": "y",
+     "color": "white",
+     "start": 9.717,
+     "end": 9.837,
+     "chunk": 2
+    },
+    {
+     "text": "Joe",
+     "color": "gold",
+     "start": 9.837,
+     "end": 10.054,
+     "chunk": 2
+    },
+    {
+     "text": "Gebbia,",
+     "color": "gold",
+     "start": 10.054,
+     "end": 10.416,
+     "chunk": 3
+    },
+    {
+     "text": "no",
+     "color": "white",
+     "start": 10.516,
+     "end": 10.702,
+     "chunk": 3
+    },
+    {
+     "text": "tenían",
+     "color": "white",
+     "start": 10.702,
+     "end": 11.101,
+     "chunk": 3
+    },
+    {
+     "text": "para",
+     "color": "white",
+     "start": 11.101,
+     "end": 11.394,
+     "chunk": 4
+    },
+    {
+     "text": "pagar",
+     "color": "white",
+     "start": 11.394,
+     "end": 11.74,
+     "chunk": 4
+    },
+    {
+     "text": "el",
+     "color": "white",
+     "start": 11.74,
+     "end": 11.926,
+     "chunk": 4
+    },
+    {
+     "text": "alquiler.",
+     "color": "white",
+     "start": 11.926,
+     "end": 12.432,
+     "chunk": 5
+    }
+   ]
+  },
+  {
+   "id": "idea",
+   "visual": "escena",
+   "e": {
+    "items": [
+     {
+      "i": "casa",
+      "c": "gold",
+      "at": "sala"
+     },
+     {
+      "i": "colchon",
+      "c": "blue",
+      "l": "+ DESAYUNO",
+      "at": "colchones"
+     }
+    ]
+   },
+   "start": 12.732,
+   "end": 22.042,
+   "words": [
+    {
+     "text": "Había",
+     "color": "white",
+     "start": 12.732,
+     "end": 13.051,
+     "chunk": 0
+    },
+    {
+     "text": "una",
+     "color": "white",
+     "start": 13.051,
+     "end": 13.273,
+     "chunk": 0
+    },
+    {
+     "text": "gran",
+     "color": "white",
+     "start": 13.273,
+     "end": 13.543,
+     "chunk": 0
+    },
+    {
+     "text": "conferencia",
+     "color": "white",
+     "start": 13.543,
+     "end": 14.158,
+     "chunk": 1
+    },
+    {
+     "text": "en",
+     "color": "white",
+     "start": 14.158,
+     "end": 14.33,
+     "chunk": 1
+    },
+    {
+     "text": "la",
+     "color": "white",
+     "start": 14.33,
+     "end": 14.502,
+     "chunk": 1
+    },
+    {
+     "text": "ciudad",
+     "color": "white",
+     "start": 14.502,
+     "end": 14.871,
+     "chunk": 2
+    },
+    {
+     "text": "y",
+     "color": "white",
+     "start": 14.871,
+     "end": 14.994,
+     "chunk": 2
+    },
+    {
+     "text": "los",
+     "color": "white",
+     "start": 14.994,
+     "end": 15.215,
+     "chunk": 2
+    },
+    {
+     "text": "hoteles",
+     "color": "white",
+     "start": 15.215,
+     "end": 15.633,
+     "chunk": 2
+    },
+    {
+     "text": "estaban",
+     "color": "white",
+     "start": 15.633,
+     "end": 16.051,
+     "chunk": 3
+    },
+    {
+     "text": "llenos.",
+     "color": "white",
+     "start": 16.051,
+     "end": 16.419,
+     "chunk": 3
+    },
+    {
+     "text": "Entonces",
+     "color": "white",
+     "start": 16.719,
+     "end": 17.256,
+     "chunk": 4
+    },
+    {
+     "text": "inflaron",
+     "color": "white",
+     "start": 17.256,
+     "end": 17.793,
+     "chunk": 4
+    },
+    {
+     "text": "colchones",
+     "color": "white",
+     "start": 17.793,
+     "end": 18.386,
+     "chunk": 5
+    },
+    {
+     "text": "en",
+     "color": "white",
+     "start": 18.386,
+     "end": 18.583,
+     "chunk": 5
+    },
+    {
+     "text": "su",
+     "color": "white",
+     "start": 18.583,
+     "end": 18.781,
+     "chunk": 5
+    },
+    {
+     "text": "sala",
+     "color": "white",
+     "start": 18.781,
+     "end": 19.092,
+     "chunk": 5
+    },
+    {
+     "text": "y",
+     "color": "white",
+     "start": 19.092,
+     "end": 19.233,
+     "chunk": 6
+    },
+    {
+     "text": "los",
+     "color": "white",
+     "start": 19.233,
+     "end": 19.487,
+     "chunk": 6
+    },
+    {
+     "text": "alquilaron,",
+     "color": "white",
+     "start": 19.487,
+     "end": 20.137,
+     "chunk": 6
+    },
+    {
+     "text": "con",
+     "color": "white",
+     "start": 20.237,
+     "end": 20.525,
+     "chunk": 7
+    },
+    {
+     "text": "desayuno",
+     "color": "white",
+     "start": 20.525,
+     "end": 21.133,
+     "chunk": 7
+    },
+    {
+     "text": "incluido.",
+     "color": "white",
+     "start": 21.133,
+     "end": 21.742,
+     "chunk": 8
+    }
+   ]
+  },
+  {
+   "id": "nombre",
+   "visual": "escena",
+   "e": {
+    "titulo": {
+     "t": "AIRBED & BREAKFAST",
+     "at": "AirBed"
+    },
+    "items": [
+     {
+      "i": "persona",
+      "c": "gold",
+      "at": "tres"
+     },
+     {
+      "i": "persona",
+      "c": "white",
+      "at": "huéspedes"
+     },
+     {
+      "i": "persona",
+      "c": "blue",
+      "at": "huéspedes"
+     }
+    ]
+   },
+   "start": 22.042,
+   "end": 26.478,
+   "words": [
+    {
+     "text": "Llegaron",
+     "color": "white",
+     "start": 22.042,
+     "end": 22.477,
+     "chunk": 0
+    },
+    {
+     "text": "tres",
+     "color": "white",
+     "start": 22.477,
+     "end": 22.728,
+     "chunk": 0
+    },
+    {
+     "text": "huéspedes.",
+     "color": "white",
+     "start": 22.728,
+     "end": 23.209,
+     "chunk": 1
+    },
+    {
+     "text": "Ahí",
+     "color": "white",
+     "start": 23.509,
+     "end": 23.744,
+     "chunk": 2
+    },
+    {
+     "text": "nació",
+     "color": "white",
+     "start": 23.744,
+     "end": 24.083,
+     "chunk": 2
+    },
+    {
+     "text": "la",
+     "color": "white",
+     "start": 24.083,
+     "end": 24.266,
+     "chunk": 2
+    },
+    {
+     "text": "idea:",
+     "color": "white",
+     "start": 24.266,
+     "end": 24.553,
+     "chunk": 2
+    },
+    {
+     "text": "AirBed",
+     "color": "gold",
+     "start": 24.753,
+     "end": 25.228,
+     "chunk": 3
+    },
+    {
+     "text": "and",
+     "color": "gold",
+     "start": 25.228,
+     "end": 25.513,
+     "chunk": 3
+    },
+    {
+     "text": "Breakfast.",
+     "color": "gold",
+     "start": 25.513,
+     "end": 26.178,
+     "chunk": 4
+    }
+   ]
+  },
+  {
+   "id": "deuda",
+   "visual": "escena",
+   "e": {
+    "items": [
+     {
+      "i": "tarjeta",
+      "c": "red",
+      "l": "DEUDAS",
+      "at": "deudas"
+     }
+    ]
+   },
+   "start": 26.478,
+   "end": 34.302,
+   "words": [
+    {
+     "text": "Pero",
+     "color": "white",
+     "start": 26.478,
+     "end": 26.773,
+     "chunk": 0
+    },
+    {
+     "text": "casi",
+     "color": "white",
+     "start": 26.773,
+     "end": 27.067,
+     "chunk": 0
+    },
+    {
+     "text": "nadie",
+     "color": "white",
+     "start": 27.067,
+     "end": 27.415,
+     "chunk": 0
+    },
+    {
+     "text": "la",
+     "color": "white",
+     "start": 27.415,
+     "end": 27.603,
+     "chunk": 0
+    },
+    {
+     "text": "quería.",
+     "color": "white",
+     "start": 27.603,
+     "end": 28.005,
+     "chunk": 1
+    },
+    {
+     "text": "Los",
+     "color": "white",
+     "start": 28.305,
+     "end": 28.548,
+     "chunk": 2
+    },
+    {
+     "text": "inversionistas",
+     "color": "white",
+     "start": 28.548,
+     "end": 29.385,
+     "chunk": 2
+    },
+    {
+     "text": "los",
+     "color": "white",
+     "start": 29.385,
+     "end": 29.628,
+     "chunk": 3
+    },
+    {
+     "text": "rechazaban",
+     "color": "white",
+     "start": 29.628,
+     "end": 30.249,
+     "chunk": 3
+    },
+    {
+     "text": "y",
+     "color": "white",
+     "start": 30.249,
+     "end": 30.384,
+     "chunk": 3
+    },
+    {
+     "text": "acumularon",
+     "color": "white",
+     "start": 30.384,
+     "end": 31.005,
+     "chunk": 4
+    },
+    {
+     "text": "miles",
+     "color": "white",
+     "start": 31.005,
+     "end": 31.356,
+     "chunk": 4
+    },
+    {
+     "text": "de",
+     "color": "white",
+     "start": 31.356,
+     "end": 31.545,
+     "chunk": 4
+    },
+    {
+     "text": "dólares",
+     "color": "white",
+     "start": 31.545,
+     "end": 32.004,
+     "chunk": 5
+    },
+    {
+     "text": "en",
+     "color": "white",
+     "start": 32.004,
+     "end": 32.193,
+     "chunk": 5
+    },
+    {
+     "text": "deudas",
+     "color": "white",
+     "start": 32.193,
+     "end": 32.598,
+     "chunk": 5
+    },
+    {
+     "text": "con",
+     "color": "white",
+     "start": 32.598,
+     "end": 32.841,
+     "chunk": 6
+    },
+    {
+     "text": "tarjetas",
+     "color": "white",
+     "start": 32.841,
+     "end": 33.354,
+     "chunk": 6
+    },
+    {
+     "text": "de",
+     "color": "white",
+     "start": 33.354,
+     "end": 33.543,
+     "chunk": 6
+    },
+    {
+     "text": "crédito.",
+     "color": "white",
+     "start": 33.543,
+     "end": 34.002,
+     "chunk": 7
+    }
+   ]
+  },
+  {
+   "id": "cereal",
+   "visual": "escena",
+   "e": {
+    "items": [
+     {
+      "i": "cereal",
+      "c": "blue",
+      "l": "OBAMA O'S",
+      "at": "Obama"
+     },
+     {
+      "i": "cereal",
+      "c": "red",
+      "l": "CAP'N McCAIN'S",
+      "at": "McCain"
+     }
+    ],
+    "pill": {
+     "t": "$40 CADA UNA",
+     "at": "40"
+    }
+   },
+   "start": 34.302,
+   "end": 44.933,
+   "words": [
+    {
+     "text": "Para",
+     "color": "white",
+     "start": 34.302,
+     "end": 34.62,
+     "chunk": 0
+    },
+    {
+     "text": "sobrevivir,",
+     "color": "white",
+     "start": 34.62,
+     "end": 35.285,
+     "chunk": 0
+    },
+    {
+     "text": "en",
+     "color": "white",
+     "start": 35.385,
+     "end": 35.603,
+     "chunk": 0
+    },
+    {
+     "text": "plena",
+     "color": "white",
+     "start": 35.603,
+     "end": 36.007,
+     "chunk": 1
+    },
+    {
+     "text": "elección",
+     "color": "white",
+     "start": 36.007,
+     "end": 36.599,
+     "chunk": 1
+    },
+    {
+     "text": "de",
+     "color": "white",
+     "start": 36.599,
+     "end": 36.817,
+     "chunk": 1
+    },
+    {
+     "text": "2008,",
+     "color": "gold",
+     "start": 36.817,
+     "end": 37.159,
+     "chunk": 2
+    },
+    {
+     "text": "diseñaron",
+     "color": "white",
+     "start": 37.259,
+     "end": 37.824,
+     "chunk": 2
+    },
+    {
+     "text": "cajas",
+     "color": "white",
+     "start": 37.824,
+     "end": 38.174,
+     "chunk": 3
+    },
+    {
+     "text": "de",
+     "color": "white",
+     "start": 38.174,
+     "end": 38.362,
+     "chunk": 3
+    },
+    {
+     "text": "cereal",
+     "color": "white",
+     "start": 38.362,
+     "end": 38.766,
+     "chunk": 3
+    },
+    {
+     "text": "de",
+     "color": "white",
+     "start": 38.766,
+     "end": 38.954,
+     "chunk": 3
+    },
+    {
+     "text": "los",
+     "color": "white",
+     "start": 38.954,
+     "end": 39.196,
+     "chunk": 4
+    },
+    {
+     "text": "candidatos:",
+     "color": "white",
+     "start": 39.196,
+     "end": 39.815,
+     "chunk": 4
+    },
+    {
+     "text": "Obama",
+     "color": "gold",
+     "start": 40.015,
+     "end": 40.478,
+     "chunk": 5
+    },
+    {
+     "text": "O's",
+     "color": "gold",
+     "start": 40.478,
+     "end": 40.727,
+     "chunk": 5
+    },
+    {
+     "text": "y",
+     "color": "white",
+     "start": 40.727,
+     "end": 40.905,
+     "chunk": 5
+    },
+    {
+     "text": "Cap'n",
+     "color": "gold",
+     "start": 40.905,
+     "end": 41.297,
+     "chunk": 5
+    },
+    {
+     "text": "McCain's.",
+     "color": "gold",
+     "start": 41.297,
+     "end": 41.903,
+     "chunk": 6
+    },
+    {
+     "text": "Las",
+     "color": "white",
+     "start": 42.203,
+     "end": 42.48,
+     "chunk": 7
+    },
+    {
+     "text": "vendieron",
+     "color": "white",
+     "start": 42.48,
+     "end": 43.125,
+     "chunk": 7
+    },
+    {
+     "text": "a",
+     "color": "white",
+     "start": 43.125,
+     "end": 43.279,
+     "chunk": 7
+    },
+    {
+     "text": "40",
+     "color": "gold",
+     "start": 43.279,
+     "end": 43.495,
+     "chunk": 7
+    },
+    {
+     "text": "dólares",
+     "color": "white",
+     "start": 43.495,
+     "end": 44.017,
+     "chunk": 8
+    },
+    {
+     "text": "cada",
+     "color": "white",
+     "start": 44.017,
+     "end": 44.356,
+     "chunk": 8
+    },
+    {
+     "text": "una.",
+     "color": "white",
+     "start": 44.356,
+     "end": 44.633,
+     "chunk": 8
+    }
+   ]
+  },
+  {
+   "id": "yc",
+   "visual": "escena",
+   "e": {
+    "titulo": {
+     "t": "$30.000",
+     "at": "30000",
+     "c": "gold"
+    },
+    "items": [
+     {
+      "i": "dinero",
+      "c": "gold",
+      "l": "Y COMBINATOR",
+      "at": "Combinator"
+     }
+    ]
+   },
+   "start": 44.933,
+   "end": 51.537,
+   "words": [
+    {
+     "text": "Ganaron",
+     "color": "white",
+     "start": 44.933,
+     "end": 45.486,
+     "chunk": 0
+    },
+    {
+     "text": "unos",
+     "color": "white",
+     "start": 45.486,
+     "end": 45.844,
+     "chunk": 0
+    },
+    {
+     "text": "30.000",
+     "color": "gold",
+     "start": 45.844,
+     "end": 46.267,
+     "chunk": 0
+    },
+    {
+     "text": "dólares,",
+     "color": "white",
+     "start": 46.267,
+     "end": 46.821,
+     "chunk": 1
+    },
+    {
+     "text": "y",
+     "color": "white",
+     "start": 46.921,
+     "end": 47.05,
+     "chunk": 1
+    },
+    {
+     "text": "esa",
+     "color": "white",
+     "start": 47.05,
+     "end": 47.284,
+     "chunk": 1
+    },
+    {
+     "text": "locura",
+     "color": "white",
+     "start": 47.284,
+     "end": 47.673,
+     "chunk": 2
+    },
+    {
+     "text": "llamó",
+     "color": "white",
+     "start": 47.673,
+     "end": 48.011,
+     "chunk": 2
+    },
+    {
+     "text": "la",
+     "color": "white",
+     "start": 48.011,
+     "end": 48.193,
+     "chunk": 2
+    },
+    {
+     "text": "atención",
+     "color": "white",
+     "start": 48.193,
+     "end": 48.686,
+     "chunk": 3
+    },
+    {
+     "text": "de",
+     "color": "white",
+     "start": 48.686,
+     "end": 48.868,
+     "chunk": 3
+    },
+    {
+     "text": "Y",
+     "color": "gold",
+     "start": 48.868,
+     "end": 48.997,
+     "chunk": 3
+    },
+    {
+     "text": "Combinator,",
+     "color": "gold",
+     "start": 48.997,
+     "end": 49.594,
+     "chunk": 4
+    },
+    {
+     "text": "que",
+     "color": "white",
+     "start": 49.694,
+     "end": 49.908,
+     "chunk": 4
+    },
+    {
+     "text": "decidió",
+     "color": "white",
+     "start": 49.908,
+     "end": 50.311,
+     "chunk": 5
+    },
+    {
+     "text": "invertir",
+     "color": "white",
+     "start": 50.311,
+     "end": 50.762,
+     "chunk": 5
+    },
+    {
+     "text": "en",
+     "color": "white",
+     "start": 50.762,
+     "end": 50.928,
+     "chunk": 5
+    },
+    {
+     "text": "ellos.",
+     "color": "white",
+     "start": 50.928,
+     "end": 51.237,
+     "chunk": 6
+    }
+   ]
+  },
+  {
+   "id": "hoy",
+   "visual": "escena",
+   "e": {
+    "items": [
+     {
+      "i": "mundo",
+      "c": "gold",
+      "at": "Hoy"
+     },
+     {
+      "i": "colchon",
+      "c": "blue",
+      "at": "colchones"
+     }
+    ]
+   },
+   "start": 51.537,
+   "end": 57.494,
+   "words": [
+    {
+     "text": "Hoy,",
+     "color": "white",
+     "start": 51.537,
+     "end": 51.972,
+     "chunk": 0
+    },
+    {
+     "text": "Airbnb",
+     "color": "white",
+     "start": 52.072,
+     "end": 52.469,
+     "chunk": 0
+    },
+    {
+     "text": "vale",
+     "color": "white",
+     "start": 52.469,
+     "end": 52.76,
+     "chunk": 0
+    },
+    {
+     "text": "decenas",
+     "color": "white",
+     "start": 52.76,
+     "end": 53.21,
+     "chunk": 1
+    },
+    {
+     "text": "de",
+     "color": "white",
+     "start": 53.21,
+     "end": 53.396,
+     "chunk": 1
+    },
+    {
+     "text": "miles",
+     "color": "white",
+     "start": 53.396,
+     "end": 53.74,
+     "chunk": 1
+    },
+    {
+     "text": "de",
+     "color": "white",
+     "start": 53.74,
+     "end": 53.925,
+     "chunk": 1
+    },
+    {
+     "text": "millones",
+     "color": "white",
+     "start": 53.925,
+     "end": 54.428,
+     "chunk": 2
+    },
+    {
+     "text": "de",
+     "color": "white",
+     "start": 54.428,
+     "end": 54.614,
+     "chunk": 2
+    },
+    {
+     "text": "dólares.",
+     "color": "white",
+     "start": 54.614,
+     "end": 55.064,
+     "chunk": 2
+    },
+    {
+     "text": "Todo",
+     "color": "white",
+     "start": 55.364,
+     "end": 55.664,
+     "chunk": 3
+    },
+    {
+     "text": "empezó",
+     "color": "white",
+     "start": 55.664,
+     "end": 56.074,
+     "chunk": 3
+    },
+    {
+     "text": "con",
+     "color": "white",
+     "start": 56.074,
+     "end": 56.32,
+     "chunk": 3
+    },
+    {
+     "text": "tres",
+     "color": "white",
+     "start": 56.32,
+     "end": 56.62,
+     "chunk": 3
+    },
+    {
+     "text": "colchones.",
+     "color": "white",
+     "start": 56.62,
+     "end": 57.194,
+     "chunk": 4
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "visual": "cta",
+   "e": {},
+   "start": 57.494,
+   "end": 62.349,
+   "words": [
+    {
+     "text": "Sígueme",
+     "color": "white",
+     "start": 57.494,
+     "end": 57.931,
+     "chunk": 0
+    },
+    {
+     "text": "para",
+     "color": "white",
+     "start": 57.931,
+     "end": 58.213,
+     "chunk": 0
+    },
+    {
+     "text": "más",
+     "color": "white",
+     "start": 58.213,
+     "end": 58.445,
+     "chunk": 0
+    },
+    {
+     "text": "historias",
+     "color": "white",
+     "start": 58.445,
+     "end": 58.984,
+     "chunk": 1
+    },
+    {
+     "text": "de",
+     "color": "white",
+     "start": 58.984,
+     "end": 59.164,
+     "chunk": 1
+    },
+    {
+     "text": "las",
+     "color": "white",
+     "start": 59.164,
+     "end": 59.396,
+     "chunk": 1
+    },
+    {
+     "text": "marcas",
+     "color": "white",
+     "start": 59.396,
+     "end": 59.781,
+     "chunk": 2
+    },
+    {
+     "text": "que",
+     "color": "white",
+     "start": 59.781,
+     "end": 60.012,
+     "chunk": 2
+    },
+    {
+     "text": "admiras.",
+     "color": "white",
+     "start": 60.012,
+     "end": 60.449,
+     "chunk": 2
+    }
+   ]
+  }
+ ]
+}

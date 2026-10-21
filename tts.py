@@ -125,6 +125,10 @@ for sc in story["scenes"]:
             if bi >= len(bounds):
                 st = en = bounds[-1][2] if bounds else 0
             else:
+                for j in range(bi, min(bi + 4, len(bounds))):
+                    b = norm(bounds[j][0])
+                    if b and (b == target or target.startswith(b) or b.startswith(target)):
+                        bi = j; break
                 st, acc, en = bounds[bi][1], norm(bounds[bi][0]), bounds[bi][2]
                 bi += 1
                 # una palabra en pantalla puede venir partida en varias (p.ej. números)
@@ -134,7 +138,7 @@ for sc in story["scenes"]:
         audio.append(a)
         t += len(a) / SR_OUT
         audio.append(np.zeros(int(SCENE_GAP * SR_OUT), np.float32)); t += SCENE_GAP
-        scenes.append({"id": sc["id"], "visual": sc["visual"], "start": round(s_start, 3), "end": round(t, 3), "words": out_words})
+        scenes.append({"id": sc["id"], "visual": sc["visual"], "e": sc.get("e", {}), "start": round(s_start, 3), "end": round(t, 3), "words": out_words})
         continue
     # dividir en cláusulas por puntuación
     clauses, cur = [], []
@@ -166,7 +170,7 @@ for sc in story["scenes"]:
         p = PAUSE.get(cl[-1]["punct"], 0.12)
         audio.append(np.zeros(int(p * SR_OUT), np.float32))
         t += p
-    scenes.append({"id": sc["id"], "visual": sc["visual"], "start": round(s_start, 3), "end": round(t, 3), "words": out_words})
+    scenes.append({"id": sc["id"], "visual": sc["visual"], "e": sc.get("e", {}), "start": round(s_start, 3), "end": round(t, 3), "words": out_words})
 
 # cola final
 audio.append(np.zeros(int(1.6 * SR_OUT), np.float32))
@@ -229,7 +233,7 @@ outdir = f"{ROOT}/video/public/{slug}"; os.makedirs(outdir, exist_ok=True)
 os.makedirs(f"{ROOT}/video/src/data", exist_ok=True)
 sf.write(f"{outdir}/voice.wav", voice, SR_OUT)
 sf.write(f"{outdir}/music.wav", music, SR_OUT)
-json.dump({"slug": slug, "duration": round(t, 3), "scenes": scenes}, open(f"{ROOT}/video/src/data/{slug}.json", "w"), ensure_ascii=False, indent=1)
+json.dump({"slug": slug, "fondo": story.get("fondo", "carretera"), "duration": round(t, 3), "scenes": scenes}, open(f"{ROOT}/video/src/data/{slug}.json", "w"), ensure_ascii=False, indent=1)
 print(f"{slug}: {t:.1f}s, {sum(len(s['words']) for s in scenes)} palabras")
 for s in scenes:
     print(f"  {s['id']:8s} {s['start']:5.1f}-{s['end']:5.1f}  ", " ".join(w["text"] for w in s["words"])[:90])

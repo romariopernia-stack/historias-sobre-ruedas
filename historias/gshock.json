@@ -1,0 +1,169 @@
+{
+ "slug": "gshock",
+ "fondo": "rejilla",
+ "title": "G-Shock: tirado por la ventana",
+ "caption": "El reloj más resistente del mundo nació tirando prototipos por la ventana de un baño 🪟⌚ Más de 200 intentos fallidos antes de la idea correcta.\n\n#emprendelibre #emprendimiento #emprendedores #historiasdemarcas #negocios #datoscuriosos #casio #gshock #relojes #innovacion",
+ "scenes": [
+  {
+   "id": "hook",
+   "visual": "escena",
+   "text": "El reloj más resistente del mundo nació tirándolo por la ventana de un baño.",
+   "e": {
+    "items": [
+     {
+      "i": "edificio",
+      "c": "grey",
+      "at": "ventana"
+     },
+     {
+      "i": "digital",
+      "c": "gold",
+      "at": "reloj"
+     }
+    ]
+   }
+  },
+  {
+   "id": "ibe",
+   "visual": "escena",
+   "text": "Japón, *Casio.* Un ingeniero llamado *Kikuo* *Ibe* estaba cansado de que los relojes se rompieran con cualquier golpe.",
+   "e": {
+    "items": [
+     {
+      "i": "persona",
+      "c": "gold",
+      "l": "KIKUO IBE",
+      "at": "Kikuo"
+     }
+    ],
+    "pill": {
+     "t": "CASIO",
+     "at": "Casio"
+    }
+   }
+  },
+  {
+   "id": "reto",
+   "visual": "escena",
+   "text": "Se propuso algo que parecía imposible: un reloj que aguantara una caída de *10* metros, resistiera el agua y tuviera batería para *10* años.",
+   "e": {
+    "titulo": {
+     "t": "10 · 10 · 10",
+     "sub": "CAÍDA · AGUA · BATERÍA",
+     "at": "imposible"
+    },
+    "items": [
+     {
+      "i": "digital",
+      "c": "gold",
+      "at": "caída"
+     }
+    ]
+   }
+  },
+  {
+   "id": "prueba",
+   "visual": "escena",
+   "text": "Para probarlo, lanzaba prototipos desde la ventana del baño de un tercer piso.",
+   "e": {
+    "items": [
+     {
+      "i": "edificio",
+      "c": "grey",
+      "l": "3er PISO",
+      "at": "ventana"
+     },
+     {
+      "i": "digital",
+      "c": "red",
+      "l": "PROTOTIPO",
+      "at": "prototipos"
+     }
+    ]
+   }
+  },
+  {
+   "id": "fracaso",
+   "visual": "escena",
+   "text": "Pasaron dos años y más de *200* prototipos destrozados. Ibe estaba a punto de rendirse.",
+   "e": {
+    "titulo": {
+     "t": "+200",
+     "sub": "PROTOTIPOS ROTOS",
+     "at": "200",
+     "c": "red"
+    },
+    "items": [
+     {
+      "i": "explosion",
+      "c": "red",
+      "at": "destrozados"
+     }
+    ]
+   }
+  },
+  {
+   "id": "idea",
+   "visual": "escena",
+   "text": "Entonces, en un parque, vio a unos niños jugando con una pelota de goma... y tuvo la idea: dejar el corazón del reloj *flotando* por dentro, para que absorbiera los golpes.",
+   "e": {
+    "items": [
+     {
+      "i": "pelota",
+      "c": "red",
+      "l": "PELOTA DE GOMA",
+      "at": "pelota"
+     },
+     {
+      "i": "idea",
+      "c": "gold",
+      "l": "FLOTANTE",
+      "at": "idea"
+     }
+    ]
+   }
+  },
+  {
+   "id": "exito",
+   "visual": "escena",
+   "text": "En *1983* salió a la venta el primer *G-Shock.* Hoy se han vendido más de *cien* *millones.*",
+   "e": {
+    "titulo": {
+     "t": "1983",
+     "sub": "PRIMER G-SHOCK",
+     "at": "1983"
+    },
+    "items": [
+     {
+      "i": "digital",
+      "c": "gold",
+      "at": "Shock"
+     }
+    ],
+    "pill": {
+     "t": "+100 MILLONES",
+     "at": "millones"
+    }
+   }
+  },
+  {
+   "id": "leccion",
+   "visual": "escena",
+   "text": "A veces la solución llega cuando dejas de buscarla.",
+   "e": {
+    "items": [
+     {
+      "i": "idea",
+      "c": "gold",
+      "at": "solución"
+     }
+    ]
+   }
+  },
+  {
+   "id": "cta",
+   "visual": "cta",
+   "text": "Sígueme para más historias de las marcas que admiras."
+  }
+ ]
+}

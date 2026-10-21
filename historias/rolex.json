@@ -1,0 +1,155 @@
+{
+ "slug": "rolex",
+ "fondo": "rejilla",
+ "title": "Rolex y la nadadora",
+ "caption": "Rolex se volvió leyenda gracias a una nadadora y a un reloj que no se mojó ⌚🌊 La lección: no basta con un buen producto, hay que demostrarlo.\n\n#emprendelibre #emprendimiento #emprendedores #historiasdemarcas #negocios #datoscuriosos #rolex #relojes #marketing",
+ "scenes": [
+  {
+   "id": "hook",
+   "visual": "escena",
+   "text": "*Rolex* se volvió leyenda gracias a una nadadora... y a un reloj que no se mojó.",
+   "e": {
+    "items": [
+     {
+      "i": "reloj",
+      "c": "gold",
+      "at": "Rolex"
+     },
+     {
+      "i": "nadadora",
+      "c": "white",
+      "at": "nadadora"
+     }
+    ]
+   }
+  },
+  {
+   "id": "inicio",
+   "visual": "escena",
+   "text": "En *1905,* un joven alemán llamado *Hans* *Wilsdorf* fundó en Londres una empresa de relojes.",
+   "e": {
+    "titulo": {
+     "t": "1905",
+     "sub": "LONDRES",
+     "at": "1905"
+    },
+    "items": [
+     {
+      "i": "persona",
+      "c": "gold",
+      "l": "HANS WILSDORF",
+      "at": "Hans"
+     }
+    ]
+   }
+  },
+  {
+   "id": "nombre",
+   "visual": "escena",
+   "text": "En *1908* registró un nombre corto, fácil de decir en cualquier idioma: *Rolex.*",
+   "e": {
+    "titulo": {
+     "t": "ROLEX",
+     "sub": "1908",
+     "at": "Rolex"
+    },
+    "items": [
+     {
+      "i": "mundo",
+      "c": "gold",
+      "at": "idioma"
+     }
+    ]
+   }
+  },
+  {
+   "id": "oyster",
+   "visual": "escena",
+   "text": "Su obsesión era un reloj que resistiera el agua y el polvo. En *1926* lo logró: el *Oyster,* hermético como una ostra.",
+   "e": {
+    "titulo": {
+     "t": "1926",
+     "sub": "OYSTER",
+     "at": "1926"
+    },
+    "items": [
+     {
+      "i": "reloj",
+      "c": "gold",
+      "l": "HERMÉTICO",
+      "at": "Oyster"
+     }
+    ]
+   }
+  },
+  {
+   "id": "reto",
+   "visual": "escena",
+   "text": "Pero necesitaba que el mundo le creyera. En *1927,* la nadadora *Mercedes* *Gleitze* intentó cruzar el Canal de la Mancha con un Oyster.",
+   "e": {
+    "items": [
+     {
+      "i": "nadadora",
+      "c": "white",
+      "l": "MERCEDES GLEITZE",
+      "at": "Mercedes"
+     }
+    ],
+    "pill": {
+     "t": "CANAL DE LA MANCHA",
+     "at": "Canal"
+    }
+   }
+  },
+  {
+   "id": "prueba",
+   "visual": "escena",
+   "text": "Pasó horas en el agua helada. Al salir... el reloj seguía funcionando perfectamente.",
+   "e": {
+    "items": [
+     {
+      "i": "reloj",
+      "c": "gold",
+      "l": "FUNCIONANDO",
+      "at": "funcionando"
+     }
+    ],
+    "pill": {
+     "t": "✓ RESISTIÓ",
+     "at": "perfectamente"
+    }
+   }
+  },
+  {
+   "id": "portada",
+   "visual": "escena",
+   "text": "Wilsdorf compró la portada del *Daily* *Mail* para contarlo. Así nació una estrategia que Rolex usa hasta hoy: que gente extraordinaria demuestre sus relojes.",
+   "e": {
+    "items": [
+     {
+      "i": "periodico",
+      "c": "gold",
+      "l": "PORTADA",
+      "at": "portada"
+     }
+    ]
+   }
+  },
+  {
+   "id": "leccion",
+   "visual": "escena",
+   "text": "La lección: no basta con un buen producto. Hay que *demostrarlo.*",
+   "e": {
+    "titulo": {
+     "t": "DEMUÉSTRALO",
+     "at": "demostrarlo"
+    }
+   }
+  },
+  {
+   "id": "cta",
+   "visual": "cta",
+   "text": "Sígueme para más historias de las marcas que admiras."
+  }
+ ]
+}

@@ -1,0 +1,162 @@
+{
+ "slug": "ford-ferrari",
+ "fondo": "carretera",
+ "title": "Ford vs Ferrari",
+ "caption": "Ferrari le dijo que NO a Ford… y Ford gastó lo que fuera para vengarse en Le Mans 🏁 ¿Conocías esta historia?\n\n#emprendelibre #emprendimiento #emprendedores #historiasdemarcas #negocios #datoscuriosos #ford #ferrari #lemans #carros",
+ "scenes": [
+  {
+   "id": "hook",
+   "visual": "escena",
+   "text": "En *1963,* el nieto de Henry Ford intentó comprar ^Ferrari...^ y Enzo lo dejó plantado.",
+   "e": {
+    "titulo": {
+     "t": "1963",
+     "at": "1963"
+    },
+    "items": [
+     {
+      "i": "persona",
+      "c": "blue",
+      "l": "FORD",
+      "at": "Ford"
+     },
+     {
+      "i": "persona",
+      "c": "red",
+      "l": "ENZO",
+      "at": "Enzo",
+      "flip": true
+     }
+    ],
+    "entre": {
+     "t": "VS",
+     "at": "plantado",
+     "c": "gold"
+    }
+   }
+  },
+  {
+   "id": "trato",
+   "visual": "escena",
+   "text": "El trato estaba casi cerrado, pero Enzo se negó a perder el control de su equipo de carreras. Y, según cuentan, se burló de Ford.",
+   "e": {
+    "items": [
+     {
+      "i": "dinero",
+      "c": "gold",
+      "l": "EL TRATO",
+      "at": "trato"
+     }
+    ],
+    "pill": {
+     "t": "NO HAY TRATO",
+     "at": "negó",
+     "c": "red"
+    }
+   }
+  },
+  {
+   "id": "orden",
+   "visual": "escena",
+   "text": "Ford, furioso, dio una orden: gastar lo que fuera para vencer a ^Ferrari^ en su propio terreno: las *24* *Horas* de *Le* *Mans.*",
+   "e": {
+    "titulo": {
+     "t": "24 HORAS",
+     "sub": "LE MANS",
+     "at": "24"
+    },
+    "items": [
+     {
+      "i": "bandera",
+      "l": "",
+      "at": "orden"
+     }
+    ]
+   }
+  },
+  {
+   "id": "gt40",
+   "visual": "escena",
+   "text": "Así nació el *GT40,* un auto construido con un solo propósito: *vencer* a ^Ferrari.^",
+   "e": {
+    "items": [
+     {
+      "i": "carrera",
+      "c": "blue",
+      "l": "GT40",
+      "at": "GT40"
+     }
+    ],
+    "mover": true
+   }
+  },
+  {
+   "id": "fracaso",
+   "visual": "escena",
+   "text": "Los primeros intentos fueron un desastre. Los carros se rompían antes de terminar la carrera.",
+   "e": {
+    "items": [
+     {
+      "i": "explosion",
+      "c": "red",
+      "l": "1964 · 1965",
+      "at": "desastre"
+     }
+    ]
+   }
+  },
+  {
+   "id": "victoria",
+   "visual": "escena",
+   "text": "Pero en *1966,* Ford no solo ganó Le Mans. Sus carros cruzaron la meta en *primero,* *segundo* *y* *tercer* lugar.",
+   "e": {
+    "titulo": {
+     "t": "1966",
+     "at": "1966"
+    },
+    "items": [
+     {
+      "i": "carrera",
+      "c": "blue",
+      "at": "ganó"
+     },
+     {
+      "i": "carrera",
+      "c": "blue",
+      "at": "segundo"
+     },
+     {
+      "i": "carrera",
+      "c": "blue",
+      "at": "tercer"
+     }
+    ],
+    "pill": {
+     "t": "1° · 2° · 3°",
+     "at": "tercer"
+    },
+    "mover": true
+   }
+  },
+  {
+   "id": "leccion",
+   "visual": "escena",
+   "text": "Ford ganó Le Mans *cuatro* años seguidos. Y todo empezó con un negocio que no se cerró.",
+   "e": {
+    "items": [
+     {
+      "i": "trofeo",
+      "c": "gold",
+      "l": "1966 – 1969",
+      "at": "cuatro"
+     }
+    ]
+   }
+  },
+  {
+   "id": "cta",
+   "visual": "cta",
+   "text": "Sígueme para más historias de las marcas que admiras."
+  }
+ ]
+}
