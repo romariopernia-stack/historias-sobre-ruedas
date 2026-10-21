@@ -1,0 +1,1204 @@
+{
+ "slug": "rolex",
+ "fondo": "rejilla",
+ "duration": 60.542,
+ "scenes": [
+  {
+   "id": "hook",
+   "visual": "escena",
+   "e": {
+    "items": [
+     {
+      "i": "reloj",
+      "c": "gold",
+      "at": "Rolex"
+     },
+     {
+      "i": "nadadora",
+      "c": "white",
+      "at": "nadadora"
+     }
+    ]
+   },
+   "start": 0.35,
+   "end": 5.473,
+   "words": [
+    {
+     "text": "Rolex",
+     "color": "gold",
+     "start": 0.35,
+     "end": 0.661,
+     "chunk": 0
+    },
+    {
+     "text": "se",
+     "color": "white",
+     "start": 0.661,
+     "end": 0.828,
+     "chunk": 0
+    },
+    {
+     "text": "volvió",
+     "color": "white",
+     "start": 0.828,
+     "end": 1.187,
+     "chunk": 0
+    },
+    {
+     "text": "leyenda",
+     "color": "white",
+     "start": 1.187,
+     "end": 1.594,
+     "chunk": 1
+    },
+    {
+     "text": "gracias",
+     "color": "white",
+     "start": 1.594,
+     "end": 2.001,
+     "chunk": 1
+    },
+    {
+     "text": "a",
+     "color": "white",
+     "start": 2.001,
+     "end": 2.12,
+     "chunk": 1
+    },
+    {
+     "text": "una",
+     "color": "white",
+     "start": 2.12,
+     "end": 2.336,
+     "chunk": 2
+    },
+    {
+     "text": "nadadora…",
+     "color": "white",
+     "start": 2.336,
+     "end": 2.79,
+     "chunk": 2
+    },
+    {
+     "text": "y",
+     "color": "white",
+     "start": 3.24,
+     "end": 3.391,
+     "chunk": 3
+    },
+    {
+     "text": "a",
+     "color": "white",
+     "start": 3.391,
+     "end": 3.542,
+     "chunk": 3
+    },
+    {
+     "text": "un",
+     "color": "white",
+     "start": 3.542,
+     "end": 3.754,
+     "chunk": 3
+    },
+    {
+     "text": "reloj",
+     "color": "white",
+     "start": 3.754,
+     "end": 4.146,
+     "chunk": 3
+    },
+    {
+     "text": "que",
+     "color": "white",
+     "start": 4.146,
+     "end": 4.418,
+     "chunk": 4
+    },
+    {
+     "text": "no",
+     "color": "white",
+     "start": 4.418,
+     "end": 4.63,
+     "chunk": 4
+    },
+    {
+     "text": "se",
+     "color": "white",
+     "start": 4.63,
+     "end": 4.841,
+     "chunk": 4
+    },
+    {
+     "text": "mojó.",
+     "color": "white",
+     "start": 4.841,
+     "end": 5.173,
+     "chunk": 4
+    }
+   ]
+  },
+  {
+   "id": "inicio",
+   "visual": "escena",
+   "e": {
+    "titulo": {
+     "t": "1905",
+     "sub": "LONDRES",
+     "at": "1905"
+    },
+    "items": [
+     {
+      "i": "persona",
+      "c": "gold",
+      "l": "HANS WILSDORF",
+      "at": "Hans"
+     }
+    ]
+   },
+   "start": 5.473,
+   "end": 11.975,
+   "words": [
+    {
+     "text": "En",
+     "color": "white",
+     "start": 5.473,
+     "end": 6.161,
+     "chunk": 0
+    },
+    {
+     "text": "1905,",
+     "color": "gold",
+     "start": 6.161,
+     "end": 7.243,
+     "chunk": 0
+    },
+    {
+     "text": "un",
+     "color": "white",
+     "start": 7.343,
+     "end": 7.522,
+     "chunk": 0
+    },
+    {
+     "text": "joven",
+     "color": "white",
+     "start": 7.522,
+     "end": 7.855,
+     "chunk": 0
+    },
+    {
+     "text": "alemán",
+     "color": "white",
+     "start": 7.855,
+     "end": 8.24,
+     "chunk": 1
+    },
+    {
+     "text": "llamado",
+     "color": "white",
+     "start": 8.24,
+     "end": 8.676,
+     "chunk": 1
+    },
+    {
+     "text": "Hans",
+     "color": "gold",
+     "start": 8.676,
+     "end": 8.958,
+     "chunk": 1
+    },
+    {
+     "text": "Wilsdorf",
+     "color": "gold",
+     "start": 8.958,
+     "end": 9.445,
+     "chunk": 2
+    },
+    {
+     "text": "fundó",
+     "color": "white",
+     "start": 9.445,
+     "end": 9.778,
+     "chunk": 2
+    },
+    {
+     "text": "en",
+     "color": "white",
+     "start": 9.778,
+     "end": 9.958,
+     "chunk": 2
+    },
+    {
+     "text": "Londres",
+     "color": "white",
+     "start": 9.958,
+     "end": 10.393,
+     "chunk": 3
+    },
+    {
+     "text": "una",
+     "color": "white",
+     "start": 10.393,
+     "end": 10.624,
+     "chunk": 3
+    },
+    {
+     "text": "empresa",
+     "color": "white",
+     "start": 10.624,
+     "end": 11.06,
+     "chunk": 3
+    },
+    {
+     "text": "de",
+     "color": "white",
+     "start": 11.06,
+     "end": 11.239,
+     "chunk": 4
+    },
+    {
+     "text": "relojes.",
+     "color": "white",
+     "start": 11.239,
+     "end": 11.675,
+     "chunk": 4
+    }
+   ]
+  },
+  {
+   "id": "nombre",
+   "visual": "escena",
+   "e": {
+    "titulo": {
+     "t": "ROLEX",
+     "sub": "1908",
+     "at": "Rolex"
+    },
+    "items": [
+     {
+      "i": "mundo",
+      "c": "gold",
+      "at": "idioma"
+     }
+    ]
+   },
+   "start": 11.975,
+   "end": 17.93,
+   "words": [
+    {
+     "text": "En",
+     "color": "white",
+     "start": 11.975,
+     "end": 12.26,
+     "chunk": 0
+    },
+    {
+     "text": "1908",
+     "color": "gold",
+     "start": 12.26,
+     "end": 12.707,
+     "chunk": 0
+    },
+    {
+     "text": "registró",
+     "color": "white",
+     "start": 12.707,
+     "end": 13.48,
+     "chunk": 0
+    },
+    {
+     "text": "un",
+     "color": "white",
+     "start": 13.48,
+     "end": 13.765,
+     "chunk": 0
+    },
+    {
+     "text": "nombre",
+     "color": "white",
+     "start": 13.765,
+     "end": 14.375,
+     "chunk": 1
+    },
+    {
+     "text": "corto,",
+     "color": "white",
+     "start": 14.375,
+     "end": 14.904,
+     "chunk": 1
+    },
+    {
+     "text": "fácil",
+     "color": "white",
+     "start": 15.004,
+     "end": 15.329,
+     "chunk": 1
+    },
+    {
+     "text": "de",
+     "color": "white",
+     "start": 15.329,
+     "end": 15.504,
+     "chunk": 2
+    },
+    {
+     "text": "decir",
+     "color": "white",
+     "start": 15.504,
+     "end": 15.829,
+     "chunk": 2
+    },
+    {
+     "text": "en",
+     "color": "white",
+     "start": 15.829,
+     "end": 16.004,
+     "chunk": 2
+    },
+    {
+     "text": "cualquier",
+     "color": "white",
+     "start": 16.004,
+     "end": 16.529,
+     "chunk": 3
+    },
+    {
+     "text": "idioma:",
+     "color": "white",
+     "start": 16.529,
+     "end": 16.903,
+     "chunk": 3
+    },
+    {
+     "text": "Rolex.",
+     "color": "gold",
+     "start": 17.103,
+     "end": 17.63,
+     "chunk": 4
+    }
+   ]
+  },
+  {
+   "id": "oyster",
+   "visual": "escena",
+   "e": {
+    "titulo": {
+     "t": "1926",
+     "sub": "OYSTER",
+     "at": "1926"
+    },
+    "items": [
+     {
+      "i": "reloj",
+      "c": "gold",
+      "l": "HERMÉTICO",
+      "at": "Oyster"
+     }
+    ]
+   },
+   "start": 17.93,
+   "end": 26.721,
+   "words": [
+    {
+     "text": "Su",
+     "color": "white",
+     "start": 17.93,
+     "end": 18.101,
+     "chunk": 0
+    },
+    {
+     "text": "obsesión",
+     "color": "white",
+     "start": 18.101,
+     "end": 18.568,
+     "chunk": 0
+    },
+    {
+     "text": "era",
+     "color": "white",
+     "start": 18.568,
+     "end": 18.788,
+     "chunk": 0
+    },
+    {
+     "text": "un",
+     "color": "white",
+     "start": 18.788,
+     "end": 18.96,
+     "chunk": 0
+    },
+    {
+     "text": "reloj",
+     "color": "white",
+     "start": 18.96,
+     "end": 19.279,
+     "chunk": 1
+    },
+    {
+     "text": "que",
+     "color": "white",
+     "start": 19.279,
+     "end": 19.5,
+     "chunk": 1
+    },
+    {
+     "text": "resistiera",
+     "color": "white",
+     "start": 19.5,
+     "end": 20.064,
+     "chunk": 1
+    },
+    {
+     "text": "el",
+     "color": "white",
+     "start": 20.064,
+     "end": 20.235,
+     "chunk": 2
+    },
+    {
+     "text": "agua",
+     "color": "white",
+     "start": 20.235,
+     "end": 20.505,
+     "chunk": 2
+    },
+    {
+     "text": "y",
+     "color": "white",
+     "start": 20.505,
+     "end": 20.628,
+     "chunk": 2
+    },
+    {
+     "text": "el",
+     "color": "white",
+     "start": 20.628,
+     "end": 20.8,
+     "chunk": 2
+    },
+    {
+     "text": "polvo.",
+     "color": "white",
+     "start": 20.8,
+     "end": 21.118,
+     "chunk": 3
+    },
+    {
+     "text": "En",
+     "color": "white",
+     "start": 21.418,
+     "end": 21.835,
+     "chunk": 4
+    },
+    {
+     "text": "1926",
+     "color": "gold",
+     "start": 21.835,
+     "end": 22.489,
+     "chunk": 4
+    },
+    {
+     "text": "lo",
+     "color": "white",
+     "start": 22.489,
+     "end": 22.905,
+     "chunk": 4
+    },
+    {
+     "text": "logró:",
+     "color": "white",
+     "start": 22.905,
+     "end": 23.678,
+     "chunk": 4
+    },
+    {
+     "text": "el",
+     "color": "white",
+     "start": 23.878,
+     "end": 24.084,
+     "chunk": 5
+    },
+    {
+     "text": "Oyster,",
+     "color": "gold",
+     "start": 24.084,
+     "end": 24.525,
+     "chunk": 5
+    },
+    {
+     "text": "hermético",
+     "color": "white",
+     "start": 24.625,
+     "end": 25.323,
+     "chunk": 5
+    },
+    {
+     "text": "como",
+     "color": "white",
+     "start": 25.323,
+     "end": 25.689,
+     "chunk": 6
+    },
+    {
+     "text": "una",
+     "color": "white",
+     "start": 25.689,
+     "end": 25.989,
+     "chunk": 6
+    },
+    {
+     "text": "ostra.",
+     "color": "white",
+     "start": 25.989,
+     "end": 26.421,
+     "chunk": 6
+    }
+   ]
+  },
+  {
+   "id": "reto",
+   "visual": "escena",
+   "e": {
+    "items": [
+     {
+      "i": "nadadora",
+      "c": "white",
+      "l": "MERCEDES GLEITZE",
+      "at": "Mercedes"
+     }
+    ],
+    "pill": {
+     "t": "CANAL DE LA MANCHA",
+     "at": "Canal"
+    }
+   },
+   "start": 26.721,
+   "end": 35.923,
+   "words": [
+    {
+     "text": "Pero",
+     "color": "white",
+     "start": 26.721,
+     "end": 26.99,
+     "chunk": 0
+    },
+    {
+     "text": "necesitaba",
+     "color": "white",
+     "start": 26.99,
+     "end": 27.551,
+     "chunk": 0
+    },
+    {
+     "text": "que",
+     "color": "white",
+     "start": 27.551,
+     "end": 27.771,
+     "chunk": 0
+    },
+    {
+     "text": "el",
+     "color": "white",
+     "start": 27.771,
+     "end": 27.942,
+     "chunk": 1
+    },
+    {
+     "text": "mundo",
+     "color": "white",
+     "start": 27.942,
+     "end": 28.259,
+     "chunk": 1
+    },
+    {
+     "text": "le",
+     "color": "white",
+     "start": 28.259,
+     "end": 28.43,
+     "chunk": 1
+    },
+    {
+     "text": "creyera.",
+     "color": "white",
+     "start": 28.43,
+     "end": 28.845,
+     "chunk": 1
+    },
+    {
+     "text": "En",
+     "color": "white",
+     "start": 29.145,
+     "end": 29.946,
+     "chunk": 2
+    },
+    {
+     "text": "1927,",
+     "color": "gold",
+     "start": 29.946,
+     "end": 31.204,
+     "chunk": 2
+    },
+    {
+     "text": "la",
+     "color": "white",
+     "start": 31.304,
+     "end": 31.478,
+     "chunk": 2
+    },
+    {
+     "text": "nadadora",
+     "color": "white",
+     "start": 31.478,
+     "end": 31.949,
+     "chunk": 2
+    },
+    {
+     "text": "Mercedes",
+     "color": "gold",
+     "start": 31.949,
+     "end": 32.421,
+     "chunk": 3
+    },
+    {
+     "text": "Gleitze",
+     "color": "gold",
+     "start": 32.421,
+     "end": 32.843,
+     "chunk": 3
+    },
+    {
+     "text": "intentó",
+     "color": "white",
+     "start": 32.843,
+     "end": 33.265,
+     "chunk": 4
+    },
+    {
+     "text": "cruzar",
+     "color": "white",
+     "start": 33.265,
+     "end": 33.637,
+     "chunk": 4
+    },
+    {
+     "text": "el",
+     "color": "white",
+     "start": 33.637,
+     "end": 33.811,
+     "chunk": 4
+    },
+    {
+     "text": "Canal",
+     "color": "white",
+     "start": 33.811,
+     "end": 34.134,
+     "chunk": 5
+    },
+    {
+     "text": "de",
+     "color": "white",
+     "start": 34.134,
+     "end": 34.307,
+     "chunk": 5
+    },
+    {
+     "text": "la",
+     "color": "white",
+     "start": 34.307,
+     "end": 34.481,
+     "chunk": 5
+    },
+    {
+     "text": "Mancha",
+     "color": "white",
+     "start": 34.481,
+     "end": 34.853,
+     "chunk": 5
+    },
+    {
+     "text": "con",
+     "color": "white",
+     "start": 34.853,
+     "end": 35.077,
+     "chunk": 6
+    },
+    {
+     "text": "un",
+     "color": "white",
+     "start": 35.077,
+     "end": 35.251,
+     "chunk": 6
+    },
+    {
+     "text": "Oyster.",
+     "color": "white",
+     "start": 35.251,
+     "end": 35.623,
+     "chunk": 6
+    }
+   ]
+  },
+  {
+   "id": "prueba",
+   "visual": "escena",
+   "e": {
+    "items": [
+     {
+      "i": "reloj",
+      "c": "gold",
+      "l": "FUNCIONANDO",
+      "at": "funcionando"
+     }
+    ],
+    "pill": {
+     "t": "✓ RESISTIÓ",
+     "at": "perfectamente"
+    }
+   },
+   "start": 35.923,
+   "end": 41.454,
+   "words": [
+    {
+     "text": "Pasó",
+     "color": "white",
+     "start": 35.923,
+     "end": 36.144,
+     "chunk": 0
+    },
+    {
+     "text": "horas",
+     "color": "white",
+     "start": 36.144,
+     "end": 36.405,
+     "chunk": 0
+    },
+    {
+     "text": "en",
+     "color": "white",
+     "start": 36.405,
+     "end": 36.545,
+     "chunk": 0
+    },
+    {
+     "text": "el",
+     "color": "white",
+     "start": 36.545,
+     "end": 36.686,
+     "chunk": 0
+    },
+    {
+     "text": "agua",
+     "color": "white",
+     "start": 36.686,
+     "end": 36.906,
+     "chunk": 1
+    },
+    {
+     "text": "helada.",
+     "color": "white",
+     "start": 36.906,
+     "end": 37.207,
+     "chunk": 1
+    },
+    {
+     "text": "Al",
+     "color": "white",
+     "start": 37.507,
+     "end": 37.697,
+     "chunk": 2
+    },
+    {
+     "text": "salir…",
+     "color": "white",
+     "start": 37.697,
+     "end": 38.049,
+     "chunk": 2
+    },
+    {
+     "text": "el",
+     "color": "white",
+     "start": 38.499,
+     "end": 38.708,
+     "chunk": 3
+    },
+    {
+     "text": "reloj",
+     "color": "white",
+     "start": 38.708,
+     "end": 39.096,
+     "chunk": 3
+    },
+    {
+     "text": "seguía",
+     "color": "white",
+     "start": 39.096,
+     "end": 39.543,
+     "chunk": 3
+    },
+    {
+     "text": "funcionando",
+     "color": "white",
+     "start": 39.543,
+     "end": 40.289,
+     "chunk": 4
+    },
+    {
+     "text": "perfectamente.",
+     "color": "white",
+     "start": 40.289,
+     "end": 41.154,
+     "chunk": 5
+    }
+   ]
+  },
+  {
+   "id": "portada",
+   "visual": "escena",
+   "e": {
+    "items": [
+     {
+      "i": "periodico",
+      "c": "gold",
+      "l": "PORTADA",
+      "at": "portada"
+     }
+    ]
+   },
+   "start": 41.454,
+   "end": 51.067,
+   "words": [
+    {
+     "text": "Wilsdorf",
+     "color": "white",
+     "start": 41.454,
+     "end": 42.015,
+     "chunk": 0
+    },
+    {
+     "text": "compró",
+     "color": "white",
+     "start": 42.015,
+     "end": 42.457,
+     "chunk": 0
+    },
+    {
+     "text": "la",
+     "color": "white",
+     "start": 42.457,
+     "end": 42.664,
+     "chunk": 0
+    },
+    {
+     "text": "portada",
+     "color": "white",
+     "start": 42.664,
+     "end": 43.165,
+     "chunk": 1
+    },
+    {
+     "text": "del",
+     "color": "white",
+     "start": 43.165,
+     "end": 43.431,
+     "chunk": 1
+    },
+    {
+     "text": "Daily",
+     "color": "gold",
+     "start": 43.431,
+     "end": 43.815,
+     "chunk": 1
+    },
+    {
+     "text": "Mail",
+     "color": "gold",
+     "start": 43.815,
+     "end": 44.139,
+     "chunk": 2
+    },
+    {
+     "text": "para",
+     "color": "white",
+     "start": 44.139,
+     "end": 44.464,
+     "chunk": 2
+    },
+    {
+     "text": "contarlo.",
+     "color": "white",
+     "start": 44.464,
+     "end": 45.024,
+     "chunk": 2
+    },
+    {
+     "text": "Así",
+     "color": "white",
+     "start": 45.324,
+     "end": 45.546,
+     "chunk": 3
+    },
+    {
+     "text": "nació",
+     "color": "white",
+     "start": 45.546,
+     "end": 45.866,
+     "chunk": 3
+    },
+    {
+     "text": "una",
+     "color": "white",
+     "start": 45.866,
+     "end": 46.087,
+     "chunk": 3
+    },
+    {
+     "text": "estrategia",
+     "color": "white",
+     "start": 46.087,
+     "end": 46.653,
+     "chunk": 4
+    },
+    {
+     "text": "que",
+     "color": "white",
+     "start": 46.653,
+     "end": 46.875,
+     "chunk": 4
+    },
+    {
+     "text": "Rolex",
+     "color": "white",
+     "start": 46.875,
+     "end": 47.195,
+     "chunk": 4
+    },
+    {
+     "text": "usa",
+     "color": "white",
+     "start": 47.195,
+     "end": 47.417,
+     "chunk": 5
+    },
+    {
+     "text": "hasta",
+     "color": "white",
+     "start": 47.417,
+     "end": 47.737,
+     "chunk": 5
+    },
+    {
+     "text": "hoy:",
+     "color": "white",
+     "start": 47.737,
+     "end": 47.958,
+     "chunk": 5
+    },
+    {
+     "text": "que",
+     "color": "white",
+     "start": 48.158,
+     "end": 48.393,
+     "chunk": 6
+    },
+    {
+     "text": "gente",
+     "color": "white",
+     "start": 48.393,
+     "end": 48.732,
+     "chunk": 6
+    },
+    {
+     "text": "extraordinaria",
+     "color": "white",
+     "start": 48.732,
+     "end": 49.541,
+     "chunk": 7
+    },
+    {
+     "text": "demuestre",
+     "color": "white",
+     "start": 49.541,
+     "end": 50.089,
+     "chunk": 8
+    },
+    {
+     "text": "sus",
+     "color": "white",
+     "start": 50.089,
+     "end": 50.324,
+     "chunk": 8
+    },
+    {
+     "text": "relojes.",
+     "color": "white",
+     "start": 50.324,
+     "end": 50.767,
+     "chunk": 9
+    }
+   ]
+  },
+  {
+   "id": "leccion",
+   "visual": "escena",
+   "e": {
+    "titulo": {
+     "t": "DEMUÉSTRALO",
+     "at": "demostrarlo"
+    }
+   },
+   "start": 51.067,
+   "end": 55.718,
+   "words": [
+    {
+     "text": "La",
+     "color": "white",
+     "start": 51.067,
+     "end": 51.327,
+     "chunk": 0
+    },
+    {
+     "text": "lección:",
+     "color": "white",
+     "start": 51.327,
+     "end": 51.959,
+     "chunk": 0
+    },
+    {
+     "text": "no",
+     "color": "white",
+     "start": 52.159,
+     "end": 52.352,
+     "chunk": 1
+    },
+    {
+     "text": "basta",
+     "color": "white",
+     "start": 52.352,
+     "end": 52.709,
+     "chunk": 1
+    },
+    {
+     "text": "con",
+     "color": "white",
+     "start": 52.709,
+     "end": 52.957,
+     "chunk": 1
+    },
+    {
+     "text": "un",
+     "color": "white",
+     "start": 52.957,
+     "end": 53.149,
+     "chunk": 1
+    },
+    {
+     "text": "buen",
+     "color": "white",
+     "start": 53.149,
+     "end": 53.452,
+     "chunk": 2
+    },
+    {
+     "text": "producto.",
+     "color": "white",
+     "start": 53.452,
+     "end": 53.974,
+     "chunk": 2
+    },
+    {
+     "text": "Hay",
+     "color": "white",
+     "start": 54.274,
+     "end": 54.514,
+     "chunk": 3
+    },
+    {
+     "text": "que",
+     "color": "white",
+     "start": 54.514,
+     "end": 54.753,
+     "chunk": 3
+    },
+    {
+     "text": "demostrarlo.",
+     "color": "gold",
+     "start": 54.753,
+     "end": 55.418,
+     "chunk": 3
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "visual": "cta",
+   "e": {},
+   "start": 55.718,
+   "end": 60.542,
+   "words": [
+    {
+     "text": "Sígueme",
+     "color": "white",
+     "start": 55.718,
+     "end": 56.151,
+     "chunk": 0
+    },
+    {
+     "text": "para",
+     "color": "white",
+     "start": 56.151,
+     "end": 56.43,
+     "chunk": 0
+    },
+    {
+     "text": "más",
+     "color": "white",
+     "start": 56.43,
+     "end": 56.659,
+     "chunk": 0
+    },
+    {
+     "text": "historias",
+     "color": "white",
+     "start": 56.659,
+     "end": 57.193,
+     "chunk": 1
+    },
+    {
+     "text": "de",
+     "color": "white",
+     "start": 57.193,
+     "end": 57.371,
+     "chunk": 1
+    },
+    {
+     "text": "las",
+     "color": "white",
+     "start": 57.371,
+     "end": 57.6,
+     "chunk": 1
+    },
+    {
+     "text": "marcas",
+     "color": "white",
+     "start": 57.6,
+     "end": 57.981,
+     "chunk": 2
+    },
+    {
+     "text": "que",
+     "color": "white",
+     "start": 57.981,
+     "end": 58.21,
+     "chunk": 2
+    },
+    {
+     "text": "admiras.",
+     "color": "white",
+     "start": 58.21,
+     "end": 58.642,
+     "chunk": 2
+    }
+   ]
+  }
+ ]
+}

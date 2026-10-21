@@ -1,0 +1,1152 @@
+{
+ "slug": "honda",
+ "fondo": "carretera",
+ "duration": 57.09,
+ "scenes": [
+  {
+   "id": "hook",
+   "visual": "escena",
+   "e": {
+    "items": [
+     {
+      "i": "fabrica",
+      "c": "grey",
+      "at": "fábrica"
+     },
+     {
+      "i": "explosion",
+      "c": "red",
+      "at": "bombardearon"
+     }
+    ],
+    "pill": {
+     "t": "NUNCA SE RINDIÓ",
+     "at": "Honda"
+    }
+   },
+   "start": 0.35,
+   "end": 5.786,
+   "words": [
+    {
+     "text": "Le",
+     "color": "white",
+     "start": 0.443,
+     "end": 0.571,
+     "chunk": 0
+    },
+    {
+     "text": "bombardearon",
+     "color": "white",
+     "start": 0.582,
+     "end": 1.15,
+     "chunk": 0
+    },
+    {
+     "text": "la",
+     "color": "white",
+     "start": 1.161,
+     "end": 1.236,
+     "chunk": 0
+    },
+    {
+     "text": "fábrica…",
+     "color": "white",
+     "start": 1.247,
+     "end": 1.675,
+     "chunk": 1
+    },
+    {
+     "text": "un",
+     "color": "white",
+     "start": 1.954,
+     "end": 2.05,
+     "chunk": 2
+    },
+    {
+     "text": "terremoto",
+     "color": "white",
+     "start": 2.061,
+     "end": 2.522,
+     "chunk": 2
+    },
+    {
+     "text": "le",
+     "color": "white",
+     "start": 2.533,
+     "end": 2.608,
+     "chunk": 2
+    },
+    {
+     "text": "destruyó",
+     "color": "white",
+     "start": 2.618,
+     "end": 3.015,
+     "chunk": 3
+    },
+    {
+     "text": "la",
+     "color": "white",
+     "start": 3.026,
+     "end": 3.154,
+     "chunk": 3
+    },
+    {
+     "text": "otra…",
+     "color": "white",
+     "start": 3.165,
+     "end": 3.465,
+     "chunk": 3
+    },
+    {
+     "text": "y",
+     "color": "white",
+     "start": 3.679,
+     "end": 3.786,
+     "chunk": 4
+    },
+    {
+     "text": "aun",
+     "color": "white",
+     "start": 3.797,
+     "end": 4.012,
+     "chunk": 4
+    },
+    {
+     "text": "así",
+     "color": "white",
+     "start": 4.022,
+     "end": 4.247,
+     "chunk": 4
+    },
+    {
+     "text": "creó",
+     "color": "white",
+     "start": 4.258,
+     "end": 4.515,
+     "chunk": 4
+    },
+    {
+     "text": "Honda.",
+     "color": "gold",
+     "start": 4.526,
+     "end": 4.858,
+     "chunk": 5
+    }
+   ]
+  },
+  {
+   "id": "inicio",
+   "visual": "escena",
+   "e": {
+    "items": [
+     {
+      "i": "persona",
+      "c": "gold",
+      "l": "SOICHIRO",
+      "at": "Soichiro"
+     },
+     {
+      "i": "piston",
+      "c": "gold",
+      "l": "PISTONES",
+      "at": "pistón"
+     }
+    ]
+   },
+   "start": 5.786,
+   "end": 12.71,
+   "words": [
+    {
+     "text": "Japón,",
+     "color": "white",
+     "start": 5.879,
+     "end": 6.329,
+     "chunk": 0
+    },
+    {
+     "text": "años",
+     "color": "white",
+     "start": 6.554,
+     "end": 6.833,
+     "chunk": 0
+    },
+    {
+     "text": "treinta.",
+     "color": "white",
+     "start": 6.843,
+     "end": 7.251,
+     "chunk": 0
+    },
+    {
+     "text": "Soichiro",
+     "color": "gold",
+     "start": 7.983,
+     "end": 8.54,
+     "chunk": 1
+    },
+    {
+     "text": "Honda",
+     "color": "gold",
+     "start": 8.551,
+     "end": 8.744,
+     "chunk": 1
+    },
+    {
+     "text": "fabricaba",
+     "color": "white",
+     "start": 8.755,
+     "end": 9.226,
+     "chunk": 2
+    },
+    {
+     "text": "anillos",
+     "color": "white",
+     "start": 9.237,
+     "end": 9.569,
+     "chunk": 2
+    },
+    {
+     "text": "de",
+     "color": "white",
+     "start": 9.58,
+     "end": 9.655,
+     "chunk": 2
+    },
+    {
+     "text": "pistón",
+     "color": "white",
+     "start": 9.665,
+     "end": 9.998,
+     "chunk": 3
+    },
+    {
+     "text": "y",
+     "color": "white",
+     "start": 10.008,
+     "end": 10.051,
+     "chunk": 3
+    },
+    {
+     "text": "soñaba",
+     "color": "white",
+     "start": 10.062,
+     "end": 10.469,
+     "chunk": 3
+    },
+    {
+     "text": "con",
+     "color": "white",
+     "start": 10.48,
+     "end": 10.63,
+     "chunk": 3
+    },
+    {
+     "text": "vendérselos",
+     "color": "white",
+     "start": 10.641,
+     "end": 11.23,
+     "chunk": 4
+    },
+    {
+     "text": "a",
+     "color": "white",
+     "start": 11.241,
+     "end": 11.294,
+     "chunk": 4
+    },
+    {
+     "text": "Toyota.",
+     "color": "red",
+     "start": 11.305,
+     "end": 11.766,
+     "chunk": 5
+    }
+   ]
+  },
+  {
+   "id": "rechazo",
+   "visual": "escena",
+   "e": {
+    "items": [
+     {
+      "i": "piston",
+      "c": "red",
+      "l": "RECHAZADO",
+      "at": "rechazó"
+     },
+     {
+      "i": "piston",
+      "c": "gold",
+      "l": "APROBADO",
+      "at": "proveedor"
+     }
+    ],
+    "entre": {
+     "t": "→",
+     "at": "estudiar"
+    }
+   },
+   "start": 12.71,
+   "end": 20.906,
+   "words": [
+    {
+     "text": "Pero",
+     "color": "white",
+     "start": 12.803,
+     "end": 12.985,
+     "chunk": 0
+    },
+    {
+     "text": "Toyota",
+     "color": "red",
+     "start": 12.996,
+     "end": 13.36,
+     "chunk": 0
+    },
+    {
+     "text": "le",
+     "color": "white",
+     "start": 13.371,
+     "end": 13.467,
+     "chunk": 0
+    },
+    {
+     "text": "rechazó",
+     "color": "white",
+     "start": 13.478,
+     "end": 13.853,
+     "chunk": 1
+    },
+    {
+     "text": "las",
+     "color": "white",
+     "start": 13.864,
+     "end": 14.035,
+     "chunk": 1
+    },
+    {
+     "text": "piezas",
+     "color": "white",
+     "start": 14.046,
+     "end": 14.389,
+     "chunk": 1
+    },
+    {
+     "text": "por",
+     "color": "white",
+     "start": 14.4,
+     "end": 14.56,
+     "chunk": 2
+    },
+    {
+     "text": "mala",
+     "color": "white",
+     "start": 14.571,
+     "end": 14.807,
+     "chunk": 2
+    },
+    {
+     "text": "calidad.",
+     "color": "white",
+     "start": 14.818,
+     "end": 15.311,
+     "chunk": 2
+    },
+    {
+     "text": "Así",
+     "color": "white",
+     "start": 16.043,
+     "end": 16.322,
+     "chunk": 3
+    },
+    {
+     "text": "que",
+     "color": "white",
+     "start": 16.332,
+     "end": 16.429,
+     "chunk": 3
+    },
+    {
+     "text": "volvió",
+     "color": "white",
+     "start": 16.439,
+     "end": 16.718,
+     "chunk": 3
+    },
+    {
+     "text": "a",
+     "color": "white",
+     "start": 16.729,
+     "end": 16.75,
+     "chunk": 3
+    },
+    {
+     "text": "estudiar,",
+     "color": "white",
+     "start": 16.761,
+     "end": 17.147,
+     "chunk": 4
+    },
+    {
+     "text": "mejoró",
+     "color": "white",
+     "start": 17.404,
+     "end": 17.704,
+     "chunk": 4
+    },
+    {
+     "text": "su",
+     "color": "white",
+     "start": 17.715,
+     "end": 17.854,
+     "chunk": 4
+    },
+    {
+     "text": "técnica…",
+     "color": "white",
+     "start": 17.865,
+     "end": 18.326,
+     "chunk": 5
+    },
+    {
+     "text": "y",
+     "color": "white",
+     "start": 18.54,
+     "end": 18.626,
+     "chunk": 6
+    },
+    {
+     "text": "terminó",
+     "color": "white",
+     "start": 18.636,
+     "end": 19.001,
+     "chunk": 6
+    },
+    {
+     "text": "siendo",
+     "color": "white",
+     "start": 19.011,
+     "end": 19.322,
+     "chunk": 6
+    },
+    {
+     "text": "su",
+     "color": "white",
+     "start": 19.333,
+     "end": 19.462,
+     "chunk": 6
+    },
+    {
+     "text": "proveedor.",
+     "color": "white",
+     "start": 19.472,
+     "end": 19.965,
+     "chunk": 7
+    }
+   ]
+  },
+  {
+   "id": "guerra",
+   "visual": "escena",
+   "e": {
+    "items": [
+     {
+      "i": "explosion",
+      "c": "red",
+      "l": "BOMBARDEO",
+      "at": "bombardeo"
+     },
+     {
+      "i": "grieta",
+      "c": "grey",
+      "l": "TERREMOTO",
+      "at": "terremoto"
+     }
+    ]
+   },
+   "start": 20.906,
+   "end": 29.246,
+   "words": [
+    {
+     "text": "Entonces",
+     "color": "white",
+     "start": 20.999,
+     "end": 21.545,
+     "chunk": 0
+    },
+    {
+     "text": "llegó",
+     "color": "white",
+     "start": 21.556,
+     "end": 21.77,
+     "chunk": 0
+    },
+    {
+     "text": "la",
+     "color": "white",
+     "start": 21.781,
+     "end": 21.856,
+     "chunk": 0
+    },
+    {
+     "text": "guerra.",
+     "color": "white",
+     "start": 21.867,
+     "end": 22.221,
+     "chunk": 1
+    },
+    {
+     "text": "Un",
+     "color": "white",
+     "start": 22.953,
+     "end": 23.092,
+     "chunk": 2
+    },
+    {
+     "text": "bombardeo",
+     "color": "white",
+     "start": 23.103,
+     "end": 23.596,
+     "chunk": 2
+    },
+    {
+     "text": "destruyó",
+     "color": "white",
+     "start": 23.607,
+     "end": 24.003,
+     "chunk": 3
+    },
+    {
+     "text": "una",
+     "color": "white",
+     "start": 24.014,
+     "end": 24.185,
+     "chunk": 3
+    },
+    {
+     "text": "de",
+     "color": "white",
+     "start": 24.196,
+     "end": 24.293,
+     "chunk": 3
+    },
+    {
+     "text": "sus",
+     "color": "white",
+     "start": 24.303,
+     "end": 24.464,
+     "chunk": 3
+    },
+    {
+     "text": "fábricas,",
+     "color": "white",
+     "start": 24.475,
+     "end": 24.978,
+     "chunk": 4
+    },
+    {
+     "text": "y",
+     "color": "white",
+     "start": 25.203,
+     "end": 25.3,
+     "chunk": 4
+    },
+    {
+     "text": "en",
+     "color": "white",
+     "start": 25.311,
+     "end": 25.407,
+     "chunk": 4
+    },
+    {
+     "text": "1945",
+     "color": "gold",
+     "start": 25.418,
+     "end": 26.822,
+     "chunk": 4
+    },
+    {
+     "text": "un",
+     "color": "white",
+     "start": 26.832,
+     "end": 26.94,
+     "chunk": 5
+    },
+    {
+     "text": "terremoto",
+     "color": "white",
+     "start": 26.95,
+     "end": 27.422,
+     "chunk": 5
+    },
+    {
+     "text": "derrumbó",
+     "color": "white",
+     "start": 27.433,
+     "end": 27.829,
+     "chunk": 6
+    },
+    {
+     "text": "la",
+     "color": "white",
+     "start": 27.84,
+     "end": 27.968,
+     "chunk": 6
+    },
+    {
+     "text": "otra.",
+     "color": "white",
+     "start": 27.979,
+     "end": 28.311,
+     "chunk": 6
+    }
+   ]
+  },
+  {
+   "id": "venta",
+   "visual": "escena",
+   "e": {
+    "items": [
+     {
+      "i": "dinero",
+      "c": "gold",
+      "l": "EMPEZAR DE CERO",
+      "at": "dinero"
+     }
+    ]
+   },
+   "start": 29.246,
+   "end": 34.298,
+   "words": [
+    {
+     "text": "Honda",
+     "color": "white",
+     "start": 29.339,
+     "end": 29.553,
+     "chunk": 0
+    },
+    {
+     "text": "vendió",
+     "color": "white",
+     "start": 29.564,
+     "end": 29.885,
+     "chunk": 0
+    },
+    {
+     "text": "lo",
+     "color": "white",
+     "start": 29.896,
+     "end": 29.993,
+     "chunk": 0
+    },
+    {
+     "text": "que",
+     "color": "white",
+     "start": 30.003,
+     "end": 30.1,
+     "chunk": 0
+    },
+    {
+     "text": "quedó,",
+     "color": "white",
+     "start": 30.11,
+     "end": 30.4,
+     "chunk": 1
+    },
+    {
+     "text": "justamente",
+     "color": "white",
+     "start": 30.603,
+     "end": 31.118,
+     "chunk": 1
+    },
+    {
+     "text": "a",
+     "color": "white",
+     "start": 31.129,
+     "end": 31.161,
+     "chunk": 1
+    },
+    {
+     "text": "Toyota,",
+     "color": "red",
+     "start": 31.171,
+     "end": 31.6,
+     "chunk": 2
+    },
+    {
+     "text": "y",
+     "color": "white",
+     "start": 31.836,
+     "end": 31.922,
+     "chunk": 2
+    },
+    {
+     "text": "con",
+     "color": "white",
+     "start": 31.932,
+     "end": 32.093,
+     "chunk": 2
+    },
+    {
+     "text": "ese",
+     "color": "white",
+     "start": 32.104,
+     "end": 32.286,
+     "chunk": 2
+    },
+    {
+     "text": "dinero",
+     "color": "white",
+     "start": 32.297,
+     "end": 32.586,
+     "chunk": 3
+    },
+    {
+     "text": "empezó",
+     "color": "white",
+     "start": 32.597,
+     "end": 32.929,
+     "chunk": 3
+    },
+    {
+     "text": "de",
+     "color": "white",
+     "start": 32.94,
+     "end": 33.015,
+     "chunk": 3
+    },
+    {
+     "text": "nuevo.",
+     "color": "white",
+     "start": 33.025,
+     "end": 33.368,
+     "chunk": 4
+    }
+   ]
+  },
+  {
+   "id": "bici",
+   "visual": "escena",
+   "e": {
+    "items": [
+     {
+      "i": "bici",
+      "c": "gold",
+      "l": "BICI CON MOTOR",
+      "at": "motores"
+     }
+    ],
+    "mover": true
+   },
+   "start": 34.298,
+   "end": 40.214,
+   "words": [
+    {
+     "text": "Después",
+     "color": "white",
+     "start": 34.391,
+     "end": 34.766,
+     "chunk": 0
+    },
+    {
+     "text": "de",
+     "color": "white",
+     "start": 34.777,
+     "end": 34.841,
+     "chunk": 0
+    },
+    {
+     "text": "la",
+     "color": "white",
+     "start": 34.852,
+     "end": 34.927,
+     "chunk": 0
+    },
+    {
+     "text": "guerra",
+     "color": "white",
+     "start": 34.937,
+     "end": 35.195,
+     "chunk": 0
+    },
+    {
+     "text": "no",
+     "color": "white",
+     "start": 35.205,
+     "end": 35.398,
+     "chunk": 1
+    },
+    {
+     "text": "había",
+     "color": "white",
+     "start": 35.409,
+     "end": 35.645,
+     "chunk": 1
+    },
+    {
+     "text": "transporte.",
+     "color": "white",
+     "start": 35.656,
+     "end": 36.224,
+     "chunk": 1
+    },
+    {
+     "text": "Así",
+     "color": "white",
+     "start": 36.956,
+     "end": 37.213,
+     "chunk": 2
+    },
+    {
+     "text": "que",
+     "color": "white",
+     "start": 37.224,
+     "end": 37.32,
+     "chunk": 2
+    },
+    {
+     "text": "le",
+     "color": "white",
+     "start": 37.331,
+     "end": 37.417,
+     "chunk": 2
+    },
+    {
+     "text": "puso",
+     "color": "white",
+     "start": 37.427,
+     "end": 37.685,
+     "chunk": 2
+    },
+    {
+     "text": "pequeños",
+     "color": "white",
+     "start": 37.695,
+     "end": 38.113,
+     "chunk": 3
+    },
+    {
+     "text": "motores",
+     "color": "white",
+     "start": 38.124,
+     "end": 38.51,
+     "chunk": 3
+    },
+    {
+     "text": "a",
+     "color": "white",
+     "start": 38.52,
+     "end": 38.553,
+     "chunk": 3
+    },
+    {
+     "text": "bicicletas.",
+     "color": "white",
+     "start": 38.563,
+     "end": 39.271,
+     "chunk": 4
+    }
+   ]
+  },
+  {
+   "id": "honda",
+   "visual": "escena",
+   "e": {
+    "titulo": {
+     "t": "1948",
+     "sub": "HONDA MOTOR",
+     "at": "1948"
+    },
+    "items": [
+     {
+      "i": "mundo",
+      "c": "gold",
+      "at": "mundo"
+     }
+    ]
+   },
+   "start": 40.214,
+   "end": 47.498,
+   "words": [
+    {
+     "text": "Así",
+     "color": "white",
+     "start": 40.307,
+     "end": 40.575,
+     "chunk": 0
+    },
+    {
+     "text": "nació",
+     "color": "white",
+     "start": 40.586,
+     "end": 40.907,
+     "chunk": 0
+    },
+    {
+     "text": "Honda",
+     "color": "gold",
+     "start": 40.918,
+     "end": 41.1,
+     "chunk": 0
+    },
+    {
+     "text": "Motor,",
+     "color": "gold",
+     "start": 41.111,
+     "end": 41.443,
+     "chunk": 1
+    },
+    {
+     "text": "en",
+     "color": "white",
+     "start": 41.668,
+     "end": 41.754,
+     "chunk": 1
+    },
+    {
+     "text": "1948.",
+     "color": "gold",
+     "start": 41.764,
+     "end": 43.19,
+     "chunk": 1
+    },
+    {
+     "text": "Hoy",
+     "color": "white",
+     "start": 43.922,
+     "end": 44.115,
+     "chunk": 2
+    },
+    {
+     "text": "es",
+     "color": "white",
+     "start": 44.126,
+     "end": 44.254,
+     "chunk": 2
+    },
+    {
+     "text": "uno",
+     "color": "white",
+     "start": 44.265,
+     "end": 44.415,
+     "chunk": 2
+    },
+    {
+     "text": "de",
+     "color": "white",
+     "start": 44.426,
+     "end": 44.511,
+     "chunk": 2
+    },
+    {
+     "text": "los",
+     "color": "white",
+     "start": 44.522,
+     "end": 44.662,
+     "chunk": 3
+    },
+    {
+     "text": "mayores",
+     "color": "white",
+     "start": 44.672,
+     "end": 45.015,
+     "chunk": 3
+    },
+    {
+     "text": "fabricantes",
+     "color": "white",
+     "start": 45.026,
+     "end": 45.594,
+     "chunk": 4
+    },
+    {
+     "text": "de",
+     "color": "white",
+     "start": 45.605,
+     "end": 45.669,
+     "chunk": 4
+    },
+    {
+     "text": "motores",
+     "color": "white",
+     "start": 45.68,
+     "end": 46.087,
+     "chunk": 5
+    },
+    {
+     "text": "del",
+     "color": "white",
+     "start": 46.098,
+     "end": 46.205,
+     "chunk": 5
+    },
+    {
+     "text": "mundo.",
+     "color": "white",
+     "start": 46.215,
+     "end": 46.569,
+     "chunk": 5
+    }
+   ]
+  },
+  {
+   "id": "frase",
+   "visual": "escena",
+   "e": {
+    "titulo": {
+     "t": "99%",
+     "sub": "FRACASO",
+     "at": "99",
+     "c": "gold"
+    }
+   },
+   "start": 47.498,
+   "end": 52.046,
+   "words": [
+    {
+     "text": "Su",
+     "color": "white",
+     "start": 47.591,
+     "end": 47.795,
+     "chunk": 0
+    },
+    {
+     "text": "lema",
+     "color": "white",
+     "start": 47.805,
+     "end": 48.02,
+     "chunk": 0
+    },
+    {
+     "text": "lo",
+     "color": "white",
+     "start": 48.03,
+     "end": 48.116,
+     "chunk": 0
+    },
+    {
+     "text": "dice",
+     "color": "white",
+     "start": 48.127,
+     "end": 48.384,
+     "chunk": 0
+    },
+    {
+     "text": "todo:",
+     "color": "white",
+     "start": 48.395,
+     "end": 48.695,
+     "chunk": 1
+    },
+    {
+     "text": "el",
+     "color": "white",
+     "start": 48.92,
+     "end": 49.059,
+     "chunk": 2
+    },
+    {
+     "text": "éxito",
+     "color": "white",
+     "start": 49.07,
+     "end": 49.402,
+     "chunk": 2
+    },
+    {
+     "text": "es",
+     "color": "white",
+     "start": 49.413,
+     "end": 49.52,
+     "chunk": 2
+    },
+    {
+     "text": "99%",
+     "color": "gold",
+     "start": 49.531,
+     "end": 50.613,
+     "chunk": 2
+    },
+    {
+     "text": "fracaso.",
+     "color": "white",
+     "start": 50.624,
+     "end": 51.106,
+     "chunk": 3
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "visual": "cta",
+   "e": {},
+   "start": 52.046,
+   "end": 57.09,
+   "words": [
+    {
+     "text": "Sígueme",
+     "color": "white",
+     "start": 52.139,
+     "end": 52.557,
+     "chunk": 0
+    },
+    {
+     "text": "para",
+     "color": "white",
+     "start": 52.568,
+     "end": 52.75,
+     "chunk": 0
+    },
+    {
+     "text": "más",
+     "color": "white",
+     "start": 52.761,
+     "end": 52.964,
+     "chunk": 0
+    },
+    {
+     "text": "historias",
+     "color": "white",
+     "start": 52.975,
+     "end": 53.404,
+     "chunk": 1
+    },
+    {
+     "text": "de",
+     "color": "white",
+     "start": 53.414,
+     "end": 53.479,
+     "chunk": 1
+    },
+    {
+     "text": "las",
+     "color": "white",
+     "start": 53.489,
+     "end": 53.639,
+     "chunk": 1
+    },
+    {
+     "text": "marcas",
+     "color": "white",
+     "start": 53.65,
+     "end": 53.982,
+     "chunk": 2
+    },
+    {
+     "text": "que",
+     "color": "white",
+     "start": 53.993,
+     "end": 54.079,
+     "chunk": 2
+    },
+    {
+     "text": "admiras.",
+     "color": "white",
+     "start": 54.089,
+     "end": 54.572,
+     "chunk": 2
+    }
+   ]
+  }
+ ]
+}
