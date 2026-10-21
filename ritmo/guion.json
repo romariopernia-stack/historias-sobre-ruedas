@@ -1,0 +1,14 @@
+{
+  "voz": "es-VE-PaolaNeural",
+  "rate": "+6%",
+  "lineas": [
+    {"id": "gancho", "texto": "¿Quieres reservar tu clase en Ritmo? ¡Es facilísimo!"},
+    {"id": "paso1",  "texto": "Entra a ritmo venezuela punto com y toca Reservar."},
+    {"id": "paso2",  "texto": "Elige la clase que más te guste y presiona Reservar."},
+    {"id": "paso3",  "texto": "Completa tus datos: nombre, teléfono, cédula y correo."},
+    {"id": "paso4",  "texto": "Escoge cuántos cupos quieres y tu método de pago."},
+    {"id": "paso5",  "texto": "Acepta los términos y confirma tu reserva."},
+    {"id": "paso6",  "texto": "Envía tu comprobante por WhatsApp… ¡y listo!"},
+    {"id": "cierre", "texto": "Tu cupo te espera. ¡Nos vemos en Ritmo!"}
+  ]
+}
