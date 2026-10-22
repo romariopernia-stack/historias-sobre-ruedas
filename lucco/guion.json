@@ -1,0 +1,12 @@
+{
+  "voz": "es-VE-SebastianNeural",
+  "rate": "+12%",
+  "lineas": [
+    {"id": "s0", "texto": "No es suerte. ¡Es estadística! Tres picks para hoy, cuota cuatro."},
+    {"id": "s1", "texto": "Uno: gana la Juventus, cuota uno cincuenta y cinco. Dos de dos en Europa, y el Rennes casi no marca fuera."},
+    {"id": "s2", "texto": "Dos: más de dos goles y medio en Besiktas contra Palace. Uno cincuenta y siete. Los dos llegan con gol."},
+    {"id": "s3", "texto": "Tres: ambos marcan en Ajax contra Atalanta. Uno sesenta y dos. Dos defensas que regalan."},
+    {"id": "s4", "texto": "Combinada a cuota cuatro: poca plata. Simples a una unidad."},
+    {"id": "s5", "texto": "Sígueme. Resultados en vivo, gane o pierda."}
+  ]
+}
