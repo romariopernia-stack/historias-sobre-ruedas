@@ -1,0 +1,12 @@
+{
+  "voz": "es-VE-PaolaNeural",
+  "rate": "-8%",
+  "pitch": "-3Hz",
+  "lineas": [
+    {"id": "detalle", "texto": "Cada detalle... pensado para que sientas la música."},
+    {"id": "revela",  "texto": "No son simples audífonos..."},
+    {"id": "mujer",   "texto": "Póntelos... cierra los ojos..."},
+    {"id": "bici",    "texto": "y deja que el ritmo te mueva."},
+    {"id": "cierre",  "texto": "Ritmo. Vive la experiencia. Reserva en ritmo venezuela punto com."}
+  ]
+}
