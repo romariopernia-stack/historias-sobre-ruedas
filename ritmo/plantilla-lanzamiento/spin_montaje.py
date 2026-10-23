@@ -47,10 +47,10 @@ def add_seq(k, shots):
         prev = len(cuts) - 1 if cuts and abs(cuts[-1]["t1"] - (a + i * L)) < 1e-3 else None
         cuts.append({"t0": round(a + i * L, 4), "t1": round(a + (i + 1) * L, 4), "dir": "cf2", "clip": sh, "start": 0.05,
                      "speed": min(1.0, (NF / 30 - 0.1) / L), "n": NF, "xf": 0.35 if prev is not None or i > 0 else 0.6, "prev": prev, "flash": 0})
-add_seq("intro", ["S1", "S9", "S5"])
+add_seq("intro", ["P1", "P2", "S5"])
 add_seq("montaje", ["S3", "S4", "S6", "S7", "S8"])
 cuts[0]["xf"] = 0
-bg = ["S2", "S4", "S6", "S3", "S7"]
+bg = ["P1", "S4", "S6", "S3", "S7"]
 j = 0
 for k in ("revela", "fecha", "cierre"):
     a, b = seg[k]; t = a
