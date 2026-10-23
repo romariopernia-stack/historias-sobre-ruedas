@@ -1,0 +1,13 @@
+{
+  "voz": "es-VE-PaolaNeural",
+  "rate": "+8%",
+  "lineas": [
+    {"id": "gancho",  "texto": "Algo nuevo llega a Ritmo..."},
+    {"id": "montaje", "texto": "Spinning inmersivo: audífonos, luces, y la música directo a tus oídos."},
+    {"id": "revela",  "texto": "¡Llega Ritmo Experience de Extrím Báik!"},
+    {"id": "johan",   "texto": "En alianza con el instructor Yóhan Pérez,"},
+    {"id": "sala",    "texto": "en la sala Lathir."},
+    {"id": "fecha",   "texto": "Lunes dos de noviembre, a las ocho de la noche."},
+    {"id": "cierre",  "texto": "Cupos limitados. ¡Reserva el tuyo en ritmo venezuela punto com!"}
+  ]
+}

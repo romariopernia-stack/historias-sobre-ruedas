@@ -4,7 +4,7 @@ import sys, json, os, asyncio, subprocess, time
 import edge_tts
 
 g = json.load(open(sys.argv[1]))
-out = os.path.join(os.path.dirname(os.path.abspath(sys.argv[1])), "salida")
+out = os.path.join(os.path.dirname(os.path.abspath(sys.argv[1])), "salida", os.path.splitext(os.path.basename(sys.argv[1]))[0])
 os.makedirs(out, exist_ok=True)
 dur = {}
 for ln in g["lineas"]:
