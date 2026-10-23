@@ -11,6 +11,9 @@ html,body{width:1080px;height:1920px;overflow:hidden;background:#050404;font-fam
 #sweep{position:absolute;left:0;top:0;transform-origin:0 0;-webkit-mask-size:100% 100%;mix-blend-mode:screen;
   background:linear-gradient(105deg,rgba(255,180,110,0) 35%,rgba(255,200,140,.55) 50%,rgba(255,180,110,0) 65%);background-size:300% 100%}
 #flash{background:#fff;opacity:0}
+#sub.big{top:760px;font-size:118px;font-weight:900;font-style:normal;letter-spacing:-.04em;line-height:.95;text-transform:uppercase;text-shadow:0 4px 40px rgba(0,0,0,.85)}
+#sub.big em{font-style:normal;color:var(--o2)}
+#sub.word{top:1450px;font-size:150px;font-weight:900;font-style:normal;letter-spacing:-.03em;color:#fff;text-shadow:0 0 40px rgba(255,150,60,.6),0 4px 30px #000}
 #sub{top:1600px;font-size:54px;font-weight:300;font-style:italic;color:#f2ece6;text-shadow:0 2px 24px #000,0 0 40px rgba(0,0,0,.9);padding:0 80px}
 #grain{opacity:.06;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/></filter><rect width='200' height='200' filter='url(%23n)'/></svg>")}
 #wm{left:40px;top:60px;height:70px;opacity:.9}
@@ -80,7 +83,7 @@ async function render(t){
   $('wm').style.display=(!inE&&t>0.6)?'block':'none';
   // subtitles
   const sub=TL.subs.find(x=>t>=x[0]&&t<x[1]);const se=$('sub');
-  if(sub&&!inE){se.textContent=sub[2];const p=seg(t,sub[0],sub[0]+0.45),q=seg(t,sub[1]-0.3,sub[1]);se.style.opacity=Math.min(p,1-q);se.style.transform=`translateY(${(1-eo(p))*14}px)`}else se.style.opacity=0;
+  if(sub&&!inE){se.className='abs c '+(sub[3]||'');se.innerHTML=sub[2];const p=seg(t,sub[0],sub[0]+0.45),q=seg(t,sub[1]-0.3,sub[1]);se.style.opacity=Math.min(p,1-q);se.style.transform=sub[3]?`scale(${1.25-0.25*back(seg(t,sub[0],sub[0]+0.3))})`:`translateY(${(1-eo(p))*14}px)`;if(sub[3])se.style.opacity=Math.min(cl(p*2.2),1-q);}else se.style.opacity=0;
   // flashes
   let fl=0;for(const h of TL.hits){const d=t-h[0];if(d>=0&&d<h[1])fl=Math.max(fl,(1-d/h[1])*h[2])}
   $('flash').style.opacity=fl;
