@@ -9,9 +9,9 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 VOZ = sys.argv[1]
 SR = 48000
 rng = np.random.default_rng(11)
-BPM = 128
+BPM = 120
 beat = 60 / BPM
-ids = ["gancho", "montaje", "revela", "johan", "sala", "fecha", "cierre"]
+ids = ["gancho", "intro", "montaje", "revela", "johan", "sala", "fecha", "cierre"]
 
 clips, dur = {}, {}
 for k in ids:
@@ -23,15 +23,14 @@ for k in ids:
     clips[k] = a; dur[k] = len(a) / SR
 print({k: round(v, 2) for k, v in dur.items()})
 
-# ---------- línea de tiempo en compases ----------
-OFF = {"gancho": 0.3, "montaje": 0.2, "revela": 0.45, "johan": 0.25, "sala": 0.15, "fecha": 0.3, "cierre": 0.35}
-MINB = {"gancho": 6, "montaje": 16, "revela": 6, "johan": 4, "sala": 4, "fecha": 6, "cierre": 10}
-TAIL = {"cierre": 0.9, "johan": 0.0, "sala": 0.25}
+OFF = {"gancho": 0.9, "intro": 0.3, "montaje": 0.25, "revela": 0.5, "johan": 0.25, "sala": 0.1, "fecha": 0.3, "cierre": 0.25}
+MINB = {"gancho": 6, "intro": 8, "montaje": 10, "revela": 8, "johan": 4, "sala": 4, "fecha": 6, "cierre": 10}
+TAIL = {"cierre": 0.6, "johan": 0.0, "sala": 0.25, "gancho": 0.3, "revela": 0.2, "intro": 0.2, "montaje": 0.15, "fecha": 0.25}
 seg, voice_at, T = {}, {}, 0.0
 for k in ids:
-    need = OFF[k] + dur[k] + TAIL.get(k, 0.3)
+    need = OFF[k] + dur[k] + TAIL.get(k, 0.4)
     nb = max(MINB[k], math.ceil(need / beat))
-    if k in ("montaje", "revela", "fecha"):
+    if k in ("montaje", "revela"):
         nb += nb % 2
     seg[k] = [round(T, 4), round(T + nb * beat, 4)]
     voice_at[k] = T + OFF[k]
@@ -39,51 +38,33 @@ for k in ids:
 TOTAL = T
 print("segmentos:", seg, "total", round(TOTAL, 2))
 
-# ---------- cortes de video ----------
-N_FR = {n: len(os.listdir(f"{HERE}/cf/{n}")) for n in os.listdir(f"{HERE}/cf")}
-# (clip, inicio_s, beats, velocidad)
-plan = [("IMG_1974", 0.5, 1, 1.0), ("IMG_1951", 0.2, 1, 1.0), ("IMG_1948", 0.3, 1, 1.3), ("IMG_1963", 0.6, 1, 1.0),
-        ("IMG_1948", 4.6, 2, 1.0), ("IMG_1974", 4.0, 1, 1.4), ("IMG_1963", 2.2, 1, 1.0), ("IMG_1951", 1.0, 1, 1.0),
-        ("IMG_1948", 2.0, 1, 1.5), ("IMG_1974", 7.0, 1, 1.0), ("IMG_1963", 3.6, 2, 1.0), ("IMG_1948", 5.6, 1, 1.0),
-        ("IMG_1974", 2.0, 1, 1.0), ("IMG_1951", 0.7, 1, 1.0), ("IMG_1963", 1.2, 1, 1.0), ("IMG_1948", 1.0, 1, 1.2),
-        ("IMG_1974", 8.4, 1, 1.0), ("IMG_1963", 4.4, 1, 1.0), ("IMG_1948", 3.3, 1, 1.0), ("IMG_1951", 0.0, 1, 1.0)]
+# ---------- tomas en cámara lenta (siluetas) ----------
+NF = 78
 cuts = []
-a, b = seg["montaje"]
-t = a; i = 0
-while t < b - 1e-6:
-    c, st, nb, sp = plan[i % len(plan)]
-    d = min(nb * beat, b - t)
-    if nb == 1 and (b - t) > 3 * beat and i % 5 == 3:   # algunos cortes a medio beat (ráfaga)
-        d = beat / 2
-    cuts.append({"t0": round(t, 4), "t1": round(t + d, 4), "clip": c, "start": st, "speed": sp, "n": N_FR[c], "flash": 0.35 if i % 4 == 0 else 0})
-    t += d; i += 1
-# fondo borroso para revela / fecha / cierre (se ve detrás de la capa oscura)
-bg_plan = [("IMG_1963", 0.5), ("IMG_1948", 0.5), ("IMG_1974", 3.0), ("IMG_1951", 0.3), ("IMG_1948", 4.8)]
+def add_seq(k, shots):
+    a, b = seg[k]; n = len(shots); L = (b - a) / n
+    for i, sh in enumerate(shots):
+        prev = len(cuts) - 1 if cuts and abs(cuts[-1]["t1"] - (a + i * L)) < 1e-3 else None
+        cuts.append({"t0": round(a + i * L, 4), "t1": round(a + (i + 1) * L, 4), "dir": "cf2", "clip": sh, "start": 0.05,
+                     "speed": min(1.0, (NF / 30 - 0.1) / L), "n": NF, "xf": 0.35 if prev is not None or i > 0 else 0.6, "prev": prev, "flash": 0})
+add_seq("intro", ["S1", "S9", "S5"])
+add_seq("montaje", ["S3", "S4", "S6", "S7", "S8"])
+cuts[0]["xf"] = 0
+bg = ["S2", "S4", "S6", "S3", "S7"]
 j = 0
 for k in ("revela", "fecha", "cierre"):
     a, b = seg[k]; t = a
     while t < b - 1e-6:
-        c, st = bg_plan[j % len(bg_plan)]
-        d = min(2 * beat, b - t)
-        cuts.append({"t0": round(t, 4), "t1": round(t + d, 4), "clip": c, "start": st, "speed": 1.0, "n": N_FR[c], "blur": 14, "op": 1, "flash": 0})
+        d = min(4 * beat, b - t)
+        cuts.append({"t0": round(t, 4), "t1": round(t + d, 4), "dir": "cf2", "clip": bg[j % len(bg)], "start": 0.1, "speed": 0.6, "n": NF, "blur": 16, "op": 1, "flash": 0})
         t += d; j += 1
-# destellos de 2 cuadros en el gancho, al beat
-a, b = seg["gancho"]
-for n in range(4, int((b - a) / beat)):
-    if n % 2 == 0:
-        t0 = a + n * beat
-        c, st = bg_plan[n % len(bg_plan)]
-        cuts.append({"t0": round(t0, 4), "t1": round(t0 + 0.07, 4), "clip": c, "start": st, "speed": 1, "n": N_FR[c], "op": 0.35, "flash": 0})
 
-# palabras durante el montaje (siguen la frase de la voz)
-va = voice_at["montaje"]; vd = dur["montaje"]
-wt = [va + vd * f for f in (0.30, 0.47, 0.66)]
-snap = lambda x: seg["montaje"][0] + round((x - seg["montaje"][0]) / (beat / 2)) * (beat / 2)
-wt = [snap(x) for x in wt]
-end_m = seg["montaje"][1]
-words = [[wt[0], wt[1]], [wt[1], wt[2]], [wt[2], wt[2] + 2 * beat], [end_m - 3 * beat, end_m]]
-hits = [seg["revela"][0], seg["fecha"][0], seg["cierre"][0]]
-json.dump({"total": round(TOTAL, 4), "seg": seg, "cuts": cuts, "words": words, "hits": hits}, open(f"{HERE}/timeline.json", "w"))
+subs = [[voice_at["intro"] - 0.1, seg["intro"][1] - 0.1, "Ponte los audífonos… y deja que la música te lleve"]]
+va, vd = voice_at["montaje"], dur["montaje"]
+w = [va + vd * f for f in (0.02, 0.36, 0.72)]
+words = [[w[0], w[1]], [w[1], w[2]], [w[2], seg["montaje"][1] - 0.05]]
+hits = [seg["revela"][0]]
+json.dump({"total": round(TOTAL, 4), "seg": seg, "cuts": cuts, "words": words, "hits": hits, "subs": subs}, open(f"{HERE}/timeline.json", "w"))
 
 # =================== AUDIO ===================
 N = int((TOTAL + 0.5) * SR)
@@ -180,44 +161,55 @@ def neon_buzz(L=0.6):
 drums = np.zeros(N, np.float32); bs = np.zeros(N, np.float32); keys = np.zeros(N, np.float32); fx = np.zeros(N, np.float32)
 pump = np.ones(N, np.float32)
 prog = [([220.0, 261.63, 329.63], 55.0), ([174.61, 220.0, 261.63], 43.65), ([196.0, 246.94, 293.66], 49.0), ([164.81, 207.65, 246.94], 41.2)]
-g0, g1 = seg["gancho"]
-drop = seg["montaje"][0]
-brk = (seg["revela"][0] - 2 * beat, seg["revela"][0])     # silencio antes de la revelación
+drop = seg["revela"][0]
+m0, m1 = seg["montaje"]
+i0 = seg["intro"][0]
+
+
+def pad(freqs, L):
+    x = t_(L)
+    s_ = sum(np.sin(2 * np.pi * f * x + 0.4 * np.sin(2 * np.pi * 0.3 * x)) + 0.25 * np.sin(2 * np.pi * f * 2.003 * x) for f in freqs)
+    env = np.minimum(1, x / 0.8) * np.minimum(1, (L - x) / 0.6)
+    return s_ * env * 0.06
+
+
 for bi in range(int(TOTAL / beat) + 1):
     tb = bi * beat
     if tb >= TOTAL - 0.4:
         break
     chord, root = prog[(bi // 4) % 4]
-    full = tb >= drop and not (brk[0] <= tb < brk[1])
-    if full:
-        place(drums, kick(), tb, 0.95)
-        s = int(tb * SR); e = min(N, s + int(0.3 * SR)); pump[s:e] = np.minimum(pump[s:e], 1 - 0.6 * np.exp(-np.arange(e - s) / SR * 11))
+    if bi % 4 == 0:
+        place(keys, pad(chord, 4 * beat + 0.6), tb, 1.0 if tb < drop else 0.6)
+    if tb < i0:
+        continue                                    # gancho: solo ambiente
+    if tb < m0:                                     # intro: latido lento
+        if bi % 2 == 0:
+            place(fx, heartbeat(), tb, 0.6)
+        continue
+    if tb < drop - 2 * beat:                        # montaje: build filtrado
+        prog_ = (tb - m0) / (drop - m0)
+        place(drums, filt(kick(), 300 + 2500 * prog_, "low"), tb, 0.55 + 0.35 * prog_)
+        place(drums, hat(), tb + beat / 2, 0.05 + 0.15 * prog_)
         if bi % 2 == 1:
-            place(drums, clap(), tb, 0.55)
-        place(drums, hat(True), tb + beat / 2, 0.22)
-        place(drums, hat(), tb + beat / 4, 0.07); place(drums, hat(), tb + 3 * beat / 4, 0.07)
-        place(bs, bass(root, beat * 0.45), tb + beat / 2, 0.75)
-        if bi % 4 == 3:
-            place(bs, bass(root * 2, beat * 0.2), tb + 3 * beat / 4, 0.5)
-        place(keys, stab(chord), tb + beat * 0.75, 0.9)
-    elif tb < drop:
-        # intro: latido + acordes filtrados que se van abriendo
-        if (bi % 2) == 0:
-            place(fx, heartbeat(), tb, 0.55)
-        place(keys, filt(stab(chord, 0.4), 500 + 3000 * (tb - g0) / (g1 - g0), "low"), tb, 1.1)
-# risers y golpes
-place(fx, riser(drop - g0 - 0.2), g0 + 0.2, 0.55)
-place(fx, impact(), drop, 0.7)
-place(fx, riser(2 * beat), brk[0], 0.6)
-place(fx, impact(), seg["revela"][0], 0.85)
+            place(bs, bass(root, beat * 0.4), tb + beat / 2, 0.35 * prog_)
+        continue
+    if tb < drop:
+        continue                                    # silencio antes del golpe
+    place(drums, kick(), tb, 0.95)
+    s_ = int(tb * SR); e = min(N, s_ + int(0.3 * SR)); pump[s_:e] = np.minimum(pump[s_:e], 1 - 0.6 * np.exp(-np.arange(e - s_) / SR * 11))
+    if bi % 2 == 1:
+        place(drums, clap(), tb, 0.5)
+    place(drums, hat(True), tb + beat / 2, 0.2)
+    place(drums, hat(), tb + beat / 4, 0.06); place(drums, hat(), tb + 3 * beat / 4, 0.06)
+    place(bs, bass(root, beat * 0.45), tb + beat / 2, 0.75)
+    place(keys, stab(chord), tb + beat * 0.75, 0.8)
+place(fx, riser(drop - m0), m0, 0.55)
+place(fx, impact(), drop, 0.9)
 for k in ("johan", "sala", "fecha", "cierre"):
-    place(fx, whoosh(0.45), seg[k][0] - 0.22, 0.4)
+    place(fx, whoosh(0.5), seg[k][0] - 0.25, 0.35)
 place(fx, neon_buzz(), seg["sala"][0] + 0.2, 0.6)
-place(fx, impact(), seg["cierre"][0], 0.55)
-for c in cuts:
-    if "blur" not in c and c.get("op", 1) == 1 and c["t0"] > drop and rng.random() < 0.35:
-        place(fx, whoosh(0.18, 1500, 8000), c["t0"] - 0.08, 0.12)
-
+place(fx, impact(), seg["cierre"][0], 0.45)
+place(fx, whoosh(1.2, 120, 2000), i0 - 0.6, 0.35)
 music = drums + bs + keys * pump
 fo = int(1.2 * SR); ei = int(TOTAL * SR)
 music[ei - fo:ei] *= np.linspace(1, 0, fo); music[ei:] = 0
@@ -231,7 +223,7 @@ voice /= np.abs(voice).max() + 1e-6
 env = np.convolve(np.abs(voice), np.ones(4800) / 4800, mode="same")
 talk = np.clip(env / (env.max() + 1e-6) * 5, 0, 1)
 talk = np.convolve(talk, np.ones(9600) / 9600, mode="same")
-mix = voice * 0.92 + fx * 0.75 * (1 - 0.3 * talk) + music * (0.42 - 0.2 * talk)
+mix = voice * 0.95 + fx * 0.7 * (1 - 0.3 * talk) + music * (0.40 - 0.2 * talk)
 mix = np.tanh(mix * 1.15) / np.tanh(1.15)
 mix /= max(1.0, np.abs(mix).max() / 0.95)
 wavfile.write(f"{HERE}/audio_mix.wav", SR, (mix * 32767).astype(np.int16))
