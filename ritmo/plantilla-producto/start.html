@@ -1,0 +1,24 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+*{margin:0;padding:0}body{width:1080px;height:1920px;overflow:hidden;position:relative;background:#060404}
+.abs{position:absolute}
+</style></head><body>
+<div id="A" style="display:none">
+  <!-- taller oscuro: mesa metálica + haz de luz -->
+  <div class="abs" style="inset:0;background:radial-gradient(ellipse at 50% 30%,#2a1a10 0%,#0d0807 45%,#040303 80%)"></div>
+  <div class="abs" style="left:300px;top:-200px;width:480px;height:1500px;transform:rotate(12deg);background:linear-gradient(180deg,rgba(255,170,90,.22),rgba(255,170,90,0) 85%);filter:blur(30px)"></div>
+  <div class="abs" style="left:0;right:0;top:1260px;bottom:0;background:linear-gradient(180deg,#2b2522 0%,#151211 30%,#080606 100%)"></div>
+  <div class="abs" style="left:0;right:0;top:1258px;height:4px;background:linear-gradient(90deg,transparent,rgba(255,190,120,.6),transparent)"></div>
+  <img class="abs" src="cut_IMG_0372.png" style="left:160px;top:560px;width:760px;filter:drop-shadow(0 30px 40px rgba(0,0,0,.8))">
+  <img class="abs" src="cut_IMG_0372.png" style="left:160px;top:1262px;width:760px;transform:scaleY(-1);transform-origin:top;opacity:.18;filter:blur(3px);-webkit-mask-image:linear-gradient(180deg,#000,transparent 35%)">
+</div>
+<div id="B" style="display:none">
+  <div class="abs" style="inset:0;background:radial-gradient(ellipse at 50% 45%,#1d120c 0%,#090605 50%,#030202 85%)"></div>
+  <div class="abs" style="left:-200px;top:300px;width:900px;height:1200px;background:radial-gradient(ellipse,rgba(255,140,60,.28),rgba(0,0,0,0) 65%)"></div>
+  <!-- pedestal -->
+  <div class="abs" style="left:290px;top:1330px;width:500px;height:700px;background:linear-gradient(90deg,#0b0b0b,#2a2522 45%,#0b0b0b)"></div>
+  <div class="abs" style="left:290px;top:1290px;width:500px;height:80px;border-radius:50%;background:radial-gradient(ellipse,#3a332e,#151211 70%);box-shadow:0 0 30px rgba(255,150,70,.25)"></div>
+  <img class="abs" src="cut_IMG_0363.png" style="left:265px;top:500px;width:550px;filter:drop-shadow(-20px 0 40px rgba(255,140,60,.35)) drop-shadow(0 30px 40px rgba(0,0,0,.8))">
+  <div class="abs" style="left:-100px;right:-100px;top:1350px;height:400px;background:radial-gradient(ellipse,rgba(200,190,180,.12),rgba(0,0,0,0) 60%);filter:blur(20px)"></div>
+</div>
+<script>document.getElementById(new URLSearchParams(location.search).get('k')).style.display='block'</script>
+</body></html>
