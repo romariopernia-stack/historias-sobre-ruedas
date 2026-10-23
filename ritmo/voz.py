@@ -11,7 +11,7 @@ for ln in g["lineas"]:
     path = f"{out}/{ln['id']}.mp3"
     for intento in range(6):
         try:
-            asyncio.run(edge_tts.Communicate(ln["texto"], g["voz"], rate=g.get("rate", "+0%"), pitch=g.get("pitch", "+0Hz")).save(path))
+            asyncio.run(asyncio.wait_for(edge_tts.Communicate(ln["texto"], g["voz"], rate=g.get("rate", "+0%"), pitch=g.get("pitch", "+0Hz")).save(path), timeout=40))
             break
         except Exception as e:
             print("reintentando:", str(e)[:80]); time.sleep(5 * (intento + 1))
