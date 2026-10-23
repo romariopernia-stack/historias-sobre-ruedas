@@ -1,13 +1,15 @@
 {
   "voz": "es-VE-PaolaNeural",
-  "rate": "+8%",
+  "rate": "-8%",
+  "pitch": "-3Hz",
   "lineas": [
-    {"id": "gancho",  "texto": "Algo nuevo llega a Ritmo..."},
-    {"id": "montaje", "texto": "Spinning inmersivo: audífonos, luces, y la música directo a tus oídos."},
-    {"id": "revela",  "texto": "¡Llega Ritmo Experience de Extrím Báik!"},
-    {"id": "johan",   "texto": "En alianza con el instructor Yóhan Pérez,"},
+    {"id": "gancho",  "texto": "Apaga las luces..."},
+    {"id": "intro",   "texto": "Ponte los audífonos... y deja que la música te lleve."},
+    {"id": "montaje", "texto": "Pedal tras pedal... latido tras latido... la energía sube."},
+    {"id": "revela",  "texto": "Esto es... Extrím Báik Inmersivo."},
+    {"id": "johan",   "texto": "Una Ritmo Experience junto al instructor Yóhan Pérez,"},
     {"id": "sala",    "texto": "en la sala Lathir."},
-    {"id": "fecha",   "texto": "Lunes dos de noviembre, a las ocho de la noche."},
-    {"id": "cierre",  "texto": "Cupos limitados. ¡Reserva el tuyo en ritmo venezuela punto com!"}
+    {"id": "fecha",   "texto": "Lunes dos de noviembre... a las ocho de la noche."},
+    {"id": "cierre",  "texto": "Los cupos son limitados. ¿Te atreves? Reserva en ritmo venezuela punto com."}
   ]
 }
