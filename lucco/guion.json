@@ -4,7 +4,27 @@
   "lineas": [
     {
       "id": "s0",
-      "texto": "¡Hoy ganamos! Mira la cuota y los picks en nuestra historia anterior. Síguenos: todo está cien por ciento analizado y proyectado con inteligencia artificial y datos reales. ¡La suerte se calcula!"
+      "texto": "No es suerte. ¡Es estadística! Combinada Lucco de tres patas, cuota cuatro ochenta."
+    },
+    {
+      "id": "s1",
+      "texto": "Uno: gana Once Caldas, uno setenta y cinco. Recibe al Pereira, que está entre los últimos de la tabla."
+    },
+    {
+      "id": "s2",
+      "texto": "Dos: ambos marcan en América contra Cúcuta, cuota dos. El América hizo nueve goles en sus últimos cinco."
+    },
+    {
+      "id": "s3",
+      "texto": "Tres: más de un gol y medio en Rosario Central contra Huracán, uno treinta y ocho. Rosario hizo once goles en cinco partidos."
+    },
+    {
+      "id": "s4",
+      "texto": "Cuota cuatro ochenta. Una unidad, sin pasarse."
+    },
+    {
+      "id": "s5",
+      "texto": "Ayer ganamos la combinada. Aquí se publica todo. Recuerda: la suerte se calcula."
     }
   ]
 }
