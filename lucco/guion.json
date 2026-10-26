@@ -4,27 +4,31 @@
   "lineas": [
     {
       "id": "s0",
-      "texto": "No es suerte. ¡Es estadística! Combinada Lucco de tres patas, cuota cuatro ochenta y tres."
+      "texto": "No es suerte. ¡Es estadística! Combinada Lucco de cuatro patas, cuota cuatro trece."
     },
     {
       "id": "s1",
-      "texto": "Uno: gana Once Caldas, uno setenta y cinco. Recibe al Pereira, que está entre los últimos de la tabla."
+      "texto": "Uno: gana la Roma, uno treinta y seis. Es tercera y en casa promedia más de dos goles."
     },
     {
       "id": "s2",
-      "texto": "Dos: ambos marcan en América contra Cúcuta, cuota dos. El América hizo nueve goles en sus últimos cinco."
+      "texto": "Dos: más de dos goles y medio en Fleetwood contra Arsenal, uno treinta y cuatro. Un equipo de cuarta división contra el Arsenal."
     },
     {
       "id": "s3",
-      "texto": "Tres: más de un gol y medio en Rosario Central contra Huracán, uno treinta y ocho. Rosario hizo once goles en cinco partidos."
+      "texto": "Tres: gana el Leicester, uno cuarenta. El Wigan es último y perdió tres de sus últimos cuatro."
     },
     {
       "id": "s4",
-      "texto": "Cuota cuatro ochenta y tres. Una unidad, sin pasarse."
+      "texto": "Cuatro: ambos marcan en Torino contra Como, uno sesenta y dos. El Como hizo once goles en sus últimos cinco."
     },
     {
       "id": "s5",
-      "texto": "Ayer ganamos la combinada. Aquí se publica todo. Recuerda: la suerte se calcula."
+      "texto": "Cuota cuatro trece. Una unidad, sin pasarse."
+    },
+    {
+      "id": "s6",
+      "texto": "El sábado entraron dos de tres patas. Aquí se publica todo. Recuerda: la suerte se calcula."
     }
   ]
 }
