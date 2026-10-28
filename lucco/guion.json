@@ -4,31 +4,27 @@
   "lineas": [
     {
       "id": "s0",
-      "texto": "No es suerte. ¡Es estadística! Combinada Lucco de cuatro patas, cuota cuatro trece."
+      "texto": "No es suerte. ¡Es estadística! Combinada Lucco de tres patas, cuota dos setenta y ocho."
     },
     {
       "id": "s1",
-      "texto": "Uno: gana la Roma, uno treinta y seis. Es tercera y en casa promedia más de dos goles."
+      "texto": "Uno: gana el Porto, uno treinta y cinco. Juega en casa, en el Dragão, por la Copa de la Liga."
     },
     {
       "id": "s2",
-      "texto": "Dos: más de dos goles y medio en Fleetwood contra Arsenal, uno treinta y cuatro. Un equipo de cuarta división contra el Arsenal."
+      "texto": "Dos: más de un gol y medio en Fulham contra Palace, uno veinticinco. Su último duelo terminó tres a dos."
     },
     {
       "id": "s3",
-      "texto": "Tres: gana el Leicester, uno cuarenta. El Wigan es último y perdió tres de sus últimos cuatro."
+      "texto": "Tres: gana el City, uno sesenta y cinco. En casa ganó cuatro de sus últimos cinco."
     },
     {
       "id": "s4",
-      "texto": "Cuatro: ambos marcan en Torino contra Como, uno sesenta y dos. El Como hizo once goles en sus últimos cinco."
+      "texto": "Cuota dos setenta y ocho. Una unidad, sin pasarse."
     },
     {
       "id": "s5",
-      "texto": "Cuota cuatro trece. Una unidad, sin pasarse."
-    },
-    {
-      "id": "s6",
-      "texto": "El sábado entraron dos de tres patas. Aquí se publica todo. Recuerda: la suerte se calcula."
+      "texto": "Ayer el Arsenal nos dejó fuera. Aquí se publica todo. Recuerda: la suerte se calcula."
     }
   ]
 }
