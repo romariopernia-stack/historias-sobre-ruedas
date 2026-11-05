@@ -10,16 +10,19 @@ permissions:
 jobs:
   voz:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
+        with: {fetch-depth: 2}
       - uses: actions/setup-python@v5
         with: {python-version: '3.12'}
       - name: Generar voz
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
           pip install -q edge-tts==7.3.1
-          for f in ritmo/*.json; do python3 ritmo/voz.py "$f"; done
+          FILES=$(git diff --name-only HEAD~1 HEAD -- 'ritmo/*.json' || true)
+          [ -z "$FILES" ] && FILES=$(ls ritmo/*.json)
+          for f in $FILES; do [ -f "$f" ] && python3 -u ritmo/voz.py "$f"; done
       - name: Publicar en la rama "salida-ritmo"
         run: |
           cd ritmo/salida

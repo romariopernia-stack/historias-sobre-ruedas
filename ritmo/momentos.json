@@ -1,31 +1,31 @@
 {
- "voz": "es-VE-SebastianNeural",
- "rate": "-4%",
- "pitch": "-2Hz",
- "lineas": [
-  {
-   "id": "gancho",
-   "texto": "¿Y si eso que sentiste al final de la clase… pudieras volver a escucharlo?"
-  },
-  {
-   "id": "s1",
-   "texto": "Ya está disponible Momentos Ritmo, en ritmo venezuela punto com."
-  },
-  {
-   "id": "s2",
-   "texto": "Entra con el correo de tu reserva. Sin contraseñas."
-  },
-  {
-   "id": "s3",
-   "texto": "Ahí encontrarás cada reflexión, por fecha, con una breve descripción."
-  },
-  {
-   "id": "s4",
-   "texto": "Escúchalas las veces que quieras, durante un mes después de tu última clase."
-  },
-  {
-   "id": "cierre",
-   "texto": "Porque Ritmo no es solo bailar. Es crecer juntos… y ser cada día más felices."
-  }
- ]
+  "voz": "es-VE-SebastianNeural",
+  "rate": "-4%",
+  "pitch": "-2Hz",
+  "lineas": [
+    {
+      "id": "gancho",
+      "texto": "¿Y si eso que sentiste al final de la clase… pudieras volver a escucharlo?"
+    },
+    {
+      "id": "s1",
+      "texto": "Ya está disponible Momentos Ritmo, en ritmo venezuela punto com."
+    },
+    {
+      "id": "s2",
+      "texto": "Entra con el correo de tu reserva. Sin contraseñas."
+    },
+    {
+      "id": "s3",
+      "texto": "Ahí encontrarás cada reflexión, por fecha, con una breve descripción."
+    },
+    {
+      "id": "s4",
+      "texto": "Escúchalas las veces que quieras, durante un mes después de tu última clase."
+    },
+    {
+      "id": "cierre",
+      "texto": "Porque Ritmo no es solo bailar. Es crecer juntos… y ser cada día más felices."
+    }
+  ]
 }
