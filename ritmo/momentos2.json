@@ -1,0 +1,31 @@
+{
+ "voz": "es-VE-SebastianNeural",
+ "rate": "+16%",
+ "pitch": "-2Hz",
+ "lineas": [
+  {
+   "id": "gancho",
+   "texto": "¿Y si eso que sentiste al final de la clase… pudieras volver a escucharlo?"
+  },
+  {
+   "id": "s1",
+   "texto": "Entra a ritmo venezuela punto com, abre el menú… y toca Momentos Ritmo."
+  },
+  {
+   "id": "s2",
+   "texto": "Escribe el correo con el que hiciste tu reserva. Sin contraseñas."
+  },
+  {
+   "id": "s3",
+   "texto": "Ahí están todos tus Momentos, por fecha, con una breve reflexión."
+  },
+  {
+   "id": "s4",
+   "texto": "Escúchalos las veces que quieras, durante un mes después de tu última clase."
+  },
+  {
+   "id": "cierre",
+   "texto": "Porque Ritmo no es solo bailar. Es crecer juntos… y ser cada día más felices."
+  }
+ ]
+}
