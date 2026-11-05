@@ -17,8 +17,11 @@ for ln in g["lineas"]:
             print("reintentando:", str(e)[:80]); time.sleep(5 * (intento + 1))
     else:
         raise RuntimeError("El servicio de voz no respondió")
-    d = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", path],
-                             capture_output=True, text=True).stdout.strip())
+    try:
+        d = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", path],
+                                 capture_output=True, text=True).stdout.strip())
+    except Exception:
+        d = os.path.getsize(path) * 8 / 48000
     dur[ln["id"]] = round(d, 3)
     print(f"{ln['id']:8s} {d:5.2f}s  {ln['texto']}")
 json.dump(dur, open(f"{out}/duraciones.json", "w"), indent=1)
